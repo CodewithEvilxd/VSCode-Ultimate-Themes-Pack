@@ -1,0 +1,140 @@
+{
+  "name": "vscode-multi-themes",
+  "displayName": "VSCode Ultimate Themes Pack",
+  "description": "A premium collection of stunning dark and light themes for VSCode, featuring hacker green, ocean blue, pastel pink, and enhanced dark variants with rich syntax highlighting",
+  "version": "0.0.4",
+  "publisher": "SecureDev01",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codewithevilxd/vscode-multi-themes.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "multiBg.switchToHacker",
+        "title": "Switch to Hacker Theme"
+      },
+      {
+        "command": "multiBg.switchToPink",
+        "title": "Switch to Pink Theme"
+      },
+      {
+        "command": "multiBg.switchToBlue",
+        "title": "Switch to Blue Theme"
+      },
+      {
+        "command": "multiBg.switchToDark",
+        "title": "Switch to Enhanced Dark Theme"
+      },
+      {
+        "command": "multiBg.switchToNord",
+        "title": "Switch to Nord Dark Theme"
+      },
+      {
+        "command": "multiBg.switchToTokyo",
+        "title": "Switch to Tokyo Night Theme"
+      },
+      {
+        "command": "multiBg.switchToDracula",
+        "title": "Switch to Dracula Pro Theme"
+      },
+      {
+        "command": "multiBg.switchToSolarized",
+        "title": "Switch to Solarized Dark Theme"
+      },
+      {
+        "command": "multiBg.switchToGruvbox",
+        "title": "Switch to Gruvbox Dark Theme"
+      }
+    ],
+    "menus": {
+      "commandPalette": [
+        {
+          "command": "multiBg.switchToHacker"
+        },
+        {
+          "command": "multiBg.switchToPink"
+        },
+        {
+          "command": "multiBg.switchToBlue"
+        },
+        {
+          "command": "multiBg.switchToDark"
+        },
+        {
+          "command": "multiBg.switchToNord"
+        },
+        {
+          "command": "multiBg.switchToTokyo"
+        },
+        {
+          "command": "multiBg.switchToDracula"
+        },
+        {
+          "command": "multiBg.switchToSolarized"
+        },
+        {
+          "command": "multiBg.switchToGruvbox"
+        }
+      ]
+    },
+    "themes": [
+      {
+        "label": "Hacker Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hacker-color-theme.json"
+      },
+      {
+        "label": "Pink Theme",
+        "uiTheme": "vs",
+        "path": "./themes/pink-color-theme.json"
+      },
+      {
+        "label": "Blue Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blue-color-theme.json"
+      },
+      {
+        "label": "Enhanced Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-color-theme.json"
+      },
+      {
+        "label": "Nord Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nord-dark-theme.json"
+      },
+      {
+        "label": "Tokyo Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyo-night-theme.json"
+      },
+      {
+        "label": "Dracula Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-pro-theme.json"
+      },
+      {
+        "label": "Solarized Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/solarized-dark-theme.json"
+      },
+      {
+        "label": "Gruvbox Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gruvbox-dark-theme.json"
+      }
+    ]
+  },
+  "main": "./out/extension.js",
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  }
+}

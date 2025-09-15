@@ -1,0 +1,27 @@
+{
+  "name": "Solarized Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#002b36",
+    "editor.foreground": "#93a1a1",
+    "editorCursor.foreground": "#d33682",
+    "editor.lineHighlightBackground": "#073642",
+    "editor.selectionBackground": "#073642",
+    "editorLineNumber.foreground": "#586e75",
+    "sideBar.background": "#002b36",
+    "sideBar.foreground": "#93a1a1",
+    "statusBar.background": "#073642",
+    "statusBar.foreground": "#93a1a1",
+    "activityBar.background": "#073642",
+    "activityBar.foreground": "#b58900",
+    "titleBar.activeBackground": "#073642",
+    "titleBar.activeForeground": "#93a1a1"
+  },
+  "tokenColors": [
+    { "scope": "comment", "settings": { "foreground": "#586e75" } },
+    { "scope": "string", "settings": { "foreground": "#2aa198" } },
+    { "scope": "keyword", "settings": { "foreground": "#859900" } },
+    { "scope": "function", "settings": { "foreground": "#268bd2" } },
+    { "scope": "constant", "settings": { "foreground": "#b58900" } }
+  ]
+}

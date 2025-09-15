@@ -1,0 +1,27 @@
+{
+  "name": "Tokyo Night",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1a1b26",
+    "editor.foreground": "#c0caf5",
+    "editorCursor.foreground": "#f7768e",
+    "editor.lineHighlightBackground": "#2a2c3f",
+    "editor.selectionBackground": "#33467c",
+    "editorLineNumber.foreground": "#3b4261",
+    "sideBar.background": "#1a1b26",
+    "sideBar.foreground": "#c0caf5",
+    "statusBar.background": "#1a1b26",
+    "statusBar.foreground": "#c0caf5",
+    "activityBar.background": "#1a1b26",
+    "activityBar.foreground": "#7aa2f7",
+    "titleBar.activeBackground": "#1a1b26",
+    "titleBar.activeForeground": "#c0caf5"
+  },
+  "tokenColors": [
+    { "scope": "comment", "settings": { "foreground": "#565f89" } },
+    { "scope": "string", "settings": { "foreground": "#9ece6a" } },
+    { "scope": "keyword", "settings": { "foreground": "#bb9af7" } },
+    { "scope": "function", "settings": { "foreground": "#7aa2f7" } },
+    { "scope": "number", "settings": { "foreground": "#ff9e64" } }
+  ]
+}

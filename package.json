@@ -1,0 +1,176 @@
+{
+  "name": "privacy-guard-extension",
+  "displayName": "Privacy Guard Plus",
+  "description": "Automatically detects recording software and masks sensitive file content (API keys, secrets, etc.)",
+  "version": "1.0.0",
+  "publisher": "SecureDev01",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "icon": "logo.png",
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "privacy",
+    "security",
+    "recording",
+    "env",
+    "environment",
+    "obs",
+    "streamlabs",
+    "secrets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/secdev/privacy-guard-extension.git"
+  },
+  "homepage": "https://github.com/secdev/privacy-guard-extension",
+  "bugs": {
+    "url": "https://github.com/secdev/privacy-guard-extension/issues"
+  },
+  "license": "MIT",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "privacyGuard.menu",
+        "title": "Privacy Guard: Menu"
+      },
+      {
+        "command": "privacyGuard.toggle",
+        "title": "Toggle Privacy Guard"
+      },
+      {
+        "command": "privacyGuard.enable",
+        "title": "Enable Privacy Guard"
+      },
+      {
+        "command": "privacyGuard.disable",
+        "title": "Disable Privacy Guard"
+      }
+    ],
+    "configuration": {
+      "title": "Privacy Guard",
+      "properties": {
+        "privacyGuard.autoDetect": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically detect recording software"
+        },
+        "privacyGuard.detectionInterval": {
+          "type": "number",
+          "default": 5000,
+          "description": "Detection interval in milliseconds"
+        },
+        "privacyGuard.recordingProcesses": {
+          "type": "array",
+          "default": [
+            "obs",
+            "obs64",
+            "streamlabs obs",
+            "streamlabs desktop",
+            "xsplit"
+          ],
+          "description": "List of process names to detect as recording software (exact match, case-insensitive; .exe/.app stripped)"
+        },
+        "privacyGuard.customMaskingRules": {
+          "type": "array",
+          "default": [
+            {
+              "id": "slack-tokens",
+              "name": "Slack Bot Tokens",
+              "pattern": "xoxb-[0-9]+-[0-9]+-[a-zA-Z0-9]+",
+              "flags": "g",
+              "description": "Detect Slack bot tokens",
+              "enabled": true,
+              "priority": 1,
+              "maskStyle": "dots"
+            },
+            {
+              "id": "stripe-keys",
+              "name": "Stripe API Keys",
+              "pattern": "sk_(test|live)_[a-zA-Z0-9]{24}",
+              "flags": "g",
+              "description": "Detect Stripe secret keys",
+              "enabled": true,
+              "priority": 2,
+              "maskStyle": "custom",
+              "customMaskText": "[STRIPE_KEY]"
+            },
+            {
+              "id": "github-tokens",
+              "name": "GitHub Personal Access Tokens",
+              "pattern": "ghp_[a-zA-Z0-9]{36}",
+              "flags": "g",
+              "description": "Detect GitHub PATs",
+              "enabled": true,
+              "priority": 3,
+              "maskStyle": "dots"
+            }
+          ],
+          "description": "Custom regex patterns for detecting and masking secrets",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "description": "Unique identifier for the rule"
+              },
+              "name": {
+                "type": "string",
+                "description": "Display name for the rule"
+              },
+              "pattern": {
+                "type": "string",
+                "description": "Regular expression pattern to match"
+              },
+              "flags": {
+                "type": "string",
+                "description": "Regex flags (e.g., 'g', 'i', 'gi')"
+              },
+              "description": {
+                "type": "string",
+                "description": "Description of what this rule detects"
+              },
+              "enabled": {
+                "type": "boolean",
+                "description": "Whether this rule is active"
+              },
+              "priority": {
+                "type": "number",
+                "description": "Priority order (higher numbers = higher priority)"
+              },
+              "maskStyle": {
+                "type": "string",
+                "enum": ["dots", "custom", "blur"],
+                "description": "How to mask the detected content"
+              },
+              "customMaskText": {
+                "type": "string",
+                "description": "Custom text to show when maskStyle is 'custom'"
+              }
+            },
+            "required": ["id", "name", "pattern", "flags", "description", "enabled", "priority", "maskStyle"]
+          }
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "@types/node": "16.x",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "ps-list": "^8.1.1"
+  }
+}

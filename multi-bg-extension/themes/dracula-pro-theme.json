@@ -1,0 +1,27 @@
+{
+  "name": "Dracula Pro",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#282a36",
+    "editor.foreground": "#f8f8f2",
+    "editorCursor.foreground": "#ff79c6",
+    "editor.lineHighlightBackground": "#44475a",
+    "editor.selectionBackground": "#44475a",
+    "editorLineNumber.foreground": "#6272a4",
+    "sideBar.background": "#282a36",
+    "sideBar.foreground": "#f8f8f2",
+    "statusBar.background": "#282a36",
+    "statusBar.foreground": "#f8f8f2",
+    "activityBar.background": "#282a36",
+    "activityBar.foreground": "#bd93f9",
+    "titleBar.activeBackground": "#282a36",
+    "titleBar.activeForeground": "#f8f8f2"
+  },
+  "tokenColors": [
+    { "scope": "comment", "settings": { "foreground": "#6272a4" } },
+    { "scope": "string", "settings": { "foreground": "#f1fa8c" } },
+    { "scope": "keyword", "settings": { "foreground": "#ff79c6" } },
+    { "scope": "function", "settings": { "foreground": "#50fa7b" } },
+    { "scope": "constant", "settings": { "foreground": "#bd93f9" } }
+  ]
+}

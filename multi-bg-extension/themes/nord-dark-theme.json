@@ -1,0 +1,27 @@
+{
+  "name": "Nord Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#2e3440",
+    "editor.foreground": "#d8dee9",
+    "editorCursor.foreground": "#88c0d0",
+    "editor.lineHighlightBackground": "#3b4252",
+    "editor.selectionBackground": "#434c5e",
+    "editorLineNumber.foreground": "#4c566a",
+    "sideBar.background": "#2e3440",
+    "sideBar.foreground": "#d8dee9",
+    "statusBar.background": "#3b4252",
+    "statusBar.foreground": "#d8dee9",
+    "activityBar.background": "#3b4252",
+    "activityBar.foreground": "#d8dee9",
+    "titleBar.activeBackground": "#3b4252",
+    "titleBar.activeForeground": "#eceff4"
+  },
+  "tokenColors": [
+    { "scope": "comment", "settings": { "foreground": "#616e87" } },
+    { "scope": "string", "settings": { "foreground": "#a3be8c" } },
+    { "scope": "keyword", "settings": { "foreground": "#81a1c1" } },
+    { "scope": "function", "settings": { "foreground": "#88c0d0" } },
+    { "scope": "variable", "settings": { "foreground": "#d8dee9" } }
+  ]
+}

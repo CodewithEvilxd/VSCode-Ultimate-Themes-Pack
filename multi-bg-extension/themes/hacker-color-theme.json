@@ -1,0 +1,69 @@
+{
+  "name": "Neo Hacker Theme",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#00ff66",
+    "editorLineNumber.foreground": "#00cc44",
+    "editorCursor.foreground": "#39ff14",
+    "editor.selectionBackground": "#003311",
+    "editor.lineHighlightBackground": "#001a0d",
+    "editorIndentGuide.background1": "#004422",
+    "editorWidget.background": "#0a0a0a",
+    "editorWidget.border": "#00ff66",
+    "list.activeSelectionBackground": "#003311",
+    "list.inactiveSelectionBackground": "#002211",
+    "sideBar.background": "#0a0a0a",
+    "sideBar.foreground": "#00ff66",
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#39ff14",
+    "panel.background": "#0a0a0a",
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#00ff66",
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#39ff14",
+    "input.background": "#001a0d",
+    "input.foreground": "#00ff66",
+    "dropdown.background": "#001a0d",
+    "dropdown.foreground": "#00ff66"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#008f11",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "String",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#ffff00"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": ["keyword"],
+      "settings": {
+        "foreground": "#ff073a",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Function",
+      "scope": ["entity.name.function"],
+      "settings": {
+        "foreground": "#00e5ff"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": ["variable"],
+      "settings": {
+        "foreground": "#ff00ff"
+      }
+    }
+  ]
+}
