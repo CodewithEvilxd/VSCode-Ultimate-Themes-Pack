@@ -1,27 +1,85 @@
 {
-  "name": "Dracula Pro",
+  "name": "Dracula Pro Soft",
   "type": "dark",
   "colors": {
-    "editor.background": "#282a36",
-    "editor.foreground": "#f8f8f2",
+    "editor.background": "#2c2f3a", 
+    "editor.foreground": "#f5f5f5",
     "editorCursor.foreground": "#ff79c6",
-    "editor.lineHighlightBackground": "#44475a",
-    "editor.selectionBackground": "#44475a",
-    "editorLineNumber.foreground": "#6272a4",
-    "sideBar.background": "#282a36",
-    "sideBar.foreground": "#f8f8f2",
-    "statusBar.background": "#282a36",
-    "statusBar.foreground": "#f8f8f2",
-    "activityBar.background": "#282a36",
+    "editor.lineHighlightBackground": "#3a3d4b",
+    "editor.selectionBackground": "#3d4053",
+    "editorLineNumber.foreground": "#7685a8",
+    "editorLineNumber.activeForeground": "#ffffff",
+    "editorIndentGuide.background1": "#3a3d4b",
+    "editorIndentGuide.activeBackground1": "#ffb86c",
+
+    "sideBar.background": "#2c2f3a",
+    "sideBar.foreground": "#f5f5f5",
+    "sideBarSectionHeader.background": "#2c2f3a",
+    "sideBarSectionHeader.foreground": "#f8f8f2",
+
+    "statusBar.background": "#2c2f3a",
+    "statusBar.foreground": "#50fa7b",
+    "statusBarItem.hoverBackground": "#3a3d4b",
+
+    "activityBar.background": "#2c2f3a",
     "activityBar.foreground": "#bd93f9",
-    "titleBar.activeBackground": "#282a36",
-    "titleBar.activeForeground": "#f8f8f2"
+    "activityBarBadge.background": "#ff79c6",
+    "activityBarBadge.foreground": "#ffffff",
+
+    "titleBar.activeBackground": "#2c2f3a",
+    "titleBar.activeForeground": "#f8f8f2",
+    "titleBar.inactiveBackground": "#262834",
+    "titleBar.inactiveForeground": "#6272a4",
+
+    "tab.activeBackground": "#3a3d4b",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveBackground": "#2c2f3a",
+    "tab.inactiveForeground": "#888ca7",
+
+    "panel.background": "#2c2f3a",
+    "panelTitle.activeForeground": "#ffffff",
+    "panelTitle.inactiveForeground": "#888ca7",
+
+    "terminal.background": "#2c2f3a",
+    "terminal.foreground": "#f5f5f5",
+    "terminalCursor.foreground": "#ff79c6",
+
+    "minimap.background": "#2c2f3a",
+    "scrollbarSlider.background": "#3a3d4b",
+    "scrollbarSlider.hoverBackground": "#44475a"
   },
   "tokenColors": [
-    { "scope": "comment", "settings": { "foreground": "#6272a4" } },
-    { "scope": "string", "settings": { "foreground": "#f1fa8c" } },
-    { "scope": "keyword", "settings": { "foreground": "#ff79c6" } },
-    { "scope": "function", "settings": { "foreground": "#50fa7b" } },
-    { "scope": "constant", "settings": { "foreground": "#bd93f9" } }
+    {
+      "scope": "comment",
+      "settings": { "foreground": "#6272a4", "fontStyle": "italic" }
+    },
+    {
+      "scope": "string",
+      "settings": { "foreground": "#f1fa8c" }
+    },
+    {
+      "scope": "keyword",
+      "settings": { "foreground": "#ff79c6", "fontStyle": "bold" }
+    },
+    {
+      "scope": "function",
+      "settings": { "foreground": "#50fa7b" }
+    },
+    {
+      "scope": "variable",
+      "settings": { "foreground": "#f8f8f2" }
+    },
+    {
+      "scope": "constant",
+      "settings": { "foreground": "#bd93f9" }
+    },
+    {
+      "scope": "number",
+      "settings": { "foreground": "#ffb86c" }
+    },
+    {
+      "scope": "operator",
+      "settings": { "foreground": "#ff79c6" }
+    }
   ]
 }

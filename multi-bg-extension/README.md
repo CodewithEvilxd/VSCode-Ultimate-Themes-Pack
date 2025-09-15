@@ -1,14 +1,16 @@
 # VSCode Ultimate Themes Pack
 
 [![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Marketplace-blue)](https://marketplace.visualstudio.com/publishers/SecureDev01)
-[![Version](https://img.shields.io/badge/version-0.0.4-green)](https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes)
+[![Version](https://img.shields.io/badge/version-0.0.5-green)](https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/codewithevilxd/vscode-multi-themes/blob/main/LICENSE)
 
-A comprehensive collection of **9 professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Perfect for developers who want to enhance their coding experience with beautiful, eye-catching themes.
+A comprehensive collection of **14 professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Includes 9 popular themes plus 5 accessibility-focused themes optimized for different lighting conditions and user needs. Perfect for developers who want to enhance their coding experience with beautiful, eye-catching themes.
 
 ## ✨ Features
 
-### 🎨 **9 Professional Themes**
+### 🎨 **14 Professional Themes**
+
+#### Popular Themes
 - **🚀 Hacker Theme**: Classic dark theme with black background and vibrant green text for a cyberpunk aesthetic
 - **🌸 Pink Theme**: Beautiful light theme with pastel pink background for a fun, vibrant coding experience
 - **🌊 Blue Theme**: Elegant dark theme with ocean blue background for a cool, professional feel
@@ -18,6 +20,13 @@ A comprehensive collection of **9 professionally designed themes** for Visual St
 - **🧛 Dracula Pro Theme**: Sophisticated dark theme with purple accents for an elegant, mysterious atmosphere
 - **☀️ Solarized Dark Theme**: Scientifically calibrated theme optimized for readability and eye comfort
 - **🌾 Gruvbox Dark Theme**: Warm, earthy theme with retro color palette for a cozy coding environment
+
+#### 🎯 Accessibility-Focused Themes
+- **📖 Gentle Sepia Theme**: Warm light theme optimized for bright rooms and paper-like reading experience
+- **🌙 Low-Blue Night Theme**: Dark theme with reduced blue emissions for dim rooms and night coding
+- **💼 Soft Contrast Theme**: Balanced light theme for well-lit offices with optimal readability
+- **🌹 Dusky Rose Dark Theme**: Dark muted pink theme for pink lovers who want reduced glare
+- **📊 High Readability Contrast Theme**: WCAG-compliant dark theme for maximum accessibility
 
 ### ⚡ **Quick Theme Switching**
 - Instant theme switching via Command Palette
@@ -60,6 +69,11 @@ A comprehensive collection of **9 professionally designed themes** for Visual St
    - `Switch to Dracula Pro Theme`
    - `Switch to Solarized Dark Theme`
    - `Switch to Gruvbox Dark Theme`
+   - `Switch to Gentle Sepia Theme`
+   - `Switch to LowBlue Night Theme`
+   - `Switch to Soft Contrast Theme`
+   - `Switch to Dusky Rose Dark Theme`
+   - `Switch to High Readability Contrast Theme`
 
 ### Manual Selection
 1. Go to **File** → **Preferences** → **Color Theme** (or **Settings** → **Color Theme**)
@@ -150,7 +164,47 @@ You can assign custom keyboard shortcuts to theme switching commands:
 - **Keywords**: Blue (#569cd6)
 - **Best for**: Creative coders, pastel lovers, light environments
 
-## 🔧 Development
+#### 📖 Gentle Sepia Theme
+- **Background**: Warm beige (#EDD1B0)
+- **Text**: Dark brown (#222222)
+- **Comments**: Brown (#7A5B40)
+- **Strings**: Green (#2F6F3F)
+- **Keywords**: Orange (#B35200)
+- **Best for**: Bright rooms, paper-like feel, sustained reading
+
+#### 🌙 LowBlue Night Theme
+- **Background**: Deep dark blue (#0B0F12)
+- **Text**: Light blue-gray (#DCE7EA)
+- **Comments**: Medium gray (#4F5B63)
+- **Strings**: Yellow (#FFCC66)
+- **Keywords**: Orange (#FF9F80)
+- **Best for**: Dim rooms, night coding, reduced blue light
+
+#### 💼 Soft Contrast Theme
+- **Background**: Neutral warm off-white (#F5F3EE)
+- **Text**: Dark gray (#2B2B2B)
+- **Comments**: Medium gray (#817B74)
+- **Strings**: Green (#2F6F3F)
+- **Keywords**: Blue (#1F6AA5)
+- **Best for**: Well-lit offices, daytime coding, balanced contrast
+
+#### 🌹 Dusky Rose Dark Theme
+- **Background**: Dark rose (#16121A)
+- **Text**: Light rose (#E8DDE1)
+- **Comments**: Muted rose (#6B5560)
+- **Strings**: Pink (#FF9DBF)
+- **Keywords**: Bright pink (#FF6EC7)
+- **Best for**: Pink lovers, reduced glare, elegant dark themes
+
+#### 📊 High Readability Contrast Theme
+- **Background**: Dark gray (#1E1E1E)
+- **Text**: Bright white (#F5F5F5)
+- **Comments**: Medium gray (#8E8E8E)
+- **Strings**: Green (#A6E3A1)
+- **Keywords**: Orange (#FFB86B)
+- **Best for**: Maximum accessibility, WCAG compliance, long focus sessions
+
+##  Development
 
 ### Prerequisites
 - **Node.js**: 14.x or higher
@@ -202,7 +256,12 @@ vscode-multi-themes/
 │   ├── tokyo-night-theme.json
 │   ├── dracula-pro-theme.json
 │   ├── solarized-dark-theme.json
-│   └── gruvbox-dark-theme.json
+│   ├── gruvbox-dark-theme.json
+│   ├── gentle-sepia-theme.json
+│   ├── low-blue-night-theme.json
+│   ├── soft-contrast-theme.json
+│   ├── dusky-rose-dark-theme.json
+│   └── high-readability-contrast-theme.json
 ├── out/                     # Compiled JavaScript
 ├── package.json             # Extension manifest
 ├── tsconfig.json           # TypeScript configuration
@@ -277,7 +336,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](../LICENS
 
 - **📦 Downloads**: 1,000+ (Marketplace)
 - **⭐ Stars**: 50+ (GitHub)
-- **🎨 Themes**: 9 professional themes
+- **🎨 Themes**: 14 professional themes (9 popular + 5 accessibility-focused)
 - **🌍 Languages**: English
 - **🔧 Compatibility**: VS Code 1.75.0+
 
@@ -291,6 +350,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](../LICENS
 - [ ] **Theme Presets**: Curated theme combinations for different use cases
 
 ### Recent Updates
+- ✅ **v0.0.5**: Added 5 accessibility-focused themes (Gentle Sepia, Low-Blue Night, Soft Contrast, Dusky Rose Dark, High Readability Contrast)
 - ✅ **v0.0.4**: Added 5 new professional themes (Nord, Tokyo Night, Dracula Pro, Solarized, Gruvbox)
 - ✅ **v0.0.3**: Enhanced Pink theme with improved color palette
 - ✅ **v0.0.2**: Fixed activation events and improved packaging

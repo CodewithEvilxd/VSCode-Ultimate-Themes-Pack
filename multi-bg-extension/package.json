@@ -2,7 +2,7 @@
   "name": "vscode-multi-themes",
   "displayName": "VSCode Ultimate Themes Pack",
   "description": "A premium collection of stunning dark and light themes for VSCode, featuring hacker green, ocean blue, pastel pink, and enhanced dark variants with rich syntax highlighting",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "SecureDev01",
   "repository": {
     "type": "git",
@@ -51,6 +51,26 @@
       {
         "command": "multiBg.switchToGruvbox",
         "title": "Switch to Gruvbox Dark Theme"
+      },
+      {
+        "command": "multiBg.switchToGentleSepia",
+        "title": "Switch to Gentle Sepia Theme"
+      },
+      {
+        "command": "multiBg.switchToLowBlueNight",
+        "title": "Switch to LowBlue Night Theme"
+      },
+      {
+        "command": "multiBg.switchToSoftContrast",
+        "title": "Switch to Soft Contrast Theme"
+      },
+      {
+        "command": "multiBg.switchToDuskyRose",
+        "title": "Switch to Dusky Rose Dark Theme"
+      },
+      {
+        "command": "multiBg.switchToHighReadability",
+        "title": "Switch to High Readability Contrast Theme"
       }
     ],
     "menus": {
@@ -81,6 +101,21 @@
         },
         {
           "command": "multiBg.switchToGruvbox"
+        },
+        {
+          "command": "multiBg.switchToGentleSepia"
+        },
+        {
+          "command": "multiBg.switchToLowBlueNight"
+        },
+        {
+          "command": "multiBg.switchToSoftContrast"
+        },
+        {
+          "command": "multiBg.switchToDuskyRose"
+        },
+        {
+          "command": "multiBg.switchToHighReadability"
         }
       ]
     },
@@ -129,6 +164,31 @@
         "label": "Gruvbox Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/gruvbox-dark-theme.json"
+      },
+      {
+        "label": "Gentle Sepia",
+        "uiTheme": "vs",
+        "path": "./themes/gentle-sepia-theme.json"
+      },
+      {
+        "label": "LowBlue Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/low-blue-night-theme.json"
+      },
+      {
+        "label": "Soft Contrast",
+        "uiTheme": "vs",
+        "path": "./themes/soft-contrast-theme.json"
+      },
+      {
+        "label": "Dusky Rose Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dusky-rose-dark-theme.json"
+      },
+      {
+        "label": "High Readability Contrast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/high-readability-contrast-theme.json"
       }
     ]
   },

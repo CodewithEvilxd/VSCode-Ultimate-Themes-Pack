@@ -1,38 +1,56 @@
 {
-  "name": "Neo Hacker Theme",
+  "name": "Neo Hacker Soft",
   "type": "dark",
   "colors": {
-    "editor.background": "#000000",
-    "editor.foreground": "#00ff66",
-    "editorLineNumber.foreground": "#00cc44",
+    "editor.background": "#0d0f0d", 
+    "editor.foreground": "#00e676", 
+    "editorLineNumber.foreground": "#339966",
+    "editorLineNumber.activeForeground": "#00ff99",
     "editorCursor.foreground": "#39ff14",
-    "editor.selectionBackground": "#003311",
-    "editor.lineHighlightBackground": "#001a0d",
-    "editorIndentGuide.background1": "#004422",
-    "editorWidget.background": "#0a0a0a",
-    "editorWidget.border": "#00ff66",
-    "list.activeSelectionBackground": "#003311",
-    "list.inactiveSelectionBackground": "#002211",
-    "sideBar.background": "#0a0a0a",
-    "sideBar.foreground": "#00ff66",
-    "activityBar.background": "#000000",
-    "activityBar.foreground": "#39ff14",
-    "panel.background": "#0a0a0a",
-    "statusBar.background": "#000000",
-    "statusBar.foreground": "#00ff66",
-    "titleBar.activeBackground": "#000000",
-    "titleBar.activeForeground": "#39ff14",
-    "input.background": "#001a0d",
-    "input.foreground": "#00ff66",
-    "dropdown.background": "#001a0d",
-    "dropdown.foreground": "#00ff66"
+    "editor.selectionBackground": "#133a2e",
+    "editor.lineHighlightBackground": "#1a261f",
+    "editorIndentGuide.background1": "#264d3c",
+    "editorIndentGuide.activeBackground1": "#00ff66",
+
+    "editorWidget.background": "#101210",
+    "editorWidget.border": "#1aff8c",
+
+    "list.activeSelectionBackground": "#133a2e",
+    "list.inactiveSelectionBackground": "#0f241b",
+
+    "sideBar.background": "#101210",
+    "sideBar.foreground": "#00e676",
+
+    "activityBar.background": "#0d0f0d",
+    "activityBar.foreground": "#1aff8c",
+    "activityBarBadge.background": "#39ff14",
+    "activityBarBadge.foreground": "#0d0f0d",
+
+    "panel.background": "#101210",
+    "statusBar.background": "#0d0f0d",
+    "statusBar.foreground": "#00e676",
+
+    "titleBar.activeBackground": "#0d0f0d",
+    "titleBar.activeForeground": "#1aff8c",
+    "titleBar.inactiveBackground": "#101210",
+    "titleBar.inactiveForeground": "#339966",
+
+    "input.background": "#133a2e",
+    "input.foreground": "#00ff99",
+
+    "dropdown.background": "#133a2e",
+    "dropdown.foreground": "#00ff99",
+
+    "terminal.background": "#0d0f0d",
+    "terminal.foreground": "#00e676",
+    "terminalCursor.foreground": "#39ff14"
   },
   "tokenColors": [
     {
       "name": "Comment",
       "scope": ["comment"],
       "settings": {
-        "foreground": "#008f11",
+        "foreground": "#4d8f6a",
         "fontStyle": "italic"
       }
     },
@@ -40,14 +58,14 @@
       "name": "String",
       "scope": ["string"],
       "settings": {
-        "foreground": "#ffff00"
+        "foreground": "#ffee58"
       }
     },
     {
       "name": "Keyword",
       "scope": ["keyword"],
       "settings": {
-        "foreground": "#ff073a",
+        "foreground": "#ff5370",
         "fontStyle": "bold"
       }
     },
@@ -55,14 +73,28 @@
       "name": "Function",
       "scope": ["entity.name.function"],
       "settings": {
-        "foreground": "#00e5ff"
+        "foreground": "#40c4ff"
       }
     },
     {
       "name": "Variable",
       "scope": ["variable"],
       "settings": {
-        "foreground": "#ff00ff"
+        "foreground": "#ff80ff"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#ffb74d"
+      }
+    },
+    {
+      "name": "Type",
+      "scope": ["entity.name.type"],
+      "settings": {
+        "foreground": "#82b1ff"
       }
     }
   ]
