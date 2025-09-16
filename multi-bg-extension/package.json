@@ -2,7 +2,7 @@
   "name": "vscode-multi-themes",
   "displayName": "VSCode Ultimate Themes Pack",
   "description": "A premium collection of stunning dark and light themes for VSCode, featuring hacker green, ocean blue, pastel pink, and enhanced dark variants with rich syntax highlighting",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "publisher": "SecureDev01",
   "repository": {
     "type": "git",
@@ -71,6 +71,10 @@
       {
         "command": "multiBg.switchToHighReadability",
         "title": "Switch to High Readability Contrast Theme"
+      },
+      {
+        "command": "multiBg.switchToOneDarkPro",
+        "title": "Switch to One Dark Pro Theme"
       }
     ],
     "menus": {
@@ -116,6 +120,9 @@
         },
         {
           "command": "multiBg.switchToHighReadability"
+        },
+        {
+          "command": "multiBg.switchToOneDarkPro"
         }
       ]
     },
@@ -189,6 +196,11 @@
         "label": "High Readability Contrast",
         "uiTheme": "vs-dark",
         "path": "./themes/high-readability-contrast-theme.json"
+      },
+      {
+        "label": "One Dark Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/one-dark-pro-theme.json"
       }
     ]
   },
