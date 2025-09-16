@@ -2,7 +2,7 @@
   "name": "vscode-multi-themes",
   "displayName": "VSCode Ultimate Themes Pack",
   "description": "A premium collection of stunning dark and light themes for VSCode, featuring hacker green, ocean blue, pastel pink, and enhanced dark variants with rich syntax highlighting",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "publisher": "SecureDev01",
   "repository": {
     "type": "git",
