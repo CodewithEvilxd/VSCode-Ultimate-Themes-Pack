@@ -2,7 +2,7 @@
   "name": "vscode-multi-themes",
   "displayName": "VSCode Ultimate Themes Pack",
   "description": "A premium collection of stunning dark and light themes for VSCode, featuring hacker green, ocean blue, pastel pink, and enhanced dark variants with rich syntax highlighting",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "publisher": "SecureDev01",
   "repository": {
     "type": "git",
@@ -18,11 +18,11 @@
     "commands": [
       {
         "command": "multiBg.switchToHacker",
-        "title": "Switch to Hacker Theme"
+        "title": "Switch to Neo Hacker Soft - Premium Theme"
       },
       {
         "command": "multiBg.switchToPink",
-        "title": "Switch to Pink Theme"
+        "title": "Switch to Blush Pink Enhanced Premium Theme"
       },
       {
         "command": "multiBg.switchToBlue",
@@ -77,12 +77,28 @@
         "title": "Switch to One Dark Pro Theme"
       },
       {
-        "command": "multiBg.switchToDragonBallGoku",
-        "title": "Switch to Dragon Ball Z Goku Power Theme"
-      },
-      {
         "command": "multiBg.switchToDragonBallGokuEyeSafe",
         "title": "Switch to Dragon Ball Z Goku Power (Eye-Safe) Theme"
+      },
+      {
+        "command": "multiBg.switchToAyuMirage",
+        "title": "Switch to Ayu Mirage Comfort Theme"
+      },
+      {
+        "command": "multiBg.switchToCatppuccinMocha",
+        "title": "Switch to Catppuccin Mocha Eye Care Theme"
+      },
+      {
+        "command": "multiBg.switchToEyeComfort",
+        "title": "Switch to Eye Comfort Dark Pro Theme"
+      },
+      {
+        "command": "multiBg.switchToMoonlight",
+        "title": "Switch to Moonlight Soft Theme"
+      },
+      {
+        "command": "multiBg.switchToNightOwl",
+        "title": "Switch to Night Owl Comfort Theme"
       }
     ],
     "menus": {
@@ -133,21 +149,33 @@
           "command": "multiBg.switchToOneDarkPro"
         },
         {
-          "command": "multiBg.switchToDragonBallGoku"
+          "command": "multiBg.switchToDragonBallGokuEyeSafe"
         },
         {
-          "command": "multiBg.switchToDragonBallGokuEyeSafe"
+          "command": "multiBg.switchToAyuMirage"
+        },
+        {
+          "command": "multiBg.switchToCatppuccinMocha"
+        },
+        {
+          "command": "multiBg.switchToEyeComfort"
+        },
+        {
+          "command": "multiBg.switchToMoonlight"
+        },
+        {
+          "command": "multiBg.switchToNightOwl"
         }
       ]
     },
     "themes": [
       {
-        "label": "Hacker Theme",
+        "label": "Neo Hacker Soft - Premium",
         "uiTheme": "vs-dark",
         "path": "./themes/hacker-color-theme.json"
       },
       {
-        "label": "Pink Theme",
+        "label": "Blush Pink Enhanced Premium",
         "uiTheme": "vs",
         "path": "./themes/pink-color-theme.json"
       },
@@ -217,14 +245,34 @@
         "path": "./themes/one-dark-pro-theme.json"
       },
       {
-        "label": "Dragon Ball Z Goku Power",
-        "uiTheme": "vs",
-        "path": "./themes/dragon-ball-z-goku-power-theme.json"
-      },
-      {
         "label": "Dragon Ball Z Goku Power (Eye-Safe)",
         "uiTheme": "vs-dark",
         "path": "./themes/dragon-ball-z-goku-power-eye-safe-theme.json"
+      },
+      {
+        "label": "Ayu Mirage Comfort",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ayu-mirage-comfort-theme.json"
+      },
+      {
+        "label": "Catppuccin Mocha Eye Care",
+        "uiTheme": "vs-dark",
+        "path": "./themes/catppuccin-mocha-eye-care-theme.json"
+      },
+      {
+        "label": "Eye Comfort Dark Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eye-comfort-dark-pro-theme.json"
+      },
+      {
+        "label": "Moonlight Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moonlight-soft-theme.json"
+      },
+      {
+        "label": "Night Owl Comfort",
+        "uiTheme": "vs-dark",
+        "path": "./themes/night-owl-comfort-theme.json"
       }
     ]
   },
