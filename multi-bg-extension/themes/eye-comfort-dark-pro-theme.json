@@ -1,0 +1,107 @@
+{
+  "name": "Eye Comfort Dark Pro",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1e1e1e",
+    "editor.foreground": "#d4d4d4",
+    "activityBar.background": "#2d2d30",
+    "activityBar.foreground": "#ffffff",
+    "activityBarBadge.background": "#007acc",
+    "activityBarBadge.foreground": "#ffffff",
+    "badge.background": "#4d4d4d",
+    "badge.foreground": "#ffffff",
+    "button.background": "#0e639c",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#1177bb",
+    "dropdown.background": "#3c3c3c",
+    "dropdown.foreground": "#cccccc",
+    "dropdown.border": "#3c3c3c",
+    "editor.lineHighlightBackground": "#282828",
+    "editor.selectionBackground": "#264f78",
+    "editor.selectionHighlightBackground": "#add6ff26",
+    "editor.wordHighlightBackground": "#575757b8",
+    "editor.wordHighlightStrongBackground": "#004972b8",
+    "editorCursor.foreground": "#aeafad",
+    "editorGroup.border": "#444444",
+    "editorGroupHeader.tabsBackground": "#252526",
+    "editorHoverWidget.background": "#252526",
+    "editorHoverWidget.border": "#454545",
+    "editorIndentGuide.background": "#404040",
+    "editorLineNumber.foreground": "#858585",
+    "editorLineNumber.activeForeground": "#c6c6c6",
+    "editorRuler.foreground": "#5a5a5a",
+    "editorSuggestWidget.background": "#252526",
+    "editorSuggestWidget.border": "#454545",
+    "editorWidget.background": "#252526",
+    "input.background": "#3c3c3c",
+    "input.foreground": "#cccccc",
+    "input.border": "#3c3c3c",
+    "list.activeSelectionBackground": "#094771",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.hoverBackground": "#2a2d2e",
+    "list.inactiveSelectionBackground": "#37373d",
+    "panel.background": "#1e1e1e",
+    "peekViewResult.background": "#252526",
+    "scrollbar.shadow": "#000000",
+    "sideBar.background": "#252526",
+    "sideBar.foreground": "#cccccc",
+    "sideBarSectionHeader.background": "#2d2d30",
+    "statusBar.background": "#007acc",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.debuggingBackground": "#cc6633",
+    "statusBar.noFolderBackground": "#68217a",
+    "tab.activeBackground": "#1e1e1e",
+    "tab.activeForeground": "#ffffff",
+    "tab.border": "#252526",
+    "tab.inactiveBackground": "#2d2d30",
+    "tab.inactiveForeground": "#ffffff80",
+    "terminal.foreground": "#cccccc",
+    "titleBar.activeBackground": "#3c3c3c",
+    "titleBar.activeForeground": "#cccccc"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#6A9955",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#ce9178"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#569cd6"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#9cdcfe"
+      }
+    },
+    {
+      "scope": "function",
+      "settings": {
+        "foreground": "#dcdcaa"
+      }
+    },
+    {
+      "scope": "number",
+      "settings": {
+        "foreground": "#b5cea8"
+      }
+    },
+    {
+      "scope": "type",
+      "settings": {
+        "foreground": "#4ec9b0"
+      }
+    }
+  ]
+}

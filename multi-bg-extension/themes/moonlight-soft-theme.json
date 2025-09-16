@@ -1,0 +1,84 @@
+{
+  "name": "Moonlight Soft",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1a1a2e",
+    "editor.foreground": "#c8d3f5",
+    "activityBar.background": "#16213e",
+    "activityBar.foreground": "#c8d3f5",
+    "activityBarBadge.background": "#82aaff",
+    "activityBarBadge.foreground": "#1a1a2e",
+    "badge.background": "#82aaff",
+    "badge.foreground": "#1a1a2e",
+    "button.background": "#82aaff",
+    "button.foreground": "#1a1a2e",
+    "button.hoverBackground": "#65bcff",
+    "dropdown.background": "#1e2030",
+    "dropdown.foreground": "#c8d3f5",
+    "editor.lineHighlightBackground": "#1e2030",
+    "editor.selectionBackground": "#3654a7",
+    "editor.selectionHighlightBackground": "#3654a780",
+    "editorCursor.foreground": "#c8d3f5",
+    "editorGroup.border": "#1e2030",
+    "editorGroupHeader.tabsBackground": "#16213e",
+    "editorLineNumber.foreground": "#4a5568",
+    "editorLineNumber.activeForeground": "#82aaff",
+    "list.activeSelectionBackground": "#3654a7",
+    "list.hoverBackground": "#1e2030",
+    "panel.background": "#16213e",
+    "sideBar.background": "#16213e",
+    "sideBar.foreground": "#c8d3f5",
+    "statusBar.background": "#16213e",
+    "statusBar.foreground": "#c8d3f5",
+    "tab.activeBackground": "#1a1a2e",
+    "tab.activeForeground": "#c8d3f5",
+    "tab.inactiveBackground": "#16213e",
+    "tab.inactiveForeground": "#4a5568",
+    "terminal.foreground": "#c8d3f5"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#636da6",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#c3e88d"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#c099ff"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#c8d3f5"
+      }
+    },
+    {
+      "scope": "function",
+      "settings": {
+        "foreground": "#82aaff"
+      }
+    },
+    {
+      "scope": "number",
+      "settings": {
+        "foreground": "#ff966c"
+      }
+    },
+    {
+      "scope": "type",
+      "settings": {
+        "foreground": "#ffc777"
+      }
+    }
+  ]
+}

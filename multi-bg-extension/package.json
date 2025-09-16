@@ -2,7 +2,7 @@
   "name": "vscode-multi-themes",
   "displayName": "VSCode Ultimate Themes Pack",
   "description": "A premium collection of stunning dark and light themes for VSCode, featuring hacker green, ocean blue, pastel pink, and enhanced dark variants with rich syntax highlighting",
-  "version": "0.0.9",
+  "version": "0.0.13",
   "publisher": "SecureDev01",
   "repository": {
     "type": "git",
@@ -75,6 +75,14 @@
       {
         "command": "multiBg.switchToOneDarkPro",
         "title": "Switch to One Dark Pro Theme"
+      },
+      {
+        "command": "multiBg.switchToDragonBallGoku",
+        "title": "Switch to Dragon Ball Z Goku Power Theme"
+      },
+      {
+        "command": "multiBg.switchToDragonBallGokuEyeSafe",
+        "title": "Switch to Dragon Ball Z Goku Power (Eye-Safe) Theme"
       }
     ],
     "menus": {
@@ -123,6 +131,12 @@
         },
         {
           "command": "multiBg.switchToOneDarkPro"
+        },
+        {
+          "command": "multiBg.switchToDragonBallGoku"
+        },
+        {
+          "command": "multiBg.switchToDragonBallGokuEyeSafe"
         }
       ]
     },
@@ -201,6 +215,16 @@
         "label": "One Dark Pro",
         "uiTheme": "vs-dark",
         "path": "./themes/one-dark-pro-theme.json"
+      },
+      {
+        "label": "Dragon Ball Z Goku Power",
+        "uiTheme": "vs",
+        "path": "./themes/dragon-ball-z-goku-power-theme.json"
+      },
+      {
+        "label": "Dragon Ball Z Goku Power (Eye-Safe)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dragon-ball-z-goku-power-eye-safe-theme.json"
       }
     ]
   },
@@ -208,5 +232,9 @@
   "scripts": {
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.75.0",
+    "@types/node": "^18.0.0"
   }
 }

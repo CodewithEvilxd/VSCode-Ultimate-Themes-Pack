@@ -1,3 +1,5 @@
+/// <reference types="vscode" />
+
 import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
@@ -59,7 +61,19 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.workspace.getConfiguration('workbench').update('colorTheme', 'High Readability Contrast', vscode.ConfigurationTarget.Global);
     });
 
-    context.subscriptions.push(switchToHacker, switchToPink, switchToBlue, switchToDark, switchToNord, switchToTokyo, switchToDracula, switchToSolarized, switchToGruvbox, switchToGentleSepia, switchToLowBlueNight, switchToSoftContrast, switchToDuskyRose, switchToHighReadability);
+    let switchToOneDarkPro = vscode.commands.registerCommand('multiBg.switchToOneDarkPro', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'One Dark Pro', vscode.ConfigurationTarget.Global);
+    });
+
+    let switchToDragonBallGoku = vscode.commands.registerCommand('multiBg.switchToDragonBallGoku', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Dragon Ball Z Goku Power', vscode.ConfigurationTarget.Global);
+    });
+
+    let switchToDragonBallGokuEyeSafe = vscode.commands.registerCommand('multiBg.switchToDragonBallGokuEyeSafe', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Dragon Ball Z Goku Power (Eye-Safe)', vscode.ConfigurationTarget.Global);
+    });
+
+    context.subscriptions.push(switchToHacker, switchToPink, switchToBlue, switchToDark, switchToNord, switchToTokyo, switchToDracula, switchToSolarized, switchToGruvbox, switchToGentleSepia, switchToLowBlueNight, switchToSoftContrast, switchToDuskyRose, switchToHighReadability, switchToOneDarkPro, switchToDragonBallGoku, switchToDragonBallGokuEyeSafe);
 }
 
 export function deactivate() {}

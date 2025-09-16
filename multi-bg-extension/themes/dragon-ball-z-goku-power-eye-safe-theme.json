@@ -1,0 +1,761 @@
+{
+  "name": "Dragon Ball Z - Goku Power (Eye-Safe)",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0f0e1a",
+    "editor.foreground": "#e8d5b7",
+    "editorLineNumber.foreground": "#6b5b73",
+    "editorLineNumber.activeForeground": "#ff9500",
+    "editorCursor.foreground": "#ffaa33",
+    "editor.selectionBackground": "#2a1f3d55",
+    "editor.selectionHighlightBackground": "#2a1f3d33",
+    "editor.lineHighlightBackground": "#1a1625",
+    "editor.wordHighlightBackground": "#3d2a5544",
+    "editor.wordHighlightStrongBackground": "#3d2a5566",
+    "editor.findMatchBackground": "#ff950088",
+    "editor.findMatchHighlightBackground": "#ff950044",
+    "editor.rangeHighlightBackground": "#2a1f3d22",
+    "editorIndentGuide.background1": "#2d2440",
+    "editorIndentGuide.activeBackground1": "#ff9500",
+    "editorRuler.foreground": "#2d2440",
+    "editorBracketMatch.background": "#2a1f3d66",
+    "editorBracketMatch.border": "#ff9500",
+    "editorBracketHighlight.foreground1": "#ff9500",
+    "editorBracketHighlight.foreground2": "#4fc3f7",
+    "editorBracketHighlight.foreground3": "#ffaa33",
+    "editorWidget.background": "#1a1828",
+    "editorWidget.border": "#ff9500",
+    "editorWidget.foreground": "#e8d5b7",
+    "editorSuggestWidget.background": "#1a1828",
+    "editorSuggestWidget.border": "#ff9500",
+    "editorSuggestWidget.foreground": "#e8d5b7",
+    "editorSuggestWidget.selectedBackground": "#2a1f3d",
+    "editorSuggestWidget.highlightForeground": "#ffaa33",
+    "editorHoverWidget.background": "#1a1828",
+    "editorHoverWidget.border": "#ff9500",
+    "editorHoverWidget.statusBarBackground": "#0f0e1a",
+    "peekView.background": "#1a1828",
+    "peekViewEditor.background": "#0f0e1a",
+    "peekViewResult.background": "#1e1b2e",
+    "peekViewTitle.background": "#2a1f3d",
+    "peekViewTitleLabel.foreground": "#ff9500",
+    "peekViewTitleDescription.foreground": "#6b5b73",
+    "diffEditor.insertedTextBackground": "#4caf5022",
+    "diffEditor.removedTextBackground": "#f4433622",
+    "diffEditor.insertedLineBackground": "#4caf5011",
+    "diffEditor.removedLineBackground": "#f4433611",
+    "editorGutter.background": "#0f0e1a",
+    "editorGutter.modifiedBackground": "#ffaa33",
+    "editorGutter.addedBackground": "#4caf50",
+    "editorGutter.deletedBackground": "#f44336",
+    "editorGutter.commentRangeForeground": "#6b5b73",
+    "editorError.foreground": "#f44336",
+    "editorWarning.foreground": "#ffaa33",
+    "editorInfo.foreground": "#4fc3f7",
+    "editorHint.foreground": "#9c27b0",
+    "errorForeground": "#f44336",
+    "minimap.background": "#1a1828",
+    "minimapSlider.background": "#2d244055",
+    "minimapSlider.hoverBackground": "#2d244077",
+    "minimapSlider.activeBackground": "#2d244099",
+    "minimapGutter.addedBackground": "#4caf50",
+    "minimapGutter.modifiedBackground": "#ffaa33",
+    "minimapGutter.deletedBackground": "#f44336",
+    "list.activeSelectionBackground": "#2a1f3d",
+    "list.activeSelectionForeground": "#ff9500",
+    "list.inactiveSelectionBackground": "#1e1b2e",
+    "list.inactiveSelectionForeground": "#e8d5b7",
+    "list.hoverBackground": "#221e33",
+    "list.focusBackground": "#2a1f3d88",
+    "list.dropBackground": "#2a1f3d66",
+    "list.highlightForeground": "#ffaa33",
+    "list.deemphasizedForeground": "#6b5b73",
+    "listFilterWidget.background": "#1a1828",
+    "listFilterWidget.outline": "#ff9500",
+    "listFilterWidget.noMatchesOutline": "#f44336",
+    "sideBar.background": "#1a1828",
+    "sideBar.foreground": "#e8d5b7",
+    "sideBar.border": "#2d2440",
+    "sideBarTitle.foreground": "#ff9500",
+    "sideBarSectionHeader.background": "#1e1b2e",
+    "sideBarSectionHeader.foreground": "#4fc3f7",
+    "sideBarSectionHeader.border": "#2d2440",
+    "activityBar.background": "#0f0e1a",
+    "activityBar.foreground": "#4fc3f7",
+    "activityBar.inactiveForeground": "#6b5b73",
+    "activityBar.border": "#2d2440",
+    "activityBarBadge.background": "#ff9500",
+    "activityBarBadge.foreground": "#0f0e1a",
+    "activityBar.activeBorder": "#ffaa33",
+    "activityBar.activeBackground": "#2a1f3d33",
+    "activityBar.activeFocusBorder": "#ff9500",
+    "panel.background": "#1a1828",
+    "panel.border": "#2d2440",
+    "panelTitle.activeBorder": "#4fc3f7",
+    "panelTitle.activeForeground": "#ff9500",
+    "panelTitle.inactiveForeground": "#6b5b73",
+    "panelInput.border": "#2d2440",
+    "terminal.background": "#0f0e1a",
+    "terminal.foreground": "#e8d5b7",
+    "terminalCursor.foreground": "#ffaa33",
+    "terminalCursor.background": "#0f0e1a",
+    "terminal.selectionBackground": "#2a1f3d66",
+    "terminal.ansiBlack": "#0f0e1a",
+    "terminal.ansiRed": "#f44336",
+    "terminal.ansiGreen": "#4caf50",
+    "terminal.ansiYellow": "#ffeb3b",
+    "terminal.ansiBlue": "#4fc3f7",
+    "terminal.ansiMagenta": "#9c27b0",
+    "terminal.ansiCyan": "#00bcd4",
+    "terminal.ansiWhite": "#e8d5b7",
+    "terminal.ansiBrightBlack": "#6b5b73",
+    "terminal.ansiBrightRed": "#ff5722",
+    "terminal.ansiBrightGreen": "#8bc34a",
+    "terminal.ansiBrightYellow": "#ffc107",
+    "terminal.ansiBrightBlue": "#03a9f4",
+    "terminal.ansiBrightMagenta": "#e91e63",
+    "terminal.ansiBrightCyan": "#26c6da",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "statusBar.background": "#0f0e1a",
+    "statusBar.foreground": "#e8d5b7",
+    "statusBar.border": "#2d2440",
+    "statusBar.noFolderBackground": "#1a1828",
+    "statusBar.debuggingBackground": "#f44336",
+    "statusBar.debuggingForeground": "#ffffff",
+    "statusBarItem.hoverBackground": "#2a1f3d44",
+    "statusBarItem.activeBackground": "#2a1f3d66",
+    "statusBarItem.prominentBackground": "#ff9500",
+    "statusBarItem.prominentForeground": "#0f0e1a",
+    "statusBarItem.prominentHoverBackground": "#ffaa33",
+    "titleBar.activeBackground": "#0f0e1a",
+    "titleBar.activeForeground": "#4fc3f7",
+    "titleBar.inactiveBackground": "#1a1828",
+    "titleBar.inactiveForeground": "#6b5b73",
+    "titleBar.border": "#2d2440",
+    "tab.activeBackground": "#0f0e1a",
+    "tab.activeForeground": "#ff9500",
+    "tab.activeBorder": "#ffaa33",
+    "tab.activeBorderTop": "#ffaa33",
+    "tab.inactiveBackground": "#1a1828",
+    "tab.inactiveForeground": "#6b5b73",
+    "tab.border": "#2d2440",
+    "tab.hoverBackground": "#1e1b2e",
+    "tab.hoverForeground": "#e8d5b7",
+    "tab.unfocusedActiveBackground": "#1a1828",
+    "tab.unfocusedActiveForeground": "#9e8aa0",
+    "tab.unfocusedInactiveForeground": "#2d2440",
+    "tab.lastPinnedBorder": "#4fc3f7",
+    "breadcrumb.foreground": "#6b5b73",
+    "breadcrumb.background": "#0f0e1a",
+    "breadcrumb.focusForeground": "#e8d5b7",
+    "breadcrumb.activeSelectionForeground": "#ffaa33",
+    "input.background": "#2a1f3d",
+    "input.foreground": "#e8d5b7",
+    "input.border": "#ff9500",
+    "input.placeholderForeground": "#6b5b73",
+    "inputOption.activeBorder": "#ffaa33",
+    "inputOption.activeBackground": "#2a1f3d",
+    "inputValidation.errorBackground": "#f4433633",
+    "inputValidation.errorBorder": "#f44336",
+    "inputValidation.warningBackground": "#ffaa3333",
+    "inputValidation.warningBorder": "#ffaa33",
+    "inputValidation.infoBackground": "#4fc3f733",
+    "inputValidation.infoBorder": "#4fc3f7",
+    "dropdown.background": "#2a1f3d",
+    "dropdown.foreground": "#e8d5b7",
+    "dropdown.border": "#ff9500",
+    "dropdown.listBackground": "#1a1828",
+    "button.background": "#ff9500",
+    "button.foreground": "#0f0e1a",
+    "button.hoverBackground": "#ffaa33",
+    "button.secondaryBackground": "#2a1f3d",
+    "button.secondaryForeground": "#4fc3f7",
+    "button.secondaryHoverBackground": "#3d2a55",
+    "checkbox.background": "#2a1f3d",
+    "checkbox.foreground": "#e8d5b7",
+    "checkbox.border": "#ff9500",
+    "badge.background": "#ffaa33",
+    "badge.foreground": "#0f0e1a",
+    "progressBar.background": "#ff9500",
+    "scrollbar.shadow": "#00000055",
+    "scrollbarSlider.background": "#2d244044",
+    "scrollbarSlider.hoverBackground": "#2d244066",
+    "scrollbarSlider.activeBackground": "#2d244088",
+    "editorGroup.border": "#2d2440",
+    "editorGroup.dropBackground": "#2a1f3d44",
+    "editorGroupHeader.noTabsBackground": "#1a1828",
+    "editorGroupHeader.tabsBackground": "#1a1828",
+    "editorGroupHeader.tabsBorder": "#2d2440",
+    "editorGroup.emptyBackground": "#0f0e1a",
+    "gitDecoration.modifiedResourceForeground": "#ffaa33",
+    "gitDecoration.deletedResourceForeground": "#f44336",
+    "gitDecoration.untrackedResourceForeground": "#4caf50",
+    "gitDecoration.ignoredResourceForeground": "#6b5b73",
+    "gitDecoration.conflictingResourceForeground": "#9c27b0",
+    "gitDecoration.submoduleResourceForeground": "#4fc3f7",
+    "notifications.background": "#1a1828",
+    "notifications.border": "#ff9500",
+    "notifications.foreground": "#e8d5b7",
+    "notificationCenter.border": "#ff9500",
+    "notificationCenterHeader.background": "#2a1f3d",
+    "notificationCenterHeader.foreground": "#ff9500",
+    "notificationToast.border": "#ff9500",
+    "notificationsErrorIcon.foreground": "#f44336",
+    "notificationsWarningIcon.foreground": "#ffaa33",
+    "notificationsInfoIcon.foreground": "#4fc3f7",
+    "extensionButton.prominentBackground": "#ff9500",
+    "extensionButton.prominentForeground": "#0f0e1a",
+    "extensionButton.prominentHoverBackground": "#ffaa33",
+    "quickInput.background": "#1a1828",
+    "quickInput.foreground": "#e8d5b7",
+    "quickInputTitle.background": "#2a1f3d",
+    "quickInputList.focusBackground": "#2a1f3d66",
+    "keybindingLabel.background": "#2a1f3d",
+    "keybindingLabel.foreground": "#ff9500",
+    "keybindingLabel.border": "#ff9500",
+    "menu.background": "#1a1828",
+    "menu.foreground": "#e8d5b7",
+    "menu.selectionBackground": "#2a1f3d",
+    "menu.selectionForeground": "#ff9500",
+    "menu.separatorBackground": "#2d2440",
+    "menubar.selectionBackground": "#2a1f3d",
+    "menubar.selectionForeground": "#ff9500",
+    "merge.currentHeaderBackground": "#4caf5044",
+    "merge.currentContentBackground": "#4caf5022",
+    "merge.incomingHeaderBackground": "#4fc3f744",
+    "merge.incomingContentBackground": "#4fc3f722",
+    "merge.border": "#2d2440",
+    "merge.commonContentBackground": "#ffaa3322",
+    "merge.commonHeaderBackground": "#ffaa3344",
+    "settings.headerForeground": "#ff9500",
+    "settings.modifiedItemIndicator": "#4fc3f7",
+    "settings.dropdownBackground": "#2a1f3d",
+    "settings.dropdownForeground": "#e8d5b7",
+    "settings.dropdownBorder": "#ff9500",
+    "settings.checkboxBackground": "#2a1f3d",
+    "settings.checkboxForeground": "#e8d5b7",
+    "settings.checkboxBorder": "#ff9500",
+    "settings.textInputBackground": "#2a1f3d",
+    "settings.textInputForeground": "#e8d5b7",
+    "settings.textInputBorder": "#ff9500",
+    "settings.numberInputBackground": "#2a1f3d",
+    "settings.numberInputForeground": "#e8d5b7",
+    "settings.numberInputBorder": "#ff9500"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment - Master Roshi's Wisdom",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "comment.block.documentation"
+      ],
+      "settings": {
+        "foreground": "#8a7ca8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "String - Dragon Ball Wishes",
+      "scope": [
+        "string",
+        "string.quoted",
+        "string.template",
+        "string.interpolated",
+        "string.regexp"
+      ],
+      "settings": {
+        "foreground": "#ffeb3b"
+      }
+    },
+    {
+      "name": "Template String",
+      "scope": [
+        "string.template",
+        "punctuation.definition.string.template"
+      ],
+      "settings": {
+        "foreground": "#fff176"
+      }
+    },
+    {
+      "name": "Escape Characters - Instant Transmission",
+      "scope": [
+        "constant.character.escape"
+      ],
+      "settings": {
+        "foreground": "#ffaa33",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Keyword - Saiyan Power",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "keyword.operator.new",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#f44336",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Control Keywords - Kamehameha Wave",
+      "scope": [
+        "keyword.control.flow",
+        "keyword.control.conditional",
+        "keyword.control.loop"
+      ],
+      "settings": {
+        "foreground": "#ff5722",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Function Declaration - Special Attacks",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call entity.name.function",
+        "support.function",
+        "keyword.other.special-method"
+      ],
+      "settings": {
+        "foreground": "#4fc3f7",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Function Call",
+      "scope": [
+        "meta.function-call",
+        "variable.function"
+      ],
+      "settings": {
+        "foreground": "#03a9f4"
+      }
+    },
+    {
+      "name": "Class/Type - Saiyan Race",
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "support.class",
+        "support.type",
+        "entity.other.inherited-class"
+      ],
+      "settings": {
+        "foreground": "#9c27b0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Number - Power Level",
+      "scope": [
+        "constant.numeric",
+        "constant.numeric.integer",
+        "constant.numeric.float",
+        "constant.numeric.hex"
+      ],
+      "settings": {
+        "foreground": "#ffaa33"
+      }
+    },
+    {
+      "name": "Boolean",
+      "scope": [
+        "constant.language.boolean"
+      ],
+      "settings": {
+        "foreground": "#ff9500",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Null/Undefined - Void Energy",
+      "scope": [
+        "constant.language.null",
+        "constant.language.undefined"
+      ],
+      "settings": {
+        "foreground": "#f44336",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Variable - Z Fighters",
+      "scope": [
+        "variable",
+        "variable.other",
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#e8d5b7"
+      }
+    },
+    {
+      "name": "This/Self - Goku's Spirit",
+      "scope": [
+        "variable.language.this",
+        "variable.language.self"
+      ],
+      "settings": {
+        "foreground": "#ff9500",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "Property - Dragon Radar",
+      "scope": [
+        "variable.other.property",
+        "support.variable.property",
+        "meta.object-literal.key",
+        "entity.name.tag.yaml"
+      ],
+      "settings": {
+        "foreground": "#00bcd4"
+      }
+    },
+    {
+      "name": "Object Key",
+      "scope": [
+        "meta.object-literal.key",
+        "string.unquoted.yaml"
+      ],
+      "settings": {
+        "foreground": "#26c6da"
+      }
+    },
+    {
+      "name": "Constant - Dragon Balls",
+      "scope": [
+        "constant",
+        "variable.other.constant",
+        "support.constant"
+      ],
+      "settings": {
+        "foreground": "#ffaa33",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Operator - Fighting Moves",
+      "scope": [
+        "keyword.operator",
+        "keyword.operator.arithmetic",
+        "keyword.operator.logical",
+        "keyword.operator.comparison"
+      ],
+      "settings": {
+        "foreground": "#4caf50"
+      }
+    },
+    {
+      "name": "Assignment Operator",
+      "scope": [
+        "keyword.operator.assignment"
+      ],
+      "settings": {
+        "foreground": "#8bc34a",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
+        "punctuation",
+        "punctuation.separator",
+        "punctuation.terminator"
+      ],
+      "settings": {
+        "foreground": "#b0a3c4"
+      }
+    },
+    {
+      "name": "Brackets - Energy Barriers",
+      "scope": [
+        "punctuation.section.brackets",
+        "punctuation.section.parens",
+        "punctuation.section.braces"
+      ],
+      "settings": {
+        "foreground": "#9c88b5"
+      }
+    },
+    {
+      "name": "Tag - Saiyan Armor",
+      "scope": [
+        "entity.name.tag",
+        "meta.tag",
+        "markup.deleted.git_gutter"
+      ],
+      "settings": {
+        "foreground": "#f44336",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Attribute",
+      "scope": [
+        "entity.other.attribute-name",
+        "meta.attribute"
+      ],
+      "settings": {
+        "foreground": "#9c27b0"
+      }
+    },
+    {
+      "name": "Import/Export - Space Travel",
+      "scope": [
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.from"
+      ],
+      "settings": {
+        "foreground": "#4fc3f7",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Module",
+      "scope": [
+        "entity.name.type.module"
+      ],
+      "settings": {
+        "foreground": "#03a9f4"
+      }
+    },
+    {
+      "name": "JSON Key - Capsule Corp Data",
+      "scope": [
+        "support.type.property-name.json",
+        "meta.structure.dictionary.key.json"
+      ],
+      "settings": {
+        "foreground": "#00bcd4"
+      }
+    },
+    {
+      "name": "CSS Property",
+      "scope": [
+        "support.type.property-name.css",
+        "meta.property-name"
+      ],
+      "settings": {
+        "foreground": "#26c6da"
+      }
+    },
+    {
+      "name": "CSS Value",
+      "scope": [
+        "support.constant.property-value.css",
+        "meta.property-value"
+      ],
+      "settings": {
+        "foreground": "#ffaa33"
+      }
+    },
+    {
+      "name": "CSS Selector",
+      "scope": [
+        "entity.name.tag.css",
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css"
+      ],
+      "settings": {
+        "foreground": "#f44336"
+      }
+    },
+    {
+      "name": "Markdown Heading - Chapter Titles",
+      "scope": [
+        "markup.heading",
+        "entity.name.section.markdown"
+      ],
+      "settings": {
+        "foreground": "#ffaa33",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown Bold - Power Up",
+      "scope": [
+        "markup.bold"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#ff9500"
+      }
+    },
+    {
+      "name": "Markdown Italic",
+      "scope": [
+        "markup.italic"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#b0a3c4"
+      }
+    },
+    {
+      "name": "Markdown Code - Scouter Readings",
+      "scope": [
+        "markup.inline.raw",
+        "markup.fenced_code"
+      ],
+      "settings": {
+        "foreground": "#ffeb3b",
+        "background": "#1e1b2e"
+      }
+    },
+    {
+      "name": "Markdown Link - Namek Portal",
+      "scope": [
+        "markup.underline.link"
+      ],
+      "settings": {
+        "foreground": "#4fc3f7"
+      }
+    },
+    {
+      "name": "Markdown Quote - Wisdom",
+      "scope": [
+        "markup.quote"
+      ],
+      "settings": {
+        "foreground": "#8a7ca8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python Decorator - Training Weights",
+      "scope": [
+        "entity.name.function.decorator.python"
+      ],
+      "settings": {
+        "foreground": "#ffaa33",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python Self",
+      "scope": [
+        "variable.parameter.function.language.special.self.python"
+      ],
+      "settings": {
+        "foreground": "#ff9500",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "JSX Component - Fusion Technique",
+      "scope": [
+        "support.class.component.tsx",
+        "support.class.component.jsx"
+      ],
+      "settings": {
+        "foreground": "#9c27b0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "TypeScript Type",
+      "scope": [
+        "entity.name.type.ts",
+        "entity.name.type.tsx"
+      ],
+      "settings": {
+        "foreground": "#9c27b0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Regex - Energy Patterns",
+      "scope": [
+        "string.regexp"
+      ],
+      "settings": {
+        "foreground": "#00bcd4",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "DocString - Ancient Scrolls",
+      "scope": [
+        "string.quoted.docstring.multi.python"
+      ],
+      "settings": {
+        "foreground": "#b0a3c4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Invalid/Deprecated - Frieza's Attacks",
+      "scope": [
+        "invalid",
+        "invalid.deprecated"
+      ],
+      "settings": {
+        "foreground": "#ffffff",
+        "background": "#f44336",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Git Added - New Power Unlocked",
+      "scope": [
+        "markup.inserted.git_gutter"
+      ],
+      "settings": {
+        "foreground": "#4caf50"
+      }
+    },
+    {
+      "name": "Git Modified - Training Progress",
+      "scope": [
+        "markup.changed.git_gutter"
+      ],
+      "settings": {
+        "foreground": "#ffaa33"
+      }
+    },
+    {
+      "name": "Git Deleted - Energy Depleted",
+      "scope": [
+        "markup.deleted.git_gutter"
+      ],
+      "settings": {
+        "foreground": "#f44336"
+      }
+    },
+    {
+      "name": "Log Level Info - Scouter Data",
+      "scope": [
+        "log.info"
+      ],
+      "settings": {
+        "foreground": "#4fc3f7"
+      }
+    },
+    {
+      "name": "Log Level Warning - Power Surge",
+      "scope": [
+        "log.warning"
+      ],
+      "settings": {
+        "foreground": "#ffaa33"
+      }
+    },
+    {
+      "name": "Log Level Error - Critical Damage",
+      "scope": [
+        "log.error"
+      ],
+      "settings": {
+        "foreground": "#f44336"
+      }
+    }
+  ]
+}

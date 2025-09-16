@@ -1,0 +1,84 @@
+{
+  "name": "Ayu Mirage Comfort",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1f2430",
+    "editor.foreground": "#cbccc6",
+    "activityBar.background": "#191e2a",
+    "activityBar.foreground": "#cbccc6",
+    "activityBarBadge.background": "#ffcc66",
+    "activityBarBadge.foreground": "#1f2430",
+    "badge.background": "#ffcc66",
+    "badge.foreground": "#1f2430",
+    "button.background": "#ffcc66",
+    "button.foreground": "#1f2430",
+    "button.hoverBackground": "#ffd580",
+    "dropdown.background": "#232834",
+    "dropdown.foreground": "#cbccc6",
+    "editor.lineHighlightBackground": "#232834",
+    "editor.selectionBackground": "#33415e",
+    "editor.selectionHighlightBackground": "#33415e80",
+    "editorCursor.foreground": "#ffcc66",
+    "editorGroup.border": "#232834",
+    "editorGroupHeader.tabsBackground": "#191e2a",
+    "editorLineNumber.foreground": "#5c6773",
+    "editorLineNumber.activeForeground": "#ffcc66",
+    "list.activeSelectionBackground": "#33415e",
+    "list.hoverBackground": "#232834",
+    "panel.background": "#191e2a",
+    "sideBar.background": "#191e2a",
+    "sideBar.foreground": "#cbccc6",
+    "statusBar.background": "#191e2a",
+    "statusBar.foreground": "#cbccc6",
+    "tab.activeBackground": "#1f2430",
+    "tab.activeForeground": "#cbccc6",
+    "tab.inactiveBackground": "#191e2a",
+    "tab.inactiveForeground": "#5c6773",
+    "terminal.foreground": "#cbccc6"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#5c6773",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#bae67e"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#d4bfff"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#cbccc6"
+      }
+    },
+    {
+      "scope": "function",
+      "settings": {
+        "foreground": "#73d0ff"
+      }
+    },
+    {
+      "scope": "number",
+      "settings": {
+        "foreground": "#dfbf8e"
+      }
+    },
+    {
+      "scope": "type",
+      "settings": {
+        "foreground": "#ffd580"
+      }
+    }
+  ]
+}
