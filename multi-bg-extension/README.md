@@ -1,14 +1,14 @@
 # VSCode Ultimate Themes Pack
 
 [![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Marketplace-blue)](https://marketplace.visualstudio.com/publishers/SecureDev01)
-[![Version](https://img.shields.io/badge/version-0.0.5-green)](https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes)
+[![Version](https://img.shields.io/badge/version-0.0.19-green)](https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/codewithevilxd/vscode-multi-themes/blob/main/LICENSE)
 
-A comprehensive collection of **14 professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Includes 9 popular themes plus 5 accessibility-focused themes optimized for different lighting conditions and user needs. Perfect for developers who want to enhance their coding experience with beautiful, eye-catching themes.
+A comprehensive collection of **26 professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Includes 17 popular themes plus 9 accessibility-focused themes optimized for different lighting conditions and user needs. Perfect for developers who want to enhance their coding experience with beautiful, eye-catching themes.
 
 ## ✨ Features
 
-### 🎨 **14 Professional Themes**
+### 🎨 **26 Professional Themes**
 
 #### Popular Themes
 - **🚀 Hacker Theme**: Classic dark theme with black background and vibrant green text for a cyberpunk aesthetic
@@ -20,6 +20,17 @@ A comprehensive collection of **14 professionally designed themes** for Visual S
 - **🧛 Dracula Pro Theme**: Sophisticated dark theme with purple accents for an elegant, mysterious atmosphere
 - **☀️ Solarized Dark Theme**: Scientifically calibrated theme optimized for readability and eye comfort
 - **🌾 Gruvbox Dark Theme**: Warm, earthy theme with retro color palette for a cozy coding environment
+- **⭐ One Dark Pro Theme**: Enhanced version of the popular One Dark theme with improved contrast and readability
+- **🥋 Goku Code - Dragon Ball Z Power (Eye-Safe)**: Dragon Ball Z inspired theme with semantic highlighting and Saiyan power colors
+- **🌌 Nebula Pro Dark Theme**: Cosmic dark theme with nebula-inspired colors and deep space aesthetics
+- **🌹 Rose Paradise Theme**: Elegant rose-themed light theme with soft, romantic color palette
+- **🤖 Omnitrix Code Theme**: Ben 10 inspired theme with alien technology colors and futuristic design
+- **⚡ Neon Dream Code Theme**: Cyberpunk neon theme with vibrant cyan, pink, and yellow accents
+- **🧊 Ayu Mirage Comfort Theme**: Balanced theme with comfortable color combinations for extended coding sessions
+- **🧊 Catppuccin Mocha Eye Care Theme**: Warm and cozy theme optimized for eye comfort with mocha tones
+- **🧊 Eye Comfort Dark Pro Theme**: Professional dark theme designed specifically for eye comfort
+- **🧊 Moonlight Soft Theme**: Soft moonlight-inspired theme with gentle, soothing colors
+- **🧊 Night Owl Comfort Theme**: Comfortable dark theme inspired by night owls with optimized readability
 
 #### 🎯 Accessibility-Focused Themes
 - **📖 Gentle Sepia Theme**: Warm light theme optimized for bright rooms and paper-like reading experience
@@ -74,6 +85,17 @@ A comprehensive collection of **14 professionally designed themes** for Visual S
    - `Switch to Soft Contrast Theme`
    - `Switch to Dusky Rose Dark Theme`
    - `Switch to High Readability Contrast Theme`
+   - `Switch to One Dark Pro Theme`
+   - `Switch to Goku Code - Dragon Ball Z Power (Eye-Safe) Theme`
+   - `Switch to Nebula Pro Dark Theme`
+   - `Switch to Rose Paradise Theme`
+   - `Switch to Omnitrix Code Theme`
+   - `Switch to Neon Dream Code Theme`
+   - `Switch to Ayu Mirage Comfort Theme`
+   - `Switch to Catppuccin Mocha Eye Care Theme`
+   - `Switch to Eye Comfort Dark Pro Theme`
+   - `Switch to Moonlight Soft Theme`
+   - `Switch to Night Owl Comfort Theme`
 
 ### Manual Selection
 1. Go to **File** → **Preferences** → **Color Theme** (or **Settings** → **Color Theme**)
@@ -154,6 +176,86 @@ You can assign custom keyboard shortcuts to theme switching commands:
 - **Keywords**: Red-orange (#fb4934)
 - **Best for**: Retro computing, warm colors, Linux enthusiasts
 
+#### ⭐ One Dark Pro Theme
+- **Background**: Deep charcoal (#282c34)
+- **Text**: Light gray (#abb2bf)
+- **Comments**: Medium gray (#5c6370)
+- **Strings**: Green (#98c379)
+- **Keywords**: Blue (#61afef)
+- **Best for**: Modern development, enhanced One Dark experience, professional coding
+
+#### 🥋 Goku Code - Dragon Ball Z Power (Eye-Safe)
+- **Background**: Deep purple-black (#0f0e1a)
+- **Text**: Cream (#e8d5b7)
+- **Comments**: Purple-gray (#8a7ca8)
+- **Strings**: Yellow (#ffeb3b)
+- **Keywords**: Red (#f44336)
+- **Best for**: Dragon Ball Z fans, semantic highlighting, eye-safe Saiyan power
+
+#### 🌌 Nebula Pro Dark Theme
+- **Background**: Deep space blue (#0a0d1a)
+- **Text**: Light blue (#c8d3f5)
+- **Comments**: Purple-blue (#636da6)
+- **Strings**: Green (#c3e88d)
+- **Keywords**: Purple (#c099ff)
+- **Best for**: Space enthusiasts, cosmic aesthetics, deep focus coding
+
+#### 🤖 Omnitrix Code Theme
+- **Background**: Alien green-black (#0a1a0f)
+- **Text**: Light green (#d4f7d4)
+- **Comments**: Dark green (#4a7c4a)
+- **Strings**: Yellow (#ffeb3b)
+- **Keywords**: Cyan (#00ffff)
+- **Best for**: Sci-fi fans, Ben 10 enthusiasts, futuristic coding experience
+
+#### ⚡ Neon Dream Code Theme
+- **Background**: Cyberpunk black (#0a0e27)
+- **Text**: Light blue (#e4f0fb)
+- **Comments**: Purple (#636da6)
+- **Strings**: Yellow (#ffee58)
+- **Keywords**: Red (#ff5370)
+- **Best for**: Cyberpunk enthusiasts, neon aesthetics, high-tech coding
+
+#### 🧊 Ayu Mirage Comfort Theme
+- **Background**: Dark blue-gray (#1f2430)
+- **Text**: Light gray (#cbccc6)
+- **Comments**: Medium gray (#5c6773)
+- **Strings**: Green (#bae67e)
+- **Keywords**: Purple (#d4bfff)
+- **Best for**: Comfortable coding, balanced contrast, extended sessions
+
+#### 🧊 Catppuccin Mocha Eye Care Theme
+- **Background**: Warm brown-black (#1e1e2e)
+- **Text**: Light cream (#cdd6f4)
+- **Comments**: Gray (#6c7086)
+- **Strings**: Green (#a6e3a1)
+- **Keywords**: Purple (#cba6f7)
+- **Best for**: Eye comfort, warm tones, cozy coding environment
+
+#### 🧊 Eye Comfort Dark Pro Theme
+- **Background**: Professional dark (#1e1e1e)
+- **Text**: Light gray (#d4d4d4)
+- **Comments**: Green (#6a9955)
+- **Strings**: Orange (#ce9178)
+- **Keywords**: Blue (#569cd6)
+- **Best for**: Professional development, eye comfort, accessibility
+
+#### 🧊 Moonlight Soft Theme
+- **Background**: Deep blue (#1a1a2e)
+- **Text**: Light blue (#c8d3f5)
+- **Comments**: Purple-blue (#636da6)
+- **Strings**: Green (#c3e88d)
+- **Keywords**: Purple (#c099ff)
+- **Best for**: Night coding, soft illumination, gentle on eyes
+
+#### 🧊 Night Owl Comfort Theme
+- **Background**: Dark blue (#011627)
+- **Text**: Light blue (#d6deeb)
+- **Comments**: Gray (#637777)
+- **Strings**: Yellow (#ecc48d)
+- **Keywords**: Purple (#c792ea)
+- **Best for**: Night owls, comfortable dark theme, optimal readability
+
 ### Light Themes
 
 #### 🌸 Pink Theme
@@ -163,6 +265,14 @@ You can assign custom keyboard shortcuts to theme switching commands:
 - **Strings**: Purple (#ce9178)
 - **Keywords**: Blue (#569cd6)
 - **Best for**: Creative coders, pastel lovers, light environments
+
+#### 🌹 Rose Paradise Theme
+- **Background**: Soft rose pink (#fdf8f9)
+- **Text**: Dark gray (#2d2d2d)
+- **Comments**: Medium gray (#8a7078)
+- **Strings**: Pink (#c73956)
+- **Keywords**: Dark pink (#a8325a)
+- **Best for**: Romantic aesthetics, soft colors, elegant light themes
 
 #### 📖 Gentle Sepia Theme
 - **Background**: Warm beige (#EDD1B0)
@@ -257,6 +367,17 @@ vscode-multi-themes/
 │   ├── dracula-pro-theme.json
 │   ├── solarized-dark-theme.json
 │   ├── gruvbox-dark-theme.json
+│   ├── one-dark-pro-theme.json
+│   ├── dragon-ball-z-goku-power-eye-safe-theme.json
+│   ├── nebula-pro-dark-theme.json
+│   ├── rose-paradise-theme.json
+│   ├── omnitrix-code-theme.json
+│   ├── neon-dream-code-theme.json
+│   ├── ayu-mirage-comfort-theme.json
+│   ├── catppuccin-mocha-eye-care-theme.json
+│   ├── eye-comfort-dark-pro-theme.json
+│   ├── moonlight-soft-theme.json
+│   ├── night-owl-comfort-theme.json
 │   ├── gentle-sepia-theme.json
 │   ├── low-blue-night-theme.json
 │   ├── soft-contrast-theme.json
@@ -336,7 +457,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](../LICENS
 
 - **📦 Downloads**: 1,000+ (Marketplace)
 - **⭐ Stars**: 50+ (GitHub)
-- **🎨 Themes**: 14 professional themes (9 popular + 5 accessibility-focused)
+- **🎨 Themes**: 26 professional themes (17 popular + 9 accessibility-focused)
 - **🌍 Languages**: English
 - **🔧 Compatibility**: VS Code 1.75.0+
 
@@ -350,6 +471,20 @@ This project is licensed under the **MIT License** - see the [LICENSE](../LICENS
 - [ ] **Theme Presets**: Curated theme combinations for different use cases
 
 ### Recent Updates
+- ✅ **v0.0.19**: Major update with 12 new themes (One Dark Pro, Goku Code, Nebula Pro, Rose Paradise, Omnitrix Code, Neon Dream Code, Ayu Mirage, Catppuccin Mocha, Eye Comfort Pro, Moonlight Soft, Night Owl Comfort)
+- ✅ **v0.0.18**: Enhanced Goku Code theme with semantic highlighting and improved Dragon Ball Z aesthetics
+- ✅ **v0.0.17**: Added Neon Dream Code theme with cyberpunk neon aesthetics
+- ✅ **v0.0.16**: Added Omnitrix Code theme inspired by Ben 10
+- ✅ **v0.0.15**: Added Rose Paradise theme with romantic rose aesthetics
+- ✅ **v0.0.14**: Added Nebula Pro Dark theme with cosmic space aesthetics
+- ✅ **v0.0.13**: Fixed theme synchronization and updated theme names
+- ✅ **v0.0.12**: Added 8 comfort themes (Ayu Mirage, Catppuccin Mocha, Eye Comfort Pro, Moonlight Soft, Night Owl Comfort)
+- ✅ **v0.0.11**: Enhanced Goku Code theme with Dragon Ball Z power colors
+- ✅ **v0.0.10**: Added semantic highlighting support to themes
+- ✅ **v0.0.9**: Improved theme accessibility and contrast ratios
+- ✅ **v0.0.8**: Added One Dark Pro theme with enhanced readability
+- ✅ **v0.0.7**: Fixed theme loading issues and improved performance
+- ✅ **v0.0.6**: Added theme preview screenshots and improved documentation
 - ✅ **v0.0.5**: Added 5 accessibility-focused themes (Gentle Sepia, Low-Blue Night, Soft Contrast, Dusky Rose Dark, High Readability Contrast)
 - ✅ **v0.0.4**: Added 5 new professional themes (Nord, Tokyo Night, Dracula Pro, Solarized, Gruvbox)
 - ✅ **v0.0.3**: Enhanced Pink theme with improved color palette

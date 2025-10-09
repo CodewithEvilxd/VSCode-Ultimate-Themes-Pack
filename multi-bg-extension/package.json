@@ -2,8 +2,9 @@
   "name": "vscode-multi-themes",
   "displayName": "VSCode Ultimate Themes Pack",
   "description": "A premium collection of stunning dark and light themes for VSCode, featuring hacker green, ocean blue, pastel pink, and enhanced dark variants with rich syntax highlighting",
-  "version": "0.0.14",
+  "version": "0.0.20",
   "publisher": "SecureDev01",
+  "icon": "image.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/codewithevilxd/vscode-multi-themes.git"
@@ -78,7 +79,7 @@
       },
       {
         "command": "multiBg.switchToDragonBallGokuEyeSafe",
-        "title": "Switch to Dragon Ball Z Goku Power (Eye-Safe) Theme"
+        "title": "Switch to Goku Code - Dragon Ball Z Power (Eye-Safe) Theme"
       },
       {
         "command": "multiBg.switchToAyuMirage",
@@ -99,6 +100,22 @@
       {
         "command": "multiBg.switchToNightOwl",
         "title": "Switch to Night Owl Comfort Theme"
+      },
+      {
+        "command": "multiBg.switchToNebulaPro",
+        "title": "Switch to Nebula Pro Dark Theme"
+      },
+      {
+        "command": "multiBg.switchToRoseParadise",
+        "title": "Switch to Rose Paradise Theme"
+      },
+      {
+        "command": "multiBg.switchToOmnitrixCode",
+        "title": "Switch to Omnitrix Code Theme"
+      },
+      {
+        "command": "multiBg.switchToNeonDreamCode",
+        "title": "Switch to Neon Dream Code Theme"
       }
     ],
     "menus": {
@@ -165,6 +182,18 @@
         },
         {
           "command": "multiBg.switchToNightOwl"
+        },
+        {
+          "command": "multiBg.switchToNebulaPro"
+        },
+        {
+          "command": "multiBg.switchToRoseParadise"
+        },
+        {
+          "command": "multiBg.switchToOmnitrixCode"
+        },
+        {
+          "command": "multiBg.switchToNeonDreamCode"
         }
       ]
     },
@@ -245,7 +274,7 @@
         "path": "./themes/one-dark-pro-theme.json"
       },
       {
-        "label": "Dragon Ball Z Goku Power (Eye-Safe)",
+        "label": "Goku Code - Dragon Ball Z Power (Eye-Safe)",
         "uiTheme": "vs-dark",
         "path": "./themes/dragon-ball-z-goku-power-eye-safe-theme.json"
       },
@@ -273,6 +302,26 @@
         "label": "Night Owl Comfort",
         "uiTheme": "vs-dark",
         "path": "./themes/night-owl-comfort-theme.json"
+      },
+      {
+        "label": "Nebula Pro Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nebula-pro-dark-theme.json"
+      },
+      {
+        "label": "Rose Paradise",
+        "uiTheme": "vs",
+        "path": "./themes/rose-paradise-theme.json"
+      },
+      {
+        "label": "Omnitrix Code",
+        "uiTheme": "vs-dark",
+        "path": "./themes/omnitrix-code-theme.json"
+      },
+      {
+        "label": "Neon Dream Code",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-dream-code-theme.json"
       }
     ]
   },
