@@ -2,7 +2,7 @@
   "name": "vscode-multi-themes",
   "displayName": "VSCode Ultimate Themes Pack",
   "description": "A premium collection of stunning dark and light themes for VSCode, featuring hacker green, ocean blue, pastel pink, and enhanced dark variants with rich syntax highlighting",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "publisher": "SecureDev01",
   "icon": "image.png",
   "repository": {
@@ -116,6 +116,22 @@
       {
         "command": "multiBg.switchToNeonDreamCode",
         "title": "Switch to Neon Dream Code Theme"
+      },
+      {
+        "command": "multiBg.switchToEclipseDark",
+        "title": "Switch to Eclipse Dark Theme"
+      },
+      {
+        "command": "multiBg.switchToEclipseLight",
+        "title": "Switch to Eclipse Light Theme"
+      },
+      {
+        "command": "multiBg.switchToSpaceDark",
+        "title": "Switch to Space Dark Theme"
+      },
+      {
+        "command": "multiBg.switchToSpaceLight",
+        "title": "Switch to Space Light Theme"
       }
     ],
     "menus": {
@@ -194,6 +210,18 @@
         },
         {
           "command": "multiBg.switchToNeonDreamCode"
+        },
+        {
+          "command": "multiBg.switchToEclipseDark"
+        },
+        {
+          "command": "multiBg.switchToEclipseLight"
+        },
+        {
+          "command": "multiBg.switchToSpaceDark"
+        },
+        {
+          "command": "multiBg.switchToSpaceLight"
         }
       ]
     },
@@ -322,6 +350,26 @@
         "label": "Neon Dream Code",
         "uiTheme": "vs-dark",
         "path": "./themes/neon-dream-code-theme.json"
+      },
+      {
+        "label": "Eclipse Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eclipse-dark-theme.json"
+      },
+      {
+        "label": "Eclipse Light",
+        "uiTheme": "vs",
+        "path": "./themes/eclipse-light-theme.json"
+      },
+      {
+        "label": "Space Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/space-dark-theme.json"
+      },
+      {
+        "label": "Space Light",
+        "uiTheme": "vs",
+        "path": "./themes/space-light-theme.json"
       }
     ]
   },

@@ -1,14 +1,14 @@
 # VSCode Ultimate Themes Pack
 
 [![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Marketplace-blue)](https://marketplace.visualstudio.com/publishers/SecureDev01)
-[![Version](https://img.shields.io/badge/version-0.0.19-green)](https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes)
+[![Version](https://img.shields.io/badge/version-0.0.20-green)](https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/codewithevilxd/vscode-multi-themes/blob/main/LICENSE)
 
-A comprehensive collection of **26 professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Includes 17 popular themes plus 9 accessibility-focused themes optimized for different lighting conditions and user needs. Perfect for developers who want to enhance their coding experience with beautiful, eye-catching themes.
+A comprehensive collection of **28 professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Includes 19 popular themes plus 9 accessibility-focused themes optimized for different lighting conditions and user needs. Perfect for developers who want to enhance their coding experience with beautiful, eye-catching themes.
 
 ## ✨ Features
 
-### 🎨 **26 Professional Themes**
+### 🎨 **28 Professional Themes**
 
 #### Popular Themes
 - **🚀 Hacker Theme**: Classic dark theme with black background and vibrant green text for a cyberpunk aesthetic
@@ -31,6 +31,10 @@ A comprehensive collection of **26 professionally designed themes** for Visual S
 - **🧊 Eye Comfort Dark Pro Theme**: Professional dark theme designed specifically for eye comfort
 - **🧊 Moonlight Soft Theme**: Soft moonlight-inspired theme with gentle, soothing colors
 - **🧊 Night Owl Comfort Theme**: Comfortable dark theme inspired by night owls with optimized readability
+- **🌑 Eclipse Dark Theme**: Professional dark theme with Eclipse-inspired colors and modern aesthetics
+- **☀️ Eclipse Light Theme**: Clean light theme with Eclipse-inspired colors for bright environments
+- **🌌 Space Dark Theme**: Cosmic dark theme with space-inspired colors and deep focus aesthetics
+- **🌠 Space Light Theme**: Bright light theme with space-inspired colors and cosmic illumination
 
 #### 🎯 Accessibility-Focused Themes
 - **📖 Gentle Sepia Theme**: Warm light theme optimized for bright rooms and paper-like reading experience
@@ -96,6 +100,10 @@ A comprehensive collection of **26 professionally designed themes** for Visual S
    - `Switch to Eye Comfort Dark Pro Theme`
    - `Switch to Moonlight Soft Theme`
    - `Switch to Night Owl Comfort Theme`
+   - `Switch to Eclipse Dark Theme`
+   - `Switch to Eclipse Light Theme`
+   - `Switch to Space Dark Theme`
+   - `Switch to Space Light Theme`
 
 ### Manual Selection
 1. Go to **File** → **Preferences** → **Color Theme** (or **Settings** → **Color Theme**)
@@ -314,6 +322,38 @@ You can assign custom keyboard shortcuts to theme switching commands:
 - **Keywords**: Orange (#FFB86B)
 - **Best for**: Maximum accessibility, WCAG compliance, long focus sessions
 
+#### 🌑 Eclipse Dark Theme
+- **Background**: Professional dark (#171f2b)
+- **Text**: Light gray (#d9dfe7)
+- **Comments**: Medium gray (#7f8d9f)
+- **Strings**: Green (#77d5a3)
+- **Keywords**: Pink (#fd8da3)
+- **Best for**: Professional development, Eclipse IDE users, modern dark aesthetics
+
+#### ☀️ Eclipse Light Theme
+- **Background**: Clean white (#ffffff)
+- **Text**: Dark gray (#1f2939)
+- **Comments**: Medium gray (#637083)
+- **Strings**: Green (#007b49)
+- **Keywords**: Pink (#c43058)
+- **Best for**: Bright environments, Eclipse IDE users, clean light aesthetics
+
+#### 🌌 Space Dark Theme
+- **Background**: Deep space (#1f1f1f)
+- **Text**: Light gray (#e1dfdfff)
+- **Comments**: Medium gray (#8e8e8eff)
+- **Strings**: Green (#77d5a3ff)
+- **Keywords**: Pink (#fd8da3ff)
+- **Best for**: Space enthusiasts, deep focus coding, cosmic aesthetics
+
+#### 🌠 Space Light Theme
+- **Background**: Bright white (#ffffffff)
+- **Text**: Dark gray (#292929ff)
+- **Comments**: Medium gray (#707070ff)
+- **Strings**: Green (#007b49ff)
+- **Keywords**: Pink (#c43058ff)
+- **Best for**: Bright environments, space lovers, cosmic illumination
+
 ##  Development
 
 ### Prerequisites
@@ -382,7 +422,11 @@ vscode-multi-themes/
 │   ├── low-blue-night-theme.json
 │   ├── soft-contrast-theme.json
 │   ├── dusky-rose-dark-theme.json
-│   └── high-readability-contrast-theme.json
+│   ├── high-readability-contrast-theme.json
+│   ├── eclipse-dark-theme.json
+│   ├── eclipse-light-theme.json
+│   ├── space-dark-theme.json
+│   └── space-light-theme.json
 ├── out/                     # Compiled JavaScript
 ├── package.json             # Extension manifest
 ├── tsconfig.json           # TypeScript configuration
@@ -457,7 +501,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](../LICENS
 
 - **📦 Downloads**: 1,000+ (Marketplace)
 - **⭐ Stars**: 50+ (GitHub)
-- **🎨 Themes**: 26 professional themes (17 popular + 9 accessibility-focused)
+- **🎨 Themes**: 28 professional themes (19 popular + 9 accessibility-focused)
 - **🌍 Languages**: English
 - **🔧 Compatibility**: VS Code 1.75.0+
 
@@ -471,6 +515,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](../LICENS
 - [ ] **Theme Presets**: Curated theme combinations for different use cases
 
 ### Recent Updates
+- ✅ **v0.0.20**: Added 4 new themes (Eclipse Dark, Eclipse Light, Space Dark, Space Light) for enhanced development experience
 - ✅ **v0.0.19**: Major update with 12 new themes (One Dark Pro, Goku Code, Nebula Pro, Rose Paradise, Omnitrix Code, Neon Dream Code, Ayu Mirage, Catppuccin Mocha, Eye Comfort Pro, Moonlight Soft, Night Owl Comfort)
 - ✅ **v0.0.18**: Enhanced Goku Code theme with semantic highlighting and improved Dragon Ball Z aesthetics
 - ✅ **v0.0.17**: Added Neon Dream Code theme with cyberpunk neon aesthetics

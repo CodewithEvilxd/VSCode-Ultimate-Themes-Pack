@@ -105,7 +105,23 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Neon Dream Code', vscode.ConfigurationTarget.Global);
     });
 
-    context.subscriptions.push(switchToHacker, switchToPink, switchToBlue, switchToDark, switchToNord, switchToTokyo, switchToDracula, switchToSolarized, switchToGruvbox, switchToGentleSepia, switchToLowBlueNight, switchToSoftContrast, switchToDuskyRose, switchToHighReadability, switchToOneDarkPro, switchToDragonBallGokuEyeSafe, switchToAyuMirage, switchToCatppuccinMocha, switchToEyeComfort, switchToMoonlight, switchToNightOwl, switchToNebulaPro, switchToRoseParadise, switchToOmnitrixCode, switchToNeonDreamCode);
+    let switchToEclipseDark = vscode.commands.registerCommand('multiBg.switchToEclipseDark', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Eclipse Dark', vscode.ConfigurationTarget.Global);
+    });
+
+    let switchToEclipseLight = vscode.commands.registerCommand('multiBg.switchToEclipseLight', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Eclipse Light', vscode.ConfigurationTarget.Global);
+    });
+
+    let switchToSpaceDark = vscode.commands.registerCommand('multiBg.switchToSpaceDark', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Space Dark', vscode.ConfigurationTarget.Global);
+    });
+
+    let switchToSpaceLight = vscode.commands.registerCommand('multiBg.switchToSpaceLight', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Space Light', vscode.ConfigurationTarget.Global);
+    });
+
+    context.subscriptions.push(switchToHacker, switchToPink, switchToBlue, switchToDark, switchToNord, switchToTokyo, switchToDracula, switchToSolarized, switchToGruvbox, switchToGentleSepia, switchToLowBlueNight, switchToSoftContrast, switchToDuskyRose, switchToHighReadability, switchToOneDarkPro, switchToDragonBallGokuEyeSafe, switchToAyuMirage, switchToCatppuccinMocha, switchToEyeComfort, switchToMoonlight, switchToNightOwl, switchToNebulaPro, switchToRoseParadise, switchToOmnitrixCode, switchToNeonDreamCode, switchToEclipseDark, switchToEclipseLight, switchToSpaceDark, switchToSpaceLight);
 }
 
 export function deactivate() {}
