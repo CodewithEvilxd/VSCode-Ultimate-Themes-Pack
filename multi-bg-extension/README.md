@@ -550,4 +550,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](../LICENS
 
 ---
 
-**Made with ❤️ by [SecureDev01](https://github.com/codewithevilxd)**
+**Made with ❤️ by [RAj](https://github.com/codewithevilxd)**

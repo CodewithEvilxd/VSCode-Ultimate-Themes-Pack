@@ -1,10 +1,10 @@
 # VSCode Ultimate Themes Pack
 
 [![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Marketplace-blue)](https://marketplace.visualstudio.com/publishers/SecureDev01)
-[![Version](https://img.shields.io/badge/version-0.0.21-green)](https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes)
+[![Version](https://img.shields.io/badge/version-0.0.23-green)](https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/codewithevilxd/vscode-multi-themes/blob/main/LICENSE)
 
-A comprehensive collection of **28 professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Includes 19 popular themes plus 9 accessibility-focused themes optimized for different lighting conditions and user needs. Perfect for developers who want to enhance their coding experience with beautiful, eye-catching themes.
+A comprehensive collection of **28 professionally designed themes** and **1 ultimate icon theme** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Includes 19 popular themes plus 9 accessibility-focused themes optimized for different lighting conditions and user needs. Perfect for developers who want to enhance their coding experience with beautiful, eye-catching themes and professional file icons.
 
 ## ✨ Features
 
@@ -54,6 +54,114 @@ A comprehensive collection of **28 professionally designed themes** for Visual S
 - Optimized contrast ratios for better readability
 - Consistent highlighting across all themes
 - Support for modern language features
+
+### 🎨 **Ultimate Icon Theme**
+- **Professional file icons** for all programming languages and file types
+- **Context-aware folder icons** with light and dark variants
+- **Comprehensive coverage** including JavaScript, TypeScript, Python, React, Vue, and more
+- **Consistent design language** that complements all color themes
+- **Optimized for productivity** with clear, recognizable icons
+
+#### 📁 **File Icons (70+ types)**
+
+| Icon | File Type | Description |
+|------|-----------|-------------|
+| 🟨 | JavaScript (.js, .mjs, .cjs) | JavaScript files with distinctive J+S logo |
+| 🔷 | TypeScript (.ts, .mts, .cts) | TypeScript files with blue TS emblem |
+| 🐍 | Python (.py) | Python snake logo in blue |
+| ☕ | Java (.java) | Coffee cup Java logo |
+| ⚙️ | C/C++ (.c, .cpp, .cc) | Gear icon for C/C++ files |
+| 🔷 | C# (.cs) | C# sharp symbol |
+| 🔵 | Go (.go) | Go gopher mascot |
+| 🦀 | Rust (.rs) | Rust crab logo |
+| 🐘 | PHP (.php) | Elephant PHP logo |
+| 💎 | Ruby (.rb) | Ruby gemstone |
+| 🏎️ | Swift (.swift) | Swift racing car |
+| ⚡ | React (.jsx, .tsx) | React atomic symbol |
+| 🌿 | Vue (.vue) | Vue leaf logo |
+| 🎨 | HTML (.html) | HTML document icon |
+| 🎨 | CSS (.css, .scss) | Paintbrush for stylesheets |
+| 📄 | JSON (.json) | Document with braces |
+| 🐳 | Docker (Dockerfile) | Docker whale logo |
+| 📦 | Node.js (package.json) | Node.js hexagon |
+| 📝 | Markdown (.md, .mdx) | Document with markdown |
+| 🖼️ | Images (.png, .jpg, .svg) | Picture frame |
+| 🎵 | Audio (.mp3, .wav) | Music note |
+| 🎬 | Video (.mp4, .webm) | Film strip |
+| 📚 | Git (.gitignore) | Git branch icon |
+| 🔧 | Config files | Gear for configuration |
+| ⚡ | Zig (.zig) | Zig programming language |
+| 🎯 | Kotlin (.kt) | Kotlin logo |
+| 🎯 | Dart (.dart) | Dart programming language |
+| 🌙 | Lua (.lua) | Lua moon logo |
+| ✨ | Gleam (.gleam) | Gleam programming language |
+| 📋 | Header (.h, .hpp) | C/C++ header files |
+| 🔧 | HCL (.hcl) | HashiCorp Configuration Language |
+| 🌍 | Terraform (.tf) | Terraform infrastructure as code |
+| 🔵 | PowerShell (.ps1) | PowerShell script files |
+| 🐚 | Shell (.sh, .bash) | Shell script files |
+| 🐶 | Pug (.pug) | Pug template engine |
+| 🎨 | Stylus (.styl) | Stylus CSS preprocessor |
+| 📖 | Storybook (.stories.js) | Storybook component library |
+| ⚡ | Vite (vite.config.js) | Vite build tool |
+| 📦 | NPM (.npmrc) | NPM package manager |
+| 🔧 | ESLint (.eslintrc) | ESLint configuration |
+| 📦 | Archives (.zip, .tar, .gz) | Compressed archive files |
+| 📄 | Text (.txt, .rtf) | Plain text files |
+| 📄 | TOML (.toml) | TOML configuration files |
+| 📄 | YAML (.yaml, .yml) | YAML configuration files |
+| ⚙️ | WebAssembly (.wasm) | WebAssembly binary files |
+| 🎨 | SVG (.svg) | Scalable Vector Graphics |
+| 🎬 | Video (.mp4, .webm) | Video files |
+| 🎵 | Audio (.mp3, .wav) | Audio files |
+| ⚙️ | Assembly (.asm, .s) | Assembly language files |
+| ⚙️ | Binary (.bin, .exe) | Binary executable files |
+| 📄 | License (LICENSE) | License files |
+| ⚡ | Scala (.scala) | Scala programming language |
+| 🎮 | Roblox (.rbxm, .rbxmx) | Roblox game files |
+| 🌙 | Luau (.luau) | Luau scripting language |
+
+#### 📂 **Folder Icons (25+ types)**
+
+| Icon | Folder Type | Description |
+|------|-------------|-------------|
+| 📁 | Default folder | Standard folder icon |
+| 📂 | Source (src, lib) | Green folder with code symbol |
+| 🏗️ | Build/Dist (build, out) | Construction helmet for build folders |
+| ⚙️ | Config (.vscode, .github) | Gear icon for configuration folders |
+| 🧪 | Test (__tests__, specs) | Test tube for test directories |
+| 📚 | Docs (documentation) | Book for documentation |
+| 🧩 | Components | Puzzle piece for components |
+| 📱 | App (apps, ui) | Mobile app icon |
+| 🎨 | Assets (public) | Palette for asset folders |
+| 🗄️ | Database (data, db) | Database cylinder |
+| 🖥️ | Server (api, apis) | Server rack for backend folders |
+| 💻 | Client | Client-side application folder |
+| 🔌 | Utils (helpers, tools) | Plug for utility folders |
+| 🎨 | CSS (styles, stylesheets) | Paintbrush for CSS folders |
+| 📄 | HTML (pages, views) | Document for HTML folders |
+| 📦 | Node modules (vendor) | Package box for node_modules |
+| 📖 | Storybook (stories) | Book for Storybook folders |
+| 📦 | Package (packages, pkg) | Package icon for package folders |
+| 🔧 | Provider (services, controllers) | Provider icon for service folders |
+| 📋 | Schema (schemas) | Schema icon for schema folders |
+| 💾 | Store (stores, state) | Store icon for state management |
+| 🪝 | Hook (hooks, composables) | Hook icon for React hooks |
+| ⚡ | Function (functions, handlers) | Function icon for function folders |
+| 📡 | Event (events, remote) | Event icon for event folders |
+| 🔤 | Font (fonts, typography) | Font icon for font folders |
+| 🖼️ | Image (images, img, photos) | Image icon for image folders |
+| 🎬 | Video (videos) | Video icon for video folders |
+| 🎵 | Audio (sounds, music) | Audio icon for audio folders |
+| 📄 | File (files, temp, logs) | File icon for file folders |
+| 🌐 | Globe (global, i18n) | Globe for internationalization |
+| 🔗 | Shared (common) | Link icon for shared folders |
+| 📝 | Context | Context icon for context folders |
+| 🎯 | Command (cmdr, middleware) | Target for command folders |
+| ❌ | Error (problems, issues) | Error icon for error folders |
+| 📊 | Model (models) | Model icon for data models |
+| 🏷️ | Type (types, interfaces) | Label for type definitions |
+| 🌙 | Lune | Moon for Lune folders |
 
 ## 📦 Installation
 
@@ -109,6 +217,11 @@ A comprehensive collection of **28 professionally designed themes** for Visual S
 1. Go to **File** → **Preferences** → **Color Theme** (or **Settings** → **Color Theme**)
 2. Select your preferred theme from the dropdown list
 3. The theme will be applied immediately
+
+### Icon Theme Selection
+1. Go to **File** → **Preferences** → **File Icon Theme** (or **Settings** → **File Icon Theme**)
+2. Select "Ultimate Icon Theme" from the dropdown list
+3. Professional file and folder icons will be applied immediately
 
 ### Keyboard Shortcuts
 You can assign custom keyboard shortcuts to theme switching commands:
@@ -427,6 +540,11 @@ vscode-multi-themes/
 │   ├── eclipse-light-theme.json
 │   ├── space-dark-theme.json
 │   └── space-light-theme.json
+├── icons/                    # Icon theme files
+│   ├── ultimate-icon-theme.json  # Icon theme definition
+│   ├── files/                # File icons (70+ SVG icons)
+│   ├── folders/              # Folder icons (25+ SVG icons)
+│   └── folders-alt/          # Alternative folder icons for light themes
 ├── out/                     # Compiled JavaScript
 ├── package.json             # Extension manifest
 ├── tsconfig.json           # TypeScript configuration
@@ -502,7 +620,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](../LICENS
 - **📦 Downloads**: 1,000+ (Marketplace)
 - **⭐ Stars**: 50+ (GitHub)
 - **🎨 Themes**: 28 professional themes (19 popular + 9 accessibility-focused)
-- **🌍 Languages**: English
+- **🎯 Icons**: 1 ultimate icon theme with 70+ file icons and 25+ folder icons
+- ** Languages**: English
 - **🔧 Compatibility**: VS Code 1.75.0+
 
 ## 🚀 Roadmap
@@ -515,8 +634,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](../LICENS
 - [ ] **Theme Presets**: Curated theme combinations for different use cases
 
 ### Recent Updates
+- ✅ **v0.0.23**: Added Ultimate Icon Theme with 70+ professional file icons and 25+ context-aware folder icons for enhanced visual experience
+- ✅ **v0.0.22**: Added 4 new themes (Eclipse Dark, Eclipse Light, Space Dark, Space Light) for enhanced development experience
 - ✅ **v0.0.21**: Added 4 new themes (Eclipse Dark, Eclipse Light, Space Dark, Space Light) for enhanced development experience
-- ✅ **v0.0.20**: Added 4 new themes (Eclipse Dark, Eclipse Light, Space Dark, Space Light) for enhanced development experience
 - ✅ **v0.0.19**: Major update with 12 new themes (One Dark Pro, Goku Code, Nebula Pro, Rose Paradise, Omnitrix Code, Neon Dream Code, Ayu Mirage, Catppuccin Mocha, Eye Comfort Pro, Moonlight Soft, Night Owl Comfort)
 - ✅ **v0.0.18**: Enhanced Goku Code theme with semantic highlighting and improved Dragon Ball Z aesthetics
 - ✅ **v0.0.17**: Added Neon Dream Code theme with cyberpunk neon aesthetics
@@ -551,4 +671,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](../LICENS
 
 ---
 
-**Made with ❤️ by [SecureDev01](https://github.com/codewithevilxd/vscode-multi-themes)**
+**Made with ❤️ by [RAj](https://github.com/codewithevilxd/vscode-multi-themes)**
