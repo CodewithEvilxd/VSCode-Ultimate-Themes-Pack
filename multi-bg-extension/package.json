@@ -135,6 +135,10 @@
       {
         "command": "multiBg.switchToSpaceLight",
         "title": "Switch to Space Light Theme"
+      },
+      {
+        "command": "multiBg.switchToCosmicDark",
+        "title": "Switch to Cosmic Dark Theme"
       }
     ],
     "menus": {
@@ -225,6 +229,9 @@
         },
         {
           "command": "multiBg.switchToSpaceLight"
+        },
+        {
+          "command": "multiBg.switchToCosmicDark"
         }
       ]
     },
@@ -380,6 +387,11 @@
         "label": "Space Light",
         "uiTheme": "vs",
         "path": "./themes/space-light-theme.json"
+      },
+      {
+        "label": "Cosmic Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cosmic-dark-theme.json"
       }
     ]
   },
