@@ -1,14 +1,39 @@
 # VSCode Ultimate Themes Pack
 
 [![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Marketplace-blue)](https://marketplace.visualstudio.com/publishers/SecureDev01)
-[![Version](https://img.shields.io/badge/version-0.0.20-green)](https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes)
+[![Version](https://img.shields.io/badge/version-0.0.24-green)](https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/codewithevilxd/vscode-multi-themes/blob/main/LICENSE)
 
-A comprehensive collection of **28 professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Includes 19 popular themes plus 9 accessibility-focused themes optimized for different lighting conditions and user needs. Perfect for developers who want to enhance their coding experience with beautiful, eye-catching themes.
+A comprehensive collection of **28+ professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Popular themes include Hacker, Pink, Blue, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code (Dragon Ball Z), Nebula, Rose Paradise, Omnitrix (Ben 10), Neon Dream, Ayu Mirage, Catppuccin Mocha, Eye Comfort, Moonlight, Night Owl, Eclipse, Space, Cosmic. Accessibility themes: Gentle Sepia, Low Blue Night, Soft Contrast, Dusky Rose, High Readability. Includes Ultimate Icon Theme with 70+ file icons and 25+ folder icons. Perfect for developers seeking premium VSCode themes with enhanced productivity and eye comfort.
 
 ## ✨ Features
 
-### 🎨 **28 Professional Themes**
+### 🎨 **28+ Professional VSCode Themes**
+
+Looking for the best VSCode themes? Our ultimate collection includes premium dark themes, beautiful light themes, and accessibility-focused options for every developer preference.
+
+#### 🔥 **Top Dark Themes for VSCode**
+- **Hacker Theme**: Classic dark green theme perfect for coding enthusiasts
+- **Nord Dark Theme**: Minimalist Arctic-inspired theme for clean, professional coding
+- **Tokyo Night Theme**: Purple-blue theme inspired by urban nightscapes
+- **Dracula Pro Theme**: Elegant dark theme with purple accents
+- **Solarized Dark Theme**: Scientifically optimized for eye comfort and readability
+- **Gruvbox Dark Theme**: Warm, earthy theme for cozy development sessions
+- **One Dark Pro Theme**: Enhanced version of the popular One Dark theme
+
+#### 🌈 **Popular Light Themes**
+- **Pink Theme**: Soft pastel pink for creative developers
+- **Rose Paradise Theme**: Romantic rose-themed light theme
+- **Gentle Sepia Theme**: Paper-like reading experience for bright environments
+
+#### 🎯 **Specialty Themes**
+- **Goku Code Theme**: Dragon Ball Z inspired with Saiyan power colors
+- **Omnitrix Code Theme**: Ben 10 themed with alien technology aesthetics
+- **Neon Dream Code Theme**: Cyberpunk neon theme with vibrant colors
+- **Eye Comfort Dark Pro**: Professional theme optimized for extended coding
+- **Night Owl Comfort**: Comfortable dark theme for night coding sessions
+
+### ⚡ **Quick Theme Switching**
 
 #### Popular Themes
 - **🚀 Hacker Theme**: Classic dark theme with black background and vibrant green text for a cyberpunk aesthetic
@@ -505,7 +530,30 @@ This project is licensed under the **MIT License** - see the [LICENSE](../LICENS
 - **🌍 Languages**: English
 - **🔧 Compatibility**: VS Code 1.75.0+
 
-## 🚀 Roadmap
+## 🔍 **Popular VSCode Theme Searches**
+
+Users frequently search for these VSCode themes and features:
+- Best dark themes for VSCode
+- VSCode hacker theme
+- Nord theme VSCode
+- Tokyo Night theme
+- Dracula theme VSCode
+- Solarized dark theme
+- Gruvbox theme
+- One Dark Pro theme
+- VSCode light themes
+- Pink theme VSCode
+- Blue theme VSCode
+- Eye comfort themes
+- Accessibility themes VSCode
+- VSCode icon themes
+- File icons for VSCode
+- Folder icons VSCode
+- Syntax highlighting themes
+- Professional VSCode themes
+- Premium VSCode themes
+
+##  Roadmap
 
 ### Upcoming Features
 - [ ] **More Themes**: Additional color schemes based on user requests
