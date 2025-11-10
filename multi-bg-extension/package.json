@@ -1,8 +1,8 @@
 {
   "name": "vscode-multi-themes",
-  "displayName": "Ultimate VSCode Themes Pack - 28+ Professional Dark & Light Themes with Icons",
-  "description": "Ultimate collection of 28+ professional VSCode themes: dark themes like Hacker, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code, Nebula, Neon Dream; light themes like Pink, Rose Paradise, Gentle Sepia; accessibility themes for eye comfort. Includes Ultimate Icon Theme with 70+ file icons and 25+ folder icons. Premium syntax highlighting for all programming languages.",
-  "version": "0.0.24",
+  "displayName": "Ultimate VSCode Themes Pack - 33+ Professional Dark & Light Themes with 3 Icon Packs",
+  "description": "Ultimate collection of 33+ professional VSCode themes: dark themes like Nebula Storm, Stellar Operator, Cosmic Eclipse, Ocean Depths, Hacker, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code, Nebula, Neon Dream; light themes like Pink, Rose Paradise, Gentle Sepia; accessibility themes for eye comfort. Includes 3 Icon Themes: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons). Premium syntax highlighting for all programming languages.",
+  "version": "0.0.25",
   "publisher": "SecureDev01",
   "keywords": [
     "vscode themes",
@@ -47,6 +47,11 @@
     "light",
     "syntax",
     "highlighting",
+    "nebula storm",
+    "stellar operator",
+    "cosmic eclipse",
+    "nebula storm",
+    "ocean depths",
     "hacker",
     "pink",
     "blue",
@@ -218,6 +223,38 @@
       {
         "command": "multiBg.switchToCosmicDark",
         "title": "Switch to Cosmic Dark Theme"
+      },
+      {
+        "command": "multiBg.switchToElectricDreams",
+        "title": "Switch to Aurora Borealis Theme"
+      },
+      {
+        "command": "multiBg.switchToWinterIsComing",
+        "title": "Switch to Midnight Frost Theme"
+      },
+      {
+        "command": "multiBg.switchToCyberpunkNeon",
+        "title": "Switch to Cyberpunk Neon Theme"
+      },
+      {
+        "command": "multiBg.switchToOceanBreeze",
+        "title": "Switch to Ocean Breeze Theme"
+      },
+      {
+        "command": "multiBg.switchToNeonCyberpunk",
+        "title": "Switch to Neon Cyberpunk Theme"
+      },
+      {
+        "command": "multiBg.switchToUltimateIconTheme",
+        "title": "Switch to Ultimate Icon Theme"
+      },
+      {
+        "command": "multiBg.switchToMinimalIconTheme",
+        "title": "Switch to Minimal Icon Theme"
+      },
+      {
+        "command": "multiBg.switchToRetroPixelIconTheme",
+        "title": "Switch to Retro Pixel Icon Theme"
       }
     ],
     "menus": {
@@ -311,6 +348,30 @@
         },
         {
           "command": "multiBg.switchToCosmicDark"
+        },
+        {
+          "command": "multiBg.switchToElectricDreams"
+        },
+        {
+          "command": "multiBg.switchToWinterIsComing"
+        },
+        {
+          "command": "multiBg.switchToCyberpunkNeon"
+        },
+        {
+          "command": "multiBg.switchToOceanBreeze"
+        },
+        {
+          "command": "multiBg.switchToNeonCyberpunk"
+        },
+        {
+          "command": "multiBg.switchToUltimateIconTheme"
+        },
+        {
+          "command": "multiBg.switchToMinimalIconTheme"
+        },
+        {
+          "command": "multiBg.switchToRetroPixelIconTheme"
         }
       ]
     },
@@ -319,9 +380,39 @@
         "id": "ultimate-icon-theme",
         "label": "Ultimate Icon Theme",
         "path": "./icons/ultimate-icon-theme.json"
+      },
+      {
+        "id": "minimal-icon-theme",
+        "label": "Minimal Icon Theme",
+        "path": "./icons/minimal-icon-theme.json"
+      },
+      {
+        "id": "retro-pixel-icon-theme",
+        "label": "Retro Pixel Icon Theme",
+        "path": "./icons/pixel-icon-theme.json"
       }
     ],
     "themes": [
+      {
+        "label": "Stellar Operator",
+        "uiTheme": "vs-dark",
+        "path": "./themes/stellar-operator-theme.json"
+      },
+      {
+        "label": "Cosmic Eclipse",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cosmic-eclipse-theme.json"
+      },
+      {
+        "label": "Nebula Storm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nebula-storm-theme.json"
+      },
+      {
+        "label": "Ocean Depths",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ocean-depths-theme.json"
+      },
       {
         "label": "Neo Hacker Soft - Premium",
         "uiTheme": "vs-dark",
@@ -471,6 +562,31 @@
         "label": "Cosmic Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/cosmic-dark-theme.json"
+      },
+      {
+        "label": "Aurora Borealis",
+        "uiTheme": "vs",
+        "path": "./themes/aurora-borealis-theme.json"
+      },
+      {
+        "label": "Midnight Frost",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-frost-theme.json"
+      },
+      {
+        "label": "Cyberpunk Neon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyberpunk-neon-theme.json"
+      },
+      {
+        "label": "Ocean Breeze",
+        "uiTheme": "vs",
+        "path": "./themes/ocean-breeze-theme.json"
+      },
+      {
+        "label": "Neon Cyberpunk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-cyberpunk-theme.json"
       }
     ]
   },

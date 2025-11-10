@@ -5,7 +5,6 @@ exports.activate = activate;
 exports.deactivate = deactivate;
 const vscode = require("vscode");
 function activate(context) {
-    console.log('Multi Background Themes extension is now active!');
     let switchToHacker = vscode.commands.registerCommand('multiBg.switchToHacker', () => {
         vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Hacker Theme', vscode.ConfigurationTarget.Global);
     });
@@ -94,10 +93,37 @@ function activate(context) {
         vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Space Light', vscode.ConfigurationTarget.Global);
     });
     let switchToCosmicDark = vscode.commands.registerCommand('multiBg.switchToCosmicDark', () => {
-        console.log('Switching to Cosmic Dark theme');
+        ('Switching to Cosmic Dark theme');
         vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Cosmic Dark', vscode.ConfigurationTarget.Global);
     });
-    context.subscriptions.push(switchToHacker, switchToPink, switchToBlue, switchToDark, switchToNord, switchToTokyo, switchToDracula, switchToSolarized, switchToGruvbox, switchToGentleSepia, switchToLowBlueNight, switchToSoftContrast, switchToDuskyRose, switchToHighReadability, switchToOneDarkPro, switchToDragonBallGokuEyeSafe, switchToAyuMirage, switchToCatppuccinMocha, switchToEyeComfort, switchToMoonlight, switchToNightOwl, switchToNebulaPro, switchToRoseParadise, switchToOmnitrixCode, switchToNeonDreamCode, switchToEclipseDark, switchToEclipseLight, switchToSpaceDark, switchToSpaceLight, switchToCosmicDark);
+    let switchToElectricDreams = vscode.commands.registerCommand('multiBg.switchToElectricDreams', () => {
+        ('Switching to Electric Dreams theme');
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Aurora Borealis', vscode.ConfigurationTarget.Global);
+    });
+    let switchToWinterIsComing = vscode.commands.registerCommand('multiBg.switchToWinterIsComing', () => {
+        ('Switching to Winter Is Coming theme');
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Midnight Frost', vscode.ConfigurationTarget.Global);
+    });
+    let switchToCyberpunkNeon = vscode.commands.registerCommand('multiBg.switchToCyberpunkNeon', () => {
+        ('Switching to Cyberpunk Neon theme');
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Cyberpunk Neon', vscode.ConfigurationTarget.Global);
+    });
+    let switchToOceanBreeze = vscode.commands.registerCommand('multiBg.switchToOceanBreeze', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Ocean Breeze', vscode.ConfigurationTarget.Global);
+    });
+    let switchToNeonCyberpunk = vscode.commands.registerCommand('multiBg.switchToNeonCyberpunk', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Neon Cyberpunk', vscode.ConfigurationTarget.Global);
+    });
+    let switchToUltimateIconTheme = vscode.commands.registerCommand('multiBg.switchToUltimateIconTheme', () => {
+        vscode.workspace.getConfiguration('workbench').update('iconTheme', 'ultimate-icon-theme', vscode.ConfigurationTarget.Global);
+    });
+    let switchToMinimalIconTheme = vscode.commands.registerCommand('multiBg.switchToMinimalIconTheme', () => {
+        vscode.workspace.getConfiguration('workbench').update('iconTheme', 'minimal-icon-theme', vscode.ConfigurationTarget.Global);
+    });
+    let switchToRetroPixelIconTheme = vscode.commands.registerCommand('multiBg.switchToRetroPixelIconTheme', () => {
+        vscode.workspace.getConfiguration('workbench').update('iconTheme', 'retro-pixel-icon-theme', vscode.ConfigurationTarget.Global);
+    });
+    context.subscriptions.push(switchToHacker, switchToPink, switchToBlue, switchToDark, switchToNord, switchToTokyo, switchToDracula, switchToSolarized, switchToGruvbox, switchToGentleSepia, switchToLowBlueNight, switchToSoftContrast, switchToDuskyRose, switchToHighReadability, switchToOneDarkPro, switchToDragonBallGokuEyeSafe, switchToAyuMirage, switchToCatppuccinMocha, switchToEyeComfort, switchToMoonlight, switchToNightOwl, switchToNebulaPro, switchToRoseParadise, switchToOmnitrixCode, switchToNeonDreamCode, switchToEclipseDark, switchToEclipseLight, switchToSpaceDark, switchToSpaceLight, switchToCosmicDark, switchToElectricDreams, switchToWinterIsComing, switchToCyberpunkNeon, switchToOceanBreeze, switchToNeonCyberpunk, switchToUltimateIconTheme, switchToMinimalIconTheme, switchToRetroPixelIconTheme);
 }
 function deactivate() { }
 //# sourceMappingURL=extension.js.map

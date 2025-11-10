@@ -1,14 +1,14 @@
 # VSCode Ultimate Themes Pack
 
 [![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Marketplace-blue)](https://marketplace.visualstudio.com/publishers/SecureDev01)
-[![Version](https://img.shields.io/badge/version-0.0.24-green)](https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes)
+[![Version](https://img.shields.io/badge/version-0.0.25-green)](https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/codewithevilxd/vscode-multi-themes/blob/main/LICENSE)
 
-A comprehensive collection of **28+ professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Popular themes include Hacker, Pink, Blue, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code (Dragon Ball Z), Nebula, Rose Paradise, Omnitrix (Ben 10), Neon Dream, Ayu Mirage, Catppuccin Mocha, Eye Comfort, Moonlight, Night Owl, Eclipse, Space, Cosmic. Accessibility themes: Gentle Sepia, Low Blue Night, Soft Contrast, Dusky Rose, High Readability. Includes Ultimate Icon Theme with 70+ file icons and 25+ folder icons. Perfect for developers seeking premium VSCode themes with enhanced productivity and eye comfort.
+A comprehensive collection of **33+ professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Popular themes include Hacker, Pink, Blue, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code (Dragon Ball Z), Nebula, Rose Paradise, Omnitrix (Ben 10), Neon Dream, Ayu Mirage, Catppuccin Mocha, Eye Comfort, Moonlight, Night Owl, Eclipse, Space, Cosmic. Accessibility themes: Gentle Sepia, Low Blue Night, Soft Contrast, Dusky Rose, High Readability. Includes **3 Icon Themes**: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons). Perfect for developers seeking premium VSCode themes with enhanced productivity and eye comfort.
 
 ## ✨ Features
 
-### 🎨 **28+ Professional VSCode Themes**
+### 🎨 **33+ Professional VSCode Themes**
 
 Looking for the best VSCode themes? Our ultimate collection includes premium dark themes, beautiful light themes, and accessibility-focused options for every developer preference.
 
@@ -526,7 +526,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](../LICENS
 
 - **📦 Downloads**: 1,000+ (Marketplace)
 - **⭐ Stars**: 50+ (GitHub)
-- **🎨 Themes**: 28 professional themes (19 popular + 9 accessibility-focused)
+- **🎨 Themes**: 33 professional themes (24 popular + 9 accessibility-focused)
+- **🎯 Icon Themes**: 3 distinct icon packs (Ultimate SVG, Minimal, Retro Pixel)
 - **🌍 Languages**: English
 - **🔧 Compatibility**: VS Code 1.75.0+
 
@@ -563,6 +564,7 @@ Users frequently search for these VSCode themes and features:
 - [ ] **Theme Presets**: Curated theme combinations for different use cases
 
 ### Recent Updates
+- ✅ **v0.0.25**: Added 3 Icon Themes (Ultimate SVG, Minimal, Retro Pixel) with 239+ total icons for enhanced file/folder visualization
 - ✅ **v0.0.20**: Added 4 new themes (Eclipse Dark, Eclipse Light, Space Dark, Space Light) for enhanced development experience
 - ✅ **v0.0.19**: Major update with 12 new themes (One Dark Pro, Goku Code, Nebula Pro, Rose Paradise, Omnitrix Code, Neon Dream Code, Ayu Mirage, Catppuccin Mocha, Eye Comfort Pro, Moonlight Soft, Night Owl Comfort)
 - ✅ **v0.0.18**: Enhanced Goku Code theme with semantic highlighting and improved Dragon Ball Z aesthetics
