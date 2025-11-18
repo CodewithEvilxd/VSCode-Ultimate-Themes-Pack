@@ -2,7 +2,7 @@
   "name": "vscode-multi-themes",
   "displayName": "Ultimate VSCode Themes Pack - 33+ Professional Dark & Light Themes with 3 Icon Packs",
   "description": "Ultimate collection of 33+ professional VSCode themes: dark themes like Nebula Storm, Stellar Operator, Cosmic Eclipse, Ocean Depths, Hacker, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code, Nebula, Neon Dream; light themes like Pink, Rose Paradise, Gentle Sepia; accessibility themes for eye comfort. Includes 3 Icon Themes: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons). Premium syntax highlighting for all programming languages.",
-  "version": "0.0.31",
+  "version": "0.0.32",
   "publisher": "SecureDev01",
   "keywords": [
     "vscode themes",
@@ -269,6 +269,26 @@
         "title": "Switch to Midnight Glow Theme (NEW)"
       },
       {
+        "command": "multiBg.switchToCalmDark",
+        "title": "Switch to Calm Dark Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToCalmLight",
+        "title": "Switch to Calm Light Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToPinkPixelCandyNebula",
+        "title": "Switch to Pink Pixel Candy Nebula Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToSugarRushDark",
+        "title": "Switch to Sugar Rush Dark Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToPixelLabDark",
+        "title": "Switch to Pixel Lab Dark Theme (NEW)"
+      },
+      {
         "command": "multiBg.switchToUltimateIconTheme",
         "title": "Switch to Ultimate Icon Theme"
       },
@@ -405,6 +425,21 @@
         },
         {
           "command": "multiBg.switchToMidnightGlow"
+        },
+        {
+          "command": "multiBg.switchToCalmDark"
+        },
+        {
+          "command": "multiBg.switchToCalmLight"
+        },
+        {
+          "command": "multiBg.switchToPinkPixelCandyNebula"
+        },
+        {
+          "command": "multiBg.switchToSugarRushDark"
+        },
+        {
+          "command": "multiBg.switchToPixelLabDark"
         },
         {
           "command": "multiBg.switchToUltimateIconTheme"
@@ -659,6 +694,31 @@
         "label": "Midnight Glow",
         "uiTheme": "vs-dark",
         "path": "./themes/midnight-glow-theme.json"
+      },
+      {
+        "label": "Calm Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/calm-dark-theme.json"
+      },
+      {
+        "label": "Calm Light",
+        "uiTheme": "vs",
+        "path": "./themes/calm-light-theme.json"
+      },
+      {
+        "label": "Pink Pixel Candy Nebula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pink-pixel-candy-nebula-theme.json"
+      },
+      {
+        "label": "Sugar Rush Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sugar-rush-dark-theme.json"
+      },
+      {
+        "label": "Pixel Lab Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pixel-lab-dark-theme.json"
       }
     ]
   },

@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/badge/version-0.0.25-green)](https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/codewithevilxd/vscode-multi-themes/blob/main/LICENSE)
 
-A comprehensive collection of **39+ professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Popular themes include Hacker, Pink, Blue, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code (Dragon Ball Z), Nebula, Rose Paradise, Omnitrix (Ben 10), Neon Dream, Ayu Mirage, Catppuccin Mocha, Eye Comfort, Moonlight, Night Owl, Eclipse, Space, Cosmic, **Deep Space Dark & Deep Space Light, Pink Kitty Theme, Japanese Wave, Cosmic Console, Midnight Glow (NEW)**. Accessibility themes: Gentle Sepia, Low Blue Night, Soft Contrast, Dusky Rose, High Readability. Includes **3 Icon Themes**: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons). Perfect for developers seeking premium VSCode themes with enhanced productivity and eye comfort.
+A comprehensive collection of **44+ professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Popular themes include Hacker, Pink, Blue, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code (Dragon Ball Z), Nebula, Rose Paradise, Omnitrix (Ben 10), Neon Dream, Ayu Mirage, Catppuccin Mocha, Eye Comfort, Moonlight, Night Owl, Eclipse, Space, Cosmic, **Deep Space Dark & Deep Space Light, Pink Kitty Theme, Japanese Wave, Cosmic Console, Midnight Glow, Calm Dark & Calm Light, Pink Pixel Candy Nebula, Sugar Rush Dark, Pixel Lab Dark (NEW)**. Accessibility themes: Gentle Sepia, Low Blue Night, Soft Contrast, Dusky Rose, High Readability. Includes **3 Icon Themes**: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons). Perfect for developers seeking premium VSCode themes with enhanced productivity and eye comfort.
 
 ## ✨ Features
 
@@ -136,6 +136,11 @@ Looking for the best VSCode themes? Our ultimate collection includes premium dar
    - `Switch to Japanese Wave Theme`
    - `Switch to Cosmic Console Theme`
    - `Switch to Midnight Glow Theme`
+   - `Switch to Calm Dark Theme`
+   - `Switch to Calm Light Theme`
+   - `Switch to Pink Pixel Candy Nebula Theme`
+   - `Switch to Sugar Rush Dark Theme`
+   - `Switch to Pixel Lab Dark Theme`
 
 ### Manual Selection
 1. Go to **File** → **Preferences** → **Color Theme** (or **Settings** → **Color Theme**)
@@ -263,6 +268,46 @@ You can assign custom keyboard shortcuts to theme switching commands:
 - **Strings**: Electric blue (#50DFFE)
 - **Keywords**: Deep blush (#E752A1)
 - **Best for**: Elegant dark theme with glowing syntax, midnight coding sessions, sophisticated aesthetics
+
+#### 🌿 Calm Dark Theme (NEW)
+- **Background**: Serene dark blue-gray (#191f22)
+- **Text**: Warm cream (#e6e2d9)
+- **Comments**: Soft green (#7f9916) with italics
+- **Strings**: Light beige (#dbd3ce)
+- **Keywords**: Warm cream (#dedbd3)
+- **Best for**: Serene coding environment, soothing colors, focused development sessions
+
+#### ☀️ Calm Light Theme (NEW)
+- **Background**: Warm parchment (#f9f5e7)
+- **Text**: Rich brown (#2F291F)
+- **Comments**: Orange-brown (#ca7113) with italics
+- **Strings**: Deep brown (#b44a15)
+- **Keywords**: Dark brown (#574535)
+- **Best for**: Bright and calming light theme, comfortable for long coding sessions, paper-like reading experience
+
+#### 🍭 Pink Pixel Candy Nebula Theme (NEW)
+- **Background**: Deep pink nebula (#0b0213)
+- **Text**: Soft pink-white (#ffecf7)
+- **Comments**: Lavender-gray (#6a608a) with italics
+- **Strings**: Mint green (#7effc3)
+- **Keywords**: Hot pink (#ff8be4)
+- **Best for**: Sweet and vibrant nebula theme, candy-like colors, cosmic pink aesthetic for creative coding
+
+#### 🍬 Sugar Rush Dark Theme (NEW)
+- **Background**: Dark charcoal (#0a0d10)
+- **Text**: Soft white (#fdf8ff)
+- **Comments**: Gray-blue (#666c79) with italics
+- **Strings**: Mint green (#1fff9f)
+- **Keywords**: Hot pink (#ff66f0)
+- **Best for**: Electric and sugary dark theme, vibrant neon colors, high-energy coding experience
+
+#### 🔬 Pixel Lab Dark Theme (NEW)
+- **Background**: Deep slate (#0f141a)
+- **Text**: Bright white (#eaf6ff)
+- **Comments**: Blue-gray (#6f8aa4) with italics
+- **Strings**: Light blue (#aee8ff)
+- **Keywords**: Cyan (#7ad6ff)
+- **Best for**: Clean and professional dark theme, laboratory-like precision, focused development environment
 
 ####  Nebula Pro Dark Theme
 - **Background**: Deep space blue (#0a0d1a)
@@ -581,7 +626,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](../LICENS
 
 - **📦 Downloads**: 1,000+ (Marketplace)
 - **⭐ Stars**: 50+ (GitHub)
-- **🎨 Themes**: 39 professional themes (30 popular + 9 accessibility-focused)
+- **🎨 Themes**: 44 professional themes (35 popular + 9 accessibility-focused)
 - **🎯 Icon Themes**: 3 distinct icon packs (Ultimate SVG, Minimal, Retro Pixel)
 - **🌍 Languages**: English
 - **🔧 Compatibility**: VS Code 1.75.0+
@@ -619,6 +664,11 @@ Users frequently search for these VSCode themes and features:
 - [ ] **Theme Presets**: Curated theme combinations for different use cases
 
 ### Recent Updates
+- ✅ **v0.0.32**: Added Pixel Lab Dark Theme - Clean and professional dark theme for laboratory-like coding precision
+- ✅ **v0.0.32**: Added Sugar Rush Dark Theme - Electric and sugary dark theme with vibrant neon colors for high-energy coding
+- ✅ **v0.0.32**: Added Pink Pixel Candy Nebula Theme - Sweet and vibrant nebula-inspired dark theme with candy-like colors
+- ✅ **v0.0.32**: Added Calm Light Theme - Bright and calming light theme with parchment background for comfortable coding
+- ✅ **v0.0.32**: Added Calm Dark Theme - Serene and soothing dark theme with warm colors for focused coding
 - ✅ **v0.0.31**: Added Midnight Glow Theme - Elegant dark theme with glowing syntax accents and sophisticated midnight aesthetics
 - ✅ **v0.0.31**: Added Cosmic Console Theme - Nebula-inspired console aesthetic with mixed light/dark UI
 - ✅ **v0.0.30**: Japanese Wave Theme - Japanese-inspired elegant dark theme with traditional color palette

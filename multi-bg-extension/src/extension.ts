@@ -178,6 +178,31 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.window.showInformationMessage('🌙 Switched to Midnight Glow Theme (NEW)! Elegant dark theme with glowing accents.');
     });
 
+    let switchToCalmDark = vscode.commands.registerCommand('multiBg.switchToCalmDark', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Calm Dark', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🌿 Switched to Calm Dark Theme (NEW)! Serene and soothing dark theme for focused coding.');
+    });
+
+    let switchToCalmLight = vscode.commands.registerCommand('multiBg.switchToCalmLight', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Calm Light', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('☀️ Switched to Calm Light Theme (NEW)! Bright and calming light theme for comfortable coding.');
+    });
+
+    let switchToPinkPixelCandyNebula = vscode.commands.registerCommand('multiBg.switchToPinkPixelCandyNebula', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Pink Pixel Candy Nebula', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🍭 Switched to Pink Pixel Candy Nebula Theme (NEW)! Sweet and vibrant nebula-inspired dark theme.');
+    });
+
+    let switchToSugarRushDark = vscode.commands.registerCommand('multiBg.switchToSugarRushDark', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Sugar Rush Dark', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🍬 Switched to Sugar Rush Dark Theme (NEW)! Electric and sugary dark theme with vibrant colors.');
+    });
+
+    let switchToPixelLabDark = vscode.commands.registerCommand('multiBg.switchToPixelLabDark', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Pixel Lab Dark', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🔬 Switched to Pixel Lab Dark Theme (NEW)! Clean and professional dark theme for laboratory-like coding.');
+    });
+
     let switchToUltimateIconTheme = vscode.commands.registerCommand('multiBg.switchToUltimateIconTheme', () => {
         vscode.workspace.getConfiguration('workbench').update('iconTheme', 'ultimate-icon-theme', vscode.ConfigurationTarget.Global);
     });
@@ -190,7 +215,7 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.workspace.getConfiguration('workbench').update('iconTheme', 'retro-pixel-icon-theme', vscode.ConfigurationTarget.Global);
     });
 
-    context.subscriptions.push(switchToHacker, switchToPink, switchToBlue, switchToDark, switchToNord, switchToTokyo, switchToDracula, switchToSolarized, switchToGruvbox, switchToGentleSepia, switchToLowBlueNight, switchToSoftContrast, switchToDuskyRose, switchToHighReadability, switchToOneDarkPro, switchToDragonBallGokuEyeSafe, switchToAyuMirage, switchToCatppuccinMocha, switchToEyeComfort, switchToMoonlight, switchToNightOwl, switchToNebulaPro, switchToRoseParadise, switchToOmnitrixCode, switchToNeonDreamCode, switchToEclipseDark, switchToEclipseLight, switchToSpaceDark, switchToSpaceLight, switchToCosmicDark, switchToElectricDreams, switchToWinterIsComing, switchToCyberpunkNeon, switchToOceanBreeze, switchToNeonCyberpunk, switchToDeepSpaceDark, switchToDeepSpaceLight, switchToPinkKitty, switchToJapaneseWave, switchToCosmicConsole, switchToMidnightGlow, switchToUltimateIconTheme, switchToMinimalIconTheme, switchToRetroPixelIconTheme);
+    context.subscriptions.push(switchToHacker, switchToPink, switchToBlue, switchToDark, switchToNord, switchToTokyo, switchToDracula, switchToSolarized, switchToGruvbox, switchToGentleSepia, switchToLowBlueNight, switchToSoftContrast, switchToDuskyRose, switchToHighReadability, switchToOneDarkPro, switchToDragonBallGokuEyeSafe, switchToAyuMirage, switchToCatppuccinMocha, switchToEyeComfort, switchToMoonlight, switchToNightOwl, switchToNebulaPro, switchToRoseParadise, switchToOmnitrixCode, switchToNeonDreamCode, switchToEclipseDark, switchToEclipseLight, switchToSpaceDark, switchToSpaceLight, switchToCosmicDark, switchToElectricDreams, switchToWinterIsComing, switchToCyberpunkNeon, switchToOceanBreeze, switchToNeonCyberpunk, switchToDeepSpaceDark, switchToDeepSpaceLight, switchToPinkKitty, switchToJapaneseWave, switchToCosmicConsole, switchToMidnightGlow, switchToCalmDark, switchToCalmLight, switchToPinkPixelCandyNebula, switchToSugarRushDark, switchToPixelLabDark, switchToUltimateIconTheme, switchToMinimalIconTheme, switchToRetroPixelIconTheme);
 }
 
 export function deactivate() {}
