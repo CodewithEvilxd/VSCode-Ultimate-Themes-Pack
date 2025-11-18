@@ -621,7 +621,7 @@ Users frequently search for these VSCode themes and features:
 ### Recent Updates
 - ✅ **v0.0.31**: Added Midnight Glow Theme - Elegant dark theme with glowing syntax accents and sophisticated midnight aesthetics
 - ✅ **v0.0.31**: Added Cosmic Console Theme - Nebula-inspired console aesthetic with mixed light/dark UI
-- ✅ **v0.0.30**:Japanese Wave Theme - Japanese-inspired elegant dark theme with traditional color palette
+- ✅ **v0.0.30**: Japanese Wave Theme - Japanese-inspired elegant dark theme with traditional color palette
 - ✅ **v0.0.29**: Added Pink Kitty Theme - cute and adorable dark theme with pink and purple aesthetics
 - ✅ **v0.0.28**: Added Deep Space Light theme - the ultimate cosmic light theme with bright space aesthetics and cosmic illumination
 - ✅ **v0.0.27**: Added Deep Space Dark theme - the ultimate cosmic dark theme with deep space aesthetics and enhanced focus
