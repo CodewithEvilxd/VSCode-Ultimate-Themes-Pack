@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/badge/version-0.0.25-green)](https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/codewithevilxd/vscode-multi-themes/blob/main/LICENSE)
 
-A comprehensive collection of **33+ professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Popular themes include Hacker, Pink, Blue, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code (Dragon Ball Z), Nebula, Rose Paradise, Omnitrix (Ben 10), Neon Dream, Ayu Mirage, Catppuccin Mocha, Eye Comfort, Moonlight, Night Owl, Eclipse, Space, Cosmic. Accessibility themes: Gentle Sepia, Low Blue Night, Soft Contrast, Dusky Rose, High Readability. Includes **3 Icon Themes**: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons). Perfect for developers seeking premium VSCode themes with enhanced productivity and eye comfort.
+A comprehensive collection of **39+ professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Popular themes include Hacker, Pink, Blue, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code (Dragon Ball Z), Nebula, Rose Paradise, Omnitrix (Ben 10), Neon Dream, Ayu Mirage, Catppuccin Mocha, Eye Comfort, Moonlight, Night Owl, Eclipse, Space, Cosmic, **Deep Space Dark & Deep Space Light, Pink Kitty Theme, Japanese Wave, Cosmic Console, Midnight Glow (NEW)**. Accessibility themes: Gentle Sepia, Low Blue Night, Soft Contrast, Dusky Rose, High Readability. Includes **3 Icon Themes**: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons). Perfect for developers seeking premium VSCode themes with enhanced productivity and eye comfort.
 
 ## ✨ Features
 
@@ -60,6 +60,7 @@ Looking for the best VSCode themes? Our ultimate collection includes premium dar
 - **☀️ Eclipse Light Theme**: Clean light theme with Eclipse-inspired colors for bright environments
 - **🌌 Space Dark Theme**: Cosmic dark theme with space-inspired colors and deep focus aesthetics
 - **🌠 Space Light Theme**: Bright light theme with space-inspired colors and cosmic illumination
+- **🚀 Deep Space Dark Theme (NEW)**: Ultimate cosmic dark theme with deep space aesthetics and enhanced focus
 
 #### 🎯 Accessibility-Focused Themes
 - **📖 Gentle Sepia Theme**: Warm light theme optimized for bright rooms and paper-like reading experience
@@ -129,6 +130,12 @@ Looking for the best VSCode themes? Our ultimate collection includes premium dar
    - `Switch to Eclipse Light Theme`
    - `Switch to Space Dark Theme`
    - `Switch to Space Light Theme`
+   - `Switch to Deep Space Dark Theme`
+   - `Switch to Deep Space Light Theme`
+   - `Switch to Pink Kitty Theme`
+   - `Switch to Japanese Wave Theme`
+   - `Switch to Cosmic Console Theme`
+   - `Switch to Midnight Glow Theme`
 
 ### Manual Selection
 1. Go to **File** → **Preferences** → **Color Theme** (or **Settings** → **Color Theme**)
@@ -225,7 +232,39 @@ You can assign custom keyboard shortcuts to theme switching commands:
 - **Keywords**: Red (#f44336)
 - **Best for**: Dragon Ball Z fans, semantic highlighting, eye-safe Saiyan power
 
-#### 🌌 Nebula Pro Dark Theme
+#### 🐱 Pink Kitty Theme (NEW)
+- **Background**: Soft pink-purple (#202330)
+- **Text**: Lavender white (#FFF0F5)
+- **Comments**: Sage green (#6D7A72)
+- **Strings**: Golden yellow (#FAE8B6)
+- **Keywords**: Hot pink (#FF4791)
+- **Best for**: Cute and adorable coding, pastel pink aesthetics, fun development experience
+
+#### 🌊 Japanese Wave Theme (NEW)
+- **Background**: Deep ocean blue (#1F1F28)
+- **Text**: Warm cream (#DCD7BA)
+- **Comments**: Muted gray (#727169)
+- **Strings**: Fresh green (#98BB6C)
+- **Keywords**: Purple (#957FB8)
+- **Best for**: Japanese-inspired aesthetics, elegant dark theme, traditional color palette
+
+#### 🌌 Cosmic Console Theme (NEW)
+- **Background**: Mixed light/dark with purple accents (#f6f0ff activity bar, #353551 panels)
+- **Text**: Light colors on dark backgrounds
+- **Comments**: Nebula-inspired muted tones
+- **Strings**: Bright yellow (#ffd866)
+- **Keywords**: Coral pink (#ff6188)
+- **Best for**: Nebula-inspired console aesthetic, mixed light/dark UI, cosmic coding experience
+
+#### 🌙 Midnight Glow Theme (NEW)
+- **Background**: Deep midnight blue (#27273A) with glowing accents
+- **Text**: Soft white (#fcf6ff) with lavender highlights
+- **Comments**: Purple-gray (#8059A2)
+- **Strings**: Electric blue (#50DFFE)
+- **Keywords**: Deep blush (#E752A1)
+- **Best for**: Elegant dark theme with glowing syntax, midnight coding sessions, sophisticated aesthetics
+
+####  Nebula Pro Dark Theme
 - **Background**: Deep space blue (#0a0d1a)
 - **Text**: Light blue (#c8d3f5)
 - **Comments**: Purple-blue (#636da6)
@@ -379,6 +418,22 @@ You can assign custom keyboard shortcuts to theme switching commands:
 - **Keywords**: Pink (#c43058ff)
 - **Best for**: Bright environments, space lovers, cosmic illumination
 
+#### 🚀 Deep Space Dark Theme (NEW)
+- **Background**: Ultimate cosmic black (#0a0019)
+- **Text**: Pure white (#ffffff)
+- **Comments**: Purple-gray (#5a4b81)
+- **Strings**: Light purple (#ddd5fb)
+- **Keywords**: Purple (#af92ff)
+- **Best for**: Deep space enthusiasts, ultimate dark theme, cosmic coding experience
+
+#### 🌟 Deep Space Light Theme (NEW)
+- **Background**: Bright cosmic white (#ffffff)
+- **Text**: Deep space black (#000000)
+- **Comments**: Purple-gray (#cdbbff)
+- **Strings**: Light purple (#532edb)
+- **Keywords**: Purple (#622afd)
+- **Best for**: Bright environments, cosmic illumination, light space aesthetics
+
 ##  Development
 
 ### Prerequisites
@@ -526,7 +581,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](../LICENS
 
 - **📦 Downloads**: 1,000+ (Marketplace)
 - **⭐ Stars**: 50+ (GitHub)
-- **🎨 Themes**: 33 professional themes (24 popular + 9 accessibility-focused)
+- **🎨 Themes**: 39 professional themes (30 popular + 9 accessibility-focused)
 - **🎯 Icon Themes**: 3 distinct icon packs (Ultimate SVG, Minimal, Retro Pixel)
 - **🌍 Languages**: English
 - **🔧 Compatibility**: VS Code 1.75.0+
@@ -564,6 +619,12 @@ Users frequently search for these VSCode themes and features:
 - [ ] **Theme Presets**: Curated theme combinations for different use cases
 
 ### Recent Updates
+- ✅ **v0.0.31**: Added Midnight Glow Theme - Elegant dark theme with glowing syntax accents and sophisticated midnight aesthetics
+- ✅ **v0.0.31**: Added Cosmic Console Theme - Nebula-inspired console aesthetic with mixed light/dark UI
+- ✅ **v0.0.30**:Japanese Wave Theme - Japanese-inspired elegant dark theme with traditional color palette
+- ✅ **v0.0.29**: Added Pink Kitty Theme - cute and adorable dark theme with pink and purple aesthetics
+- ✅ **v0.0.28**: Added Deep Space Light theme - the ultimate cosmic light theme with bright space aesthetics and cosmic illumination
+- ✅ **v0.0.27**: Added Deep Space Dark theme - the ultimate cosmic dark theme with deep space aesthetics and enhanced focus
 - ✅ **v0.0.25**: Added 3 Icon Themes (Ultimate SVG, Minimal, Retro Pixel) with 239+ total icons for enhanced file/folder visualization
 - ✅ **v0.0.20**: Added 4 new themes (Eclipse Dark, Eclipse Light, Space Dark, Space Light) for enhanced development experience
 - ✅ **v0.0.19**: Major update with 12 new themes (One Dark Pro, Goku Code, Nebula Pro, Rose Paradise, Omnitrix Code, Neon Dream Code, Ayu Mirage, Catppuccin Mocha, Eye Comfort Pro, Moonlight Soft, Night Owl Comfort)

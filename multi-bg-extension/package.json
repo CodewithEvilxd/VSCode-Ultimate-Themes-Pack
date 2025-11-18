@@ -2,7 +2,7 @@
   "name": "vscode-multi-themes",
   "displayName": "Ultimate VSCode Themes Pack - 33+ Professional Dark & Light Themes with 3 Icon Packs",
   "description": "Ultimate collection of 33+ professional VSCode themes: dark themes like Nebula Storm, Stellar Operator, Cosmic Eclipse, Ocean Depths, Hacker, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code, Nebula, Neon Dream; light themes like Pink, Rose Paradise, Gentle Sepia; accessibility themes for eye comfort. Includes 3 Icon Themes: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons). Premium syntax highlighting for all programming languages.",
-  "version": "0.0.25",
+  "version": "0.0.31",
   "publisher": "SecureDev01",
   "keywords": [
     "vscode themes",
@@ -245,6 +245,30 @@
         "title": "Switch to Neon Cyberpunk Theme"
       },
       {
+        "command": "multiBg.switchToDeepSpaceDark",
+        "title": "Switch to Deep Space Dark Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToDeepSpaceLight",
+        "title": "Switch to Deep Space Light Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToPinkKitty",
+        "title": "Switch to Pink Kitty Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToJapaneseWave",
+        "title": "Switch to Japanese Wave Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToCosmicConsole",
+        "title": "Switch to Cosmic Console Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToMidnightGlow",
+        "title": "Switch to Midnight Glow Theme (NEW)"
+      },
+      {
         "command": "multiBg.switchToUltimateIconTheme",
         "title": "Switch to Ultimate Icon Theme"
       },
@@ -363,6 +387,24 @@
         },
         {
           "command": "multiBg.switchToNeonCyberpunk"
+        },
+        {
+          "command": "multiBg.switchToDeepSpaceDark"
+        },
+        {
+          "command": "multiBg.switchToDeepSpaceLight"
+        },
+        {
+          "command": "multiBg.switchToPinkKitty"
+        },
+        {
+          "command": "multiBg.switchToJapaneseWave"
+        },
+        {
+          "command": "multiBg.switchToCosmicConsole"
+        },
+        {
+          "command": "multiBg.switchToMidnightGlow"
         },
         {
           "command": "multiBg.switchToUltimateIconTheme"
@@ -587,6 +629,36 @@
         "label": "Neon Cyberpunk",
         "uiTheme": "vs-dark",
         "path": "./themes/neon-cyberpunk-theme.json"
+      },
+      {
+        "label": "Deep Space Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/deep-space-dark-theme.json"
+      },
+      {
+        "label": "Deep Space Light",
+        "uiTheme": "vs",
+        "path": "./themes/deep-space-light-theme.json"
+      },
+      {
+        "label": "Pink Kitty Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pink-kitty-theme.json"
+      },
+      {
+        "label": "Japanese Wave",
+        "uiTheme": "vs-dark",
+        "path": "./themes/japanese-wave-theme.json"
+      },
+      {
+        "label": "Cosmic Console",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cosmic-console-theme.json"
+      },
+      {
+        "label": "Midnight Glow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-glow-theme.json"
       }
     ]
   },

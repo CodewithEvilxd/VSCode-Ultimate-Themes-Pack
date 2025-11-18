@@ -148,6 +148,36 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Neon Cyberpunk', vscode.ConfigurationTarget.Global);
     });
 
+    let switchToDeepSpaceDark = vscode.commands.registerCommand('multiBg.switchToDeepSpaceDark', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Deep Space Dark', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🎉 Switched to Deep Space Dark Theme (NEW)! Experience the ultimate cosmic coding environment.');
+    });
+
+    let switchToDeepSpaceLight = vscode.commands.registerCommand('multiBg.switchToDeepSpaceLight', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Deep Space Light', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🌟 Switched to Deep Space Light Theme (NEW)! Experience the ultimate cosmic coding environment.');
+    });
+
+    let switchToPinkKitty = vscode.commands.registerCommand('multiBg.switchToPinkKitty', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Pink Kitty Theme', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🐱 Switched to Pink Kitty Theme (NEW)! Cute and adorable coding experience.');
+    });
+
+    let switchToJapaneseWave = vscode.commands.registerCommand('multiBg.switchToJapaneseWave', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Japanese Wave', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🌊 Switched to Japanese Wave Theme (NEW)! Japanese-inspired elegant coding experience.');
+    });
+
+    let switchToCosmicConsole = vscode.commands.registerCommand('multiBg.switchToCosmicConsole', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Cosmic Console', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🌌 Switched to Cosmic Console Theme (NEW)! Nebula-inspired console aesthetic.');
+    });
+
+    let switchToMidnightGlow = vscode.commands.registerCommand('multiBg.switchToMidnightGlow', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Midnight Glow', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🌙 Switched to Midnight Glow Theme (NEW)! Elegant dark theme with glowing accents.');
+    });
+
     let switchToUltimateIconTheme = vscode.commands.registerCommand('multiBg.switchToUltimateIconTheme', () => {
         vscode.workspace.getConfiguration('workbench').update('iconTheme', 'ultimate-icon-theme', vscode.ConfigurationTarget.Global);
     });
@@ -160,7 +190,7 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.workspace.getConfiguration('workbench').update('iconTheme', 'retro-pixel-icon-theme', vscode.ConfigurationTarget.Global);
     });
 
-    context.subscriptions.push(switchToHacker, switchToPink, switchToBlue, switchToDark, switchToNord, switchToTokyo, switchToDracula, switchToSolarized, switchToGruvbox, switchToGentleSepia, switchToLowBlueNight, switchToSoftContrast, switchToDuskyRose, switchToHighReadability, switchToOneDarkPro, switchToDragonBallGokuEyeSafe, switchToAyuMirage, switchToCatppuccinMocha, switchToEyeComfort, switchToMoonlight, switchToNightOwl, switchToNebulaPro, switchToRoseParadise, switchToOmnitrixCode, switchToNeonDreamCode, switchToEclipseDark, switchToEclipseLight, switchToSpaceDark, switchToSpaceLight, switchToCosmicDark, switchToElectricDreams, switchToWinterIsComing, switchToCyberpunkNeon, switchToOceanBreeze, switchToNeonCyberpunk, switchToUltimateIconTheme, switchToMinimalIconTheme, switchToRetroPixelIconTheme);
+    context.subscriptions.push(switchToHacker, switchToPink, switchToBlue, switchToDark, switchToNord, switchToTokyo, switchToDracula, switchToSolarized, switchToGruvbox, switchToGentleSepia, switchToLowBlueNight, switchToSoftContrast, switchToDuskyRose, switchToHighReadability, switchToOneDarkPro, switchToDragonBallGokuEyeSafe, switchToAyuMirage, switchToCatppuccinMocha, switchToEyeComfort, switchToMoonlight, switchToNightOwl, switchToNebulaPro, switchToRoseParadise, switchToOmnitrixCode, switchToNeonDreamCode, switchToEclipseDark, switchToEclipseLight, switchToSpaceDark, switchToSpaceLight, switchToCosmicDark, switchToElectricDreams, switchToWinterIsComing, switchToCyberpunkNeon, switchToOceanBreeze, switchToNeonCyberpunk, switchToDeepSpaceDark, switchToDeepSpaceLight, switchToPinkKitty, switchToJapaneseWave, switchToCosmicConsole, switchToMidnightGlow, switchToUltimateIconTheme, switchToMinimalIconTheme, switchToRetroPixelIconTheme);
 }
 
 export function deactivate() {}
