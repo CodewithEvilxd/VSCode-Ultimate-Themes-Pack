@@ -203,6 +203,16 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.window.showInformationMessage('🔬 Switched to Pixel Lab Dark Theme (NEW)! Clean and professional dark theme for laboratory-like coding.');
     });
 
+    let switchToNimbusMintLight = vscode.commands.registerCommand('multiBg.switchToNimbusMintLight', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Nimbus Mint Light', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('☁️ Switched to Nimbus Mint Light Theme (NEW)! Clean and modern light theme with mint accents for comfortable coding.');
+    });
+
+    let switchToCloudMintNight = vscode.commands.registerCommand('multiBg.switchToCloudMintNight', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'CloudMint Night', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🌙 Switched to CloudMint Night Theme (NEW)! Modern dark theme with mint accents and clean aesthetics for focused coding.');
+    });
+
     let switchToUltimateIconTheme = vscode.commands.registerCommand('multiBg.switchToUltimateIconTheme', () => {
         vscode.workspace.getConfiguration('workbench').update('iconTheme', 'ultimate-icon-theme', vscode.ConfigurationTarget.Global);
     });
@@ -215,7 +225,7 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.workspace.getConfiguration('workbench').update('iconTheme', 'retro-pixel-icon-theme', vscode.ConfigurationTarget.Global);
     });
 
-    context.subscriptions.push(switchToHacker, switchToPink, switchToBlue, switchToDark, switchToNord, switchToTokyo, switchToDracula, switchToSolarized, switchToGruvbox, switchToGentleSepia, switchToLowBlueNight, switchToSoftContrast, switchToDuskyRose, switchToHighReadability, switchToOneDarkPro, switchToDragonBallGokuEyeSafe, switchToAyuMirage, switchToCatppuccinMocha, switchToEyeComfort, switchToMoonlight, switchToNightOwl, switchToNebulaPro, switchToRoseParadise, switchToOmnitrixCode, switchToNeonDreamCode, switchToEclipseDark, switchToEclipseLight, switchToSpaceDark, switchToSpaceLight, switchToCosmicDark, switchToElectricDreams, switchToWinterIsComing, switchToCyberpunkNeon, switchToOceanBreeze, switchToNeonCyberpunk, switchToDeepSpaceDark, switchToDeepSpaceLight, switchToPinkKitty, switchToJapaneseWave, switchToCosmicConsole, switchToMidnightGlow, switchToCalmDark, switchToCalmLight, switchToPinkPixelCandyNebula, switchToSugarRushDark, switchToPixelLabDark, switchToUltimateIconTheme, switchToMinimalIconTheme, switchToRetroPixelIconTheme);
+    context.subscriptions.push(switchToHacker, switchToPink, switchToBlue, switchToDark, switchToNord, switchToTokyo, switchToDracula, switchToSolarized, switchToGruvbox, switchToGentleSepia, switchToLowBlueNight, switchToSoftContrast, switchToDuskyRose, switchToHighReadability, switchToOneDarkPro, switchToDragonBallGokuEyeSafe, switchToAyuMirage, switchToCatppuccinMocha, switchToEyeComfort, switchToMoonlight, switchToNightOwl, switchToNebulaPro, switchToRoseParadise, switchToOmnitrixCode, switchToNeonDreamCode, switchToEclipseDark, switchToEclipseLight, switchToSpaceDark, switchToSpaceLight, switchToCosmicDark, switchToElectricDreams, switchToWinterIsComing, switchToCyberpunkNeon, switchToOceanBreeze, switchToNeonCyberpunk, switchToDeepSpaceDark, switchToDeepSpaceLight, switchToPinkKitty, switchToJapaneseWave, switchToCosmicConsole, switchToMidnightGlow, switchToCalmDark, switchToCalmLight, switchToPinkPixelCandyNebula, switchToSugarRushDark, switchToPixelLabDark, switchToNimbusMintLight, switchToCloudMintNight, switchToUltimateIconTheme, switchToMinimalIconTheme, switchToRetroPixelIconTheme);
 }
 
 export function deactivate() {}

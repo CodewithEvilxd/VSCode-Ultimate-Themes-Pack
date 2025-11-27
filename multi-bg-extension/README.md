@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/badge/version-0.0.25-green)](https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/codewithevilxd/vscode-multi-themes/blob/main/LICENSE)
 
-A comprehensive collection of **44+ professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Popular themes include Hacker, Pink, Blue, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code (Dragon Ball Z), Nebula, Rose Paradise, Omnitrix (Ben 10), Neon Dream, Ayu Mirage, Catppuccin Mocha, Eye Comfort, Moonlight, Night Owl, Eclipse, Space, Cosmic, **Deep Space Dark & Deep Space Light, Pink Kitty Theme, Japanese Wave, Cosmic Console, Midnight Glow, Calm Dark & Calm Light, Pink Pixel Candy Nebula, Sugar Rush Dark, Pixel Lab Dark (NEW)**. Accessibility themes: Gentle Sepia, Low Blue Night, Soft Contrast, Dusky Rose, High Readability. Includes **3 Icon Themes**: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons). Perfect for developers seeking premium VSCode themes with enhanced productivity and eye comfort.
+A comprehensive collection of **46+ professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Popular themes include Hacker, Pink, Blue, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code (Dragon Ball Z), Nebula, Rose Paradise, Omnitrix (Ben 10), Neon Dream, Ayu Mirage, Catppuccin Mocha, Eye Comfort, Moonlight, Night Owl, Eclipse, Space, Cosmic, **Deep Space Dark & Deep Space Light, Pink Kitty Theme, Japanese Wave, Cosmic Console, Midnight Glow, Calm Dark & Calm Light, Pink Pixel Candy Nebula, Sugar Rush Dark, Pixel Lab Dark, Nimbus Mint Light, CloudMint Night (NEW)**. Accessibility themes: Gentle Sepia, Low Blue Night, Soft Contrast, Dusky Rose, High Readability. Includes **3 Icon Themes**: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons). Perfect for developers seeking premium VSCode themes with enhanced productivity and eye comfort.
 
 ## ✨ Features
 
@@ -141,6 +141,8 @@ Looking for the best VSCode themes? Our ultimate collection includes premium dar
    - `Switch to Pink Pixel Candy Nebula Theme`
    - `Switch to Sugar Rush Dark Theme`
    - `Switch to Pixel Lab Dark Theme`
+   - `Switch to Nimbus Mint Light Theme`
+   - `Switch to CloudMint Night Theme`
 
 ### Manual Selection
 1. Go to **File** → **Preferences** → **Color Theme** (or **Settings** → **Color Theme**)
@@ -308,6 +310,22 @@ You can assign custom keyboard shortcuts to theme switching commands:
 - **Strings**: Light blue (#aee8ff)
 - **Keywords**: Cyan (#7ad6ff)
 - **Best for**: Clean and professional dark theme, laboratory-like precision, focused development environment
+
+#### ☁️ Nimbus Mint Light Theme (NEW)
+- **Background**: Soft sky blue (#f5f8fa)
+- **Text**: Dark gray (#2d3748)
+- **Comments**: Gray (#718096) with italics
+- **Strings**: Green (#16a349)
+- **Keywords**: Teal (#00a3a3)
+- **Best for**: Clean and modern light theme, mint accents, comfortable and professional coding experience
+
+#### 🌙 CloudMint Night Theme (NEW)
+- **Background**: Deep slate (#212836)
+- **Text**: Light gray (#e9ecef)
+- **Comments**: Blue-gray (#8695a8) with italics
+- **Strings**: Green (#5cff87)
+- **Keywords**: Mint (#64ffda)
+- **Best for**: Modern dark theme with mint accents, clean aesthetics, focused and productive coding environment
 
 ####  Nebula Pro Dark Theme
 - **Background**: Deep space blue (#0a0d1a)
@@ -626,7 +644,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](../LICENS
 
 - **📦 Downloads**: 1,000+ (Marketplace)
 - **⭐ Stars**: 50+ (GitHub)
-- **🎨 Themes**: 44 professional themes (35 popular + 9 accessibility-focused)
+- **🎨 Themes**: 46 professional themes (37 popular + 9 accessibility-focused)
 - **🎯 Icon Themes**: 3 distinct icon packs (Ultimate SVG, Minimal, Retro Pixel)
 - **🌍 Languages**: English
 - **🔧 Compatibility**: VS Code 1.75.0+
@@ -664,6 +682,8 @@ Users frequently search for these VSCode themes and features:
 - [ ] **Theme Presets**: Curated theme combinations for different use cases
 
 ### Recent Updates
+- ✅ **v0.0.33**: Added CloudMint Night Theme - Modern dark theme with mint accents and clean aesthetics for focused coding
+- ✅ **v0.0.33**: Added Nimbus Mint Light Theme - Clean and modern light theme with mint accents for comfortable coding
 - ✅ **v0.0.32**: Added Pixel Lab Dark Theme - Clean and professional dark theme for laboratory-like coding precision
 - ✅ **v0.0.32**: Added Sugar Rush Dark Theme - Electric and sugary dark theme with vibrant neon colors for high-energy coding
 - ✅ **v0.0.32**: Added Pink Pixel Candy Nebula Theme - Sweet and vibrant nebula-inspired dark theme with candy-like colors
