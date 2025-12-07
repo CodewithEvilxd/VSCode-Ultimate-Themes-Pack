@@ -213,6 +213,66 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.window.showInformationMessage('🌙 Switched to CloudMint Night Theme (NEW)! Modern dark theme with mint accents and clean aesthetics for focused coding.');
     });
 
+    let switchToAmberLight = vscode.commands.registerCommand('multiBg.switchToAmberLight', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Amber Light', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🌅 Switched to Amber Light Theme (NEW)! Warm and inviting light theme with amber tones for comfortable coding.');
+    });
+
+    let switchToAzureHC = vscode.commands.registerCommand('multiBg.switchToAzureHC', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Azure Dark HC', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🔵 Switched to Azure Dark HC Theme (NEW)! High contrast dark theme with azure accents for enhanced visibility.');
+    });
+
+    let switchToDarkRosebyte = vscode.commands.registerCommand('multiBg.switchToDarkRosebyte', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'DarkRosebyte', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🌹 Switched to DarkRosebyte Theme (NEW)! Elegant dark theme with rose and crimson accents for sophisticated coding.');
+    });
+
+    let switchToAurumDusk = vscode.commands.registerCommand('multiBg.switchToAurumDusk', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Aurum Dusk', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🌅 Switched to Aurum Dusk Theme (NEW)! Warm golden dark theme with sunset-inspired colors for cozy coding.');
+    });
+
+    let switchToEmeraldMatrix = vscode.commands.registerCommand('multiBg.switchToEmeraldMatrix', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Emerald Matrix', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('💚 Switched to Emerald Matrix Theme (NEW)! Matrix-inspired dark theme with emerald green accents for immersive coding.');
+    });
+
+    let switchToEverNex = vscode.commands.registerCommand('multiBg.switchToEverNex', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'EverNex', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🌿 Switched to EverNex Theme (NEW)! Fresh green dark theme with vibrant accents for modern coding.');
+    });
+
+    let switchToLavenderGlow = vscode.commands.registerCommand('multiBg.switchToLavenderGlow', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Lavender Glow', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('💜 Switched to Lavender Glow Theme (NEW)! Elegant lavender light theme with purple accents for comfortable coding.');
+    });
+
+    let switchToMidnightAbyss = vscode.commands.registerCommand('multiBg.switchToMidnightAbyss', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Midnight Abyss', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🌊 Switched to Midnight Abyss Theme (NEW)! Deep ocean dark theme with blue accents for immersive coding.');
+    });
+
+    let switchToOceanAbyss = vscode.commands.registerCommand('multiBg.switchToOceanAbyss', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Ocean Abyss', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🌊 Switched to Ocean Abyss Theme (NEW)! Deep ocean high contrast light theme with blue accents for accessible coding.');
+    });
+
+    let switchToSkyBreeze = vscode.commands.registerCommand('multiBg.switchToSkyBreeze', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Sky Breeze', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🌤️ Switched to Sky Breeze Theme (NEW)! Refreshing sky blue light theme with calming blue accents for comfortable coding.');
+    });
+
+    let switchToPastelCyberwave = vscode.commands.registerCommand('multiBg.switchToPastelCyberwave', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Pastel Cyberwave', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🌈 Switched to Pastel Cyberwave Theme (NEW)! Soft cyberpunk dark theme with pastel neon accents for gentle futuristic coding.');
+    });
+
+    let switchToNeonOverdrive = vscode.commands.registerCommand('multiBg.switchToNeonOverdrive', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Neon Overdrive', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('⚡ Switched to Neon Overdrive Theme (NEW)! High-energy cyberpunk dark theme with vibrant neon accents for intense coding sessions.');
+    });
+
     let switchToUltimateIconTheme = vscode.commands.registerCommand('multiBg.switchToUltimateIconTheme', () => {
         vscode.workspace.getConfiguration('workbench').update('iconTheme', 'ultimate-icon-theme', vscode.ConfigurationTarget.Global);
     });
@@ -225,7 +285,7 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.workspace.getConfiguration('workbench').update('iconTheme', 'retro-pixel-icon-theme', vscode.ConfigurationTarget.Global);
     });
 
-    context.subscriptions.push(switchToHacker, switchToPink, switchToBlue, switchToDark, switchToNord, switchToTokyo, switchToDracula, switchToSolarized, switchToGruvbox, switchToGentleSepia, switchToLowBlueNight, switchToSoftContrast, switchToDuskyRose, switchToHighReadability, switchToOneDarkPro, switchToDragonBallGokuEyeSafe, switchToAyuMirage, switchToCatppuccinMocha, switchToEyeComfort, switchToMoonlight, switchToNightOwl, switchToNebulaPro, switchToRoseParadise, switchToOmnitrixCode, switchToNeonDreamCode, switchToEclipseDark, switchToEclipseLight, switchToSpaceDark, switchToSpaceLight, switchToCosmicDark, switchToElectricDreams, switchToWinterIsComing, switchToCyberpunkNeon, switchToOceanBreeze, switchToNeonCyberpunk, switchToDeepSpaceDark, switchToDeepSpaceLight, switchToPinkKitty, switchToJapaneseWave, switchToCosmicConsole, switchToMidnightGlow, switchToCalmDark, switchToCalmLight, switchToPinkPixelCandyNebula, switchToSugarRushDark, switchToPixelLabDark, switchToNimbusMintLight, switchToCloudMintNight, switchToUltimateIconTheme, switchToMinimalIconTheme, switchToRetroPixelIconTheme);
+    context.subscriptions.push(switchToHacker, switchToPink, switchToBlue, switchToDark, switchToNord, switchToTokyo, switchToDracula, switchToSolarized, switchToGruvbox, switchToGentleSepia, switchToLowBlueNight, switchToSoftContrast, switchToDuskyRose, switchToHighReadability, switchToOneDarkPro, switchToDragonBallGokuEyeSafe, switchToAyuMirage, switchToCatppuccinMocha, switchToEyeComfort, switchToMoonlight, switchToNightOwl, switchToNebulaPro, switchToRoseParadise, switchToOmnitrixCode, switchToNeonDreamCode, switchToEclipseDark, switchToEclipseLight, switchToSpaceDark, switchToSpaceLight, switchToCosmicDark, switchToElectricDreams, switchToWinterIsComing, switchToCyberpunkNeon, switchToOceanBreeze, switchToNeonCyberpunk, switchToDeepSpaceDark, switchToDeepSpaceLight, switchToPinkKitty, switchToJapaneseWave, switchToCosmicConsole, switchToMidnightGlow, switchToCalmDark, switchToCalmLight, switchToPinkPixelCandyNebula, switchToSugarRushDark, switchToPixelLabDark, switchToNimbusMintLight, switchToCloudMintNight, switchToAmberLight, switchToAzureHC, switchToDarkRosebyte, switchToAurumDusk, switchToEmeraldMatrix, switchToEverNex, switchToLavenderGlow, switchToMidnightAbyss, switchToOceanAbyss, switchToSkyBreeze, switchToPastelCyberwave, switchToNeonOverdrive, switchToUltimateIconTheme, switchToMinimalIconTheme, switchToRetroPixelIconTheme);
 }
 
 export function deactivate() {}

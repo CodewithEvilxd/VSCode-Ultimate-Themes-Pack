@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/badge/version-0.0.25-green)](https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/codewithevilxd/vscode-multi-themes/blob/main/LICENSE)
 
-A comprehensive collection of **46+ professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Popular themes include Hacker, Pink, Blue, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code (Dragon Ball Z), Nebula, Rose Paradise, Omnitrix (Ben 10), Neon Dream, Ayu Mirage, Catppuccin Mocha, Eye Comfort, Moonlight, Night Owl, Eclipse, Space, Cosmic, **Deep Space Dark & Deep Space Light, Pink Kitty Theme, Japanese Wave, Cosmic Console, Midnight Glow, Calm Dark & Calm Light, Pink Pixel Candy Nebula, Sugar Rush Dark, Pixel Lab Dark, Nimbus Mint Light, CloudMint Night (NEW)**. Accessibility themes: Gentle Sepia, Low Blue Night, Soft Contrast, Dusky Rose, High Readability. Includes **3 Icon Themes**: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons). Perfect for developers seeking premium VSCode themes with enhanced productivity and eye comfort.
+A comprehensive collection of **54+ professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Popular themes include Hacker, Pink, Blue, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code (Dragon Ball Z), Nebula, Rose Paradise, Omnitrix (Ben 10), Neon Dream, Ayu Mirage, Catppuccin Mocha, Eye Comfort, Moonlight, Night Owl, Eclipse, Space, Cosmic, **Deep Space Dark & Deep Space Light, Pink Kitty Theme, Japanese Wave, Cosmic Console, Midnight Glow, Calm Dark & Calm Light, Pink Pixel Candy Nebula, Sugar Rush Dark, Pixel Lab Dark, Nimbus Mint Light, CloudMint Night, Amber Light, Azure Dark HC, DarkRosebyte, Aurum Dusk, Emerald Matrix, EverNex, Lavender Glow, Midnight Abyss, Ocean Abyss, Sky Breeze, Pastel Cyberwave (NEW)**. Accessibility themes: Gentle Sepia, Low Blue Night, Soft Contrast, Dusky Rose, High Readability. Includes **3 Icon Themes**: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons). Perfect for developers seeking premium VSCode themes with enhanced productivity and eye comfort.
 
 ## ✨ Features
 
@@ -143,6 +143,17 @@ Looking for the best VSCode themes? Our ultimate collection includes premium dar
    - `Switch to Pixel Lab Dark Theme`
    - `Switch to Nimbus Mint Light Theme`
    - `Switch to CloudMint Night Theme`
+   - `Switch to Amber Light Theme`
+   - `Switch to Azure Dark HC Theme`
+   - `Switch to DarkRosebyte Theme`
+   - `Switch to Aurum Dusk Theme`
+   - `Switch to Emerald Matrix Theme`
+   - `Switch to EverNex Theme`
+   - `Switch to Lavender Glow Theme`
+   - `Switch to Midnight Abyss Theme`
+   - `Switch to Ocean Abyss Theme`
+   - `Switch to Sky Breeze Theme`
+   - `Switch to Pastel Cyberwave Theme`
 
 ### Manual Selection
 1. Go to **File** → **Preferences** → **Color Theme** (or **Settings** → **Color Theme**)
@@ -326,6 +337,46 @@ You can assign custom keyboard shortcuts to theme switching commands:
 - **Strings**: Green (#5cff87)
 - **Keywords**: Mint (#64ffda)
 - **Best for**: Modern dark theme with mint accents, clean aesthetics, focused and productive coding environment
+
+#### 🌅 Amber Light Theme (NEW)
+- **Background**: Warm cream (#fffcfa)
+- **Text**: Dark brown (#2a1f1f)
+- **Comments**: Muted brown (#a39a8a) with italics
+- **Strings**: Burgundy (#8c3a1e)
+- **Keywords**: Golden brown (#8a5f0f) with bold
+- **Best for**: Warm and inviting light theme with amber tones, comfortable and cozy coding experience
+
+#### 🔵 Azure HC Theme (NEW)
+- **Background**: Deep navy (#00080d)
+- **Text**: Light blue (#e8f1ff)
+- **Comments**: Blue-gray (#5588aa) with italics
+- **Strings**: Sky blue (#0099ff)
+- **Keywords**: Bright blue (#00aaff) with bold
+- **Best for**: High contrast dark theme with azure accents, enhanced visibility for accessibility
+
+#### 🌹 DarkRosebyte Theme (NEW)
+- **Background**: Deep burgundy (#1a0a12)
+- **Text**: Light pink (#f4d4dd)
+- **Comments**: Dusty rose (#6b4a5a) with italics
+- **Strings**: Coral pink (#ff709e)
+- **Keywords**: Hot pink (#ff1e7a) with bold
+- **Best for**: Elegant dark theme with rose and crimson accents, sophisticated and romantic coding atmosphere
+
+#### 🌅 Aurum Dusk Theme (NEW)
+- **Background**: Deep brown (#1a1614)
+- **Text**: Cream (#f2e8dc)
+- **Comments**: Brown-gray (#7b6a60) with italics
+- **Strings**: Peach (#dc9d7c)
+- **Keywords**: Golden brown (#c99d5a) with bold
+- **Best for**: Warm golden dark theme with sunset-inspired colors, cozy and elegant coding experience
+
+#### 💚 Emerald Matrix Theme (NEW)
+- **Background**: Deep teal (#001a1a)
+- **Text**: Bright green (#00f0a0)
+- **Comments**: Gray-blue (#546E7A) with italics
+- **Strings**: Green (#C3E88D)
+- **Keywords**: Purple (#C792EA)
+- **Best for**: Matrix-inspired dark theme with emerald green accents, immersive and futuristic coding environment
 
 ####  Nebula Pro Dark Theme
 - **Background**: Deep space blue (#0a0d1a)
@@ -644,7 +695,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](../LICENS
 
 - **📦 Downloads**: 1,000+ (Marketplace)
 - **⭐ Stars**: 50+ (GitHub)
-- **🎨 Themes**: 46 professional themes (37 popular + 9 accessibility-focused)
+- **🎨 Themes**: 54 professional themes (45 popular + 9 accessibility-focused)
 - **🎯 Icon Themes**: 3 distinct icon packs (Ultimate SVG, Minimal, Retro Pixel)
 - **🌍 Languages**: English
 - **🔧 Compatibility**: VS Code 1.75.0+
@@ -682,16 +733,22 @@ Users frequently search for these VSCode themes and features:
 - [ ] **Theme Presets**: Curated theme combinations for different use cases
 
 ### Recent Updates
+- ✅ **v0.0.33**: Added Pastel Cyberwave Theme - Soft cyberpunk dark theme with pastel neon accents for gentle futuristic coding
+- ✅ **v0.0.33**: Added Sky Breeze Theme - Refreshing sky blue light theme with calming blue accents for comfortable coding
+- ✅ **v0.0.33**: Added Ocean Abyss Theme - Deep ocean high contrast light theme with blue accents for accessible coding
+- ✅ **v0.0.33**: Added Midnight Abyss Theme - Deep ocean dark theme with blue accents for immersive coding
+- ✅ **v0.0.33**: Added Lavender Glow Theme - Elegant lavender light theme with purple accents for comfortable coding
+- ✅ **v0.0.33**: Added EverNex Theme - Fresh green dark theme with vibrant accents for modern coding
+- ✅ **v0.0.33**: Added Emerald Matrix Theme - Matrix-inspired dark theme with emerald green accents for immersive coding
+- ✅ **v0.0.33**: Added Aurum Dusk Theme - Warm golden dark theme with sunset-inspired colors for cozy coding
+- ✅ **v0.0.33**: Added DarkRosebyte Theme - Elegant dark theme with rose and crimson accents for sophisticated coding
+- ✅ **v0.0.33**: Added Azure Dark HC Theme - High contrast dark theme with azure accents for enhanced visibility
+- ✅ **v0.0.33**: Added Amber Light Theme - Warm and inviting light theme with amber tones for comfortable coding
 - ✅ **v0.0.33**: Added CloudMint Night Theme - Modern dark theme with mint accents and clean aesthetics for focused coding
 - ✅ **v0.0.33**: Added Nimbus Mint Light Theme - Clean and modern light theme with mint accents for comfortable coding
 - ✅ **v0.0.32**: Added Pixel Lab Dark Theme - Clean and professional dark theme for laboratory-like coding precision
 - ✅ **v0.0.32**: Added Sugar Rush Dark Theme - Electric and sugary dark theme with vibrant neon colors for high-energy coding
 - ✅ **v0.0.32**: Added Pink Pixel Candy Nebula Theme - Sweet and vibrant nebula-inspired dark theme with candy-like colors
-- ✅ **v0.0.32**: Added Calm Light Theme - Bright and calming light theme with parchment background for comfortable coding
-- ✅ **v0.0.32**: Added Calm Dark Theme - Serene and soothing dark theme with warm colors for focused coding
-- ✅ **v0.0.31**: Added Midnight Glow Theme - Elegant dark theme with glowing syntax accents and sophisticated midnight aesthetics
-- ✅ **v0.0.31**: Added Cosmic Console Theme - Nebula-inspired console aesthetic with mixed light/dark UI
-- ✅ **v0.0.30**: Japanese Wave Theme - Japanese-inspired elegant dark theme with traditional color palette
 - ✅ **v0.0.29**: Added Pink Kitty Theme - cute and adorable dark theme with pink and purple aesthetics
 - ✅ **v0.0.28**: Added Deep Space Light theme - the ultimate cosmic light theme with bright space aesthetics and cosmic illumination
 - ✅ **v0.0.27**: Added Deep Space Dark theme - the ultimate cosmic dark theme with deep space aesthetics and enhanced focus

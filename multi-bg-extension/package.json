@@ -2,7 +2,7 @@
   "name": "vscode-multi-themes",
   "displayName": "Ultimate VSCode Themes Pack - 33+ Professional Dark & Light Themes with 3 Icon Packs",
   "description": "Ultimate collection of 33+ professional VSCode themes: dark themes like Nebula Storm, Stellar Operator, Cosmic Eclipse, Ocean Depths, Hacker, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code, Nebula, Neon Dream; light themes like Pink, Rose Paradise, Gentle Sepia; accessibility themes for eye comfort. Includes 3 Icon Themes: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons). Premium syntax highlighting for all programming languages.",
-  "version": "0.0.33",
+  "version": "0.0.34",
   "publisher": "SecureDev01",
   "keywords": [
     "vscode themes",
@@ -297,6 +297,54 @@
         "title": "Switch to CloudMint Night Theme (NEW)"
       },
       {
+        "command": "multiBg.switchToAmberLight",
+        "title": "Switch to Amber Light Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToAzureHC",
+        "title": "Switch to Azure Dark HC Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToDarkRosebyte",
+        "title": "Switch to DarkRosebyte Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToAurumDusk",
+        "title": "Switch to Aurum Dusk Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToEmeraldMatrix",
+        "title": "Switch to Emerald Matrix Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToEverNex",
+        "title": "Switch to EverNex Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToLavenderGlow",
+        "title": "Switch to Lavender Glow Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToMidnightAbyss",
+        "title": "Switch to Midnight Abyss Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToOceanAbyss",
+        "title": "Switch to Ocean Abyss Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToSkyBreeze",
+        "title": "Switch to Sky Breeze Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToPastelCyberwave",
+        "title": "Switch to Pastel Cyberwave Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToNeonOverdrive",
+        "title": "Switch to Neon Overdrive Theme (NEW)"
+      },
+      {
         "command": "multiBg.switchToUltimateIconTheme",
         "title": "Switch to Ultimate Icon Theme"
       },
@@ -454,6 +502,42 @@
         },
         {
           "command": "multiBg.switchToCloudMintNight"
+        },
+        {
+          "command": "multiBg.switchToAmberLight"
+        },
+        {
+          "command": "multiBg.switchToAzureHC"
+        },
+        {
+          "command": "multiBg.switchToDarkRosebyte"
+        },
+        {
+          "command": "multiBg.switchToAurumDusk"
+        },
+        {
+          "command": "multiBg.switchToEmeraldMatrix"
+        },
+        {
+          "command": "multiBg.switchToEverNex"
+        },
+        {
+          "command": "multiBg.switchToLavenderGlow"
+        },
+        {
+          "command": "multiBg.switchToMidnightAbyss"
+        },
+        {
+          "command": "multiBg.switchToOceanAbyss"
+        },
+        {
+          "command": "multiBg.switchToSkyBreeze"
+        },
+        {
+          "command": "multiBg.switchToPastelCyberwave"
+        },
+        {
+          "command": "multiBg.switchToNeonOverdrive"
         },
         {
           "command": "multiBg.switchToUltimateIconTheme"
@@ -743,6 +827,66 @@
         "label": "CloudMint Night",
         "uiTheme": "vs-dark",
         "path": "./themes/cloudmint-night-theme.json"
+      },
+      {
+        "label": "Amber Light",
+        "uiTheme": "vs",
+        "path": "./themes/amber-light-theme.json"
+      },
+      {
+        "label": "Azure Dark HC",
+        "uiTheme": "hc-black",
+        "path": "./themes/azure-dark-hc-theme.json"
+      },
+      {
+        "label": "DarkRosebyte",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkrosebyte-theme.json"
+      },
+      {
+        "label": "Aurum Dusk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aurum-dusk-theme.json"
+      },
+      {
+        "label": "Emerald Matrix",
+        "uiTheme": "vs-dark",
+        "path": "./themes/emerald-matrix-theme.json"
+      },
+      {
+        "label": "EverNex",
+        "uiTheme": "vs-dark",
+        "path": "./themes/evernex-theme.json"
+      },
+      {
+        "label": "Lavender Glow",
+        "uiTheme": "vs",
+        "path": "./themes/lavender-glow-theme.json"
+      },
+      {
+        "label": "Midnight Abyss",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-abyss-theme.json"
+      },
+      {
+        "label": "Ocean Abyss",
+        "uiTheme": "hc-light",
+        "path": "./themes/ocean-abyss-theme.json"
+      },
+      {
+        "label": "Sky Breeze",
+        "uiTheme": "vs",
+        "path": "./themes/sky-breeze-theme.json"
+      },
+      {
+        "label": "Pastel Cyberwave",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pastel-cyberwave-theme.json"
+      },
+      {
+        "label": "Neon Overdrive",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-overdrive-theme.json"
       }
     ]
   },

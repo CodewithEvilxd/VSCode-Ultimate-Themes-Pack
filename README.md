@@ -1,14 +1,14 @@
 # VSCode Ultimate Themes Pack
 
 [![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Marketplace-blue)](https://marketplace.visualstudio.com/publishers/SecureDev01)
-[![Version](https://img.shields.io/badge/version-0.0.24-green)](https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes)
+[![Version](https://img.shields.io/badge/version-0.0.25-green)](https://marketplace.visualstudio.com/items?itemName=SecureDev01.vscode-multi-themes)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/codewithevilxd/vscode-multi-themes/blob/main/LICENSE)
 
-A comprehensive collection of **28+ professionally designed themes** and **1 ultimate icon theme** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Popular themes include Hacker, Pink, Blue, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code (Dragon Ball Z), Nebula, Rose Paradise, Omnitrix (Ben 10), Neon Dream, Ayu Mirage, Catppuccin Mocha, Eye Comfort, Moonlight, Night Owl, Eclipse, Space, Cosmic. Accessibility themes: Gentle Sepia, Low Blue Night, Soft Contrast, Dusky Rose, High Readability. Includes Ultimate Icon Theme with 70+ file icons and 25+ folder icons. Perfect for developers seeking premium VSCode themes with enhanced productivity and eye comfort.
+A comprehensive collection of **54+ professionally designed themes** for Visual Studio Code, featuring stunning dark and light color schemes with rich syntax highlighting. Popular themes include Hacker, Pink, Blue, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code (Dragon Ball Z), Nebula, Rose Paradise, Omnitrix (Ben 10), Neon Dream, Ayu Mirage, Catppuccin Mocha, Eye Comfort, Moonlight, Night Owl, Eclipse, Space, Cosmic, **Deep Space Dark & Deep Space Light, Pink Kitty Theme, Japanese Wave, Cosmic Console, Midnight Glow, Calm Dark & Calm Light, Pink Pixel Candy Nebula, Sugar Rush Dark, Pixel Lab Dark, Nimbus Mint Light, CloudMint Night, Amber Light, Azure Dark HC, DarkRosebyte, Aurum Dusk, Emerald Matrix, EverNex, Lavender Glow, Midnight Abyss, Ocean Abyss, Sky Breeze, Pastel Cyberwave (NEW)**. Accessibility themes: Gentle Sepia, Low Blue Night, Soft Contrast, Dusky Rose, High Readability. Includes **3 Icon Themes**: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons). Perfect for developers seeking premium VSCode themes with enhanced productivity and eye comfort.
 
 ## ✨ Features
 
-### 🎨 **28+ Professional VSCode Themes**
+### 🎨 **33+ Professional VSCode Themes**
 
 Looking for the best VSCode themes? Our ultimate collection includes premium dark themes, beautiful light themes, and accessibility-focused options for every developer preference.
 
@@ -60,6 +60,7 @@ Looking for the best VSCode themes? Our ultimate collection includes premium dar
 - **☀️ Eclipse Light Theme**: Clean light theme with Eclipse-inspired colors for bright environments
 - **🌌 Space Dark Theme**: Cosmic dark theme with space-inspired colors and deep focus aesthetics
 - **🌠 Space Light Theme**: Bright light theme with space-inspired colors and cosmic illumination
+- **🚀 Deep Space Dark Theme (NEW)**: Ultimate cosmic dark theme with deep space aesthetics and enhanced focus
 
 #### 🎯 Accessibility-Focused Themes
 - **📖 Gentle Sepia Theme**: Warm light theme optimized for bright rooms and paper-like reading experience
@@ -79,114 +80,6 @@ Looking for the best VSCode themes? Our ultimate collection includes premium dar
 - Optimized contrast ratios for better readability
 - Consistent highlighting across all themes
 - Support for modern language features
-
-### 🎨 **Ultimate Icon Theme**
-- **Professional file icons** for all programming languages and file types
-- **Context-aware folder icons** with light and dark variants
-- **Comprehensive coverage** including JavaScript, TypeScript, Python, React, Vue, and more
-- **Consistent design language** that complements all color themes
-- **Optimized for productivity** with clear, recognizable icons
-
-#### 📁 **File Icons (70+ types)**
-
-| Icon | File Type | Description |
-|------|-----------|-------------|
-| 🟨 | JavaScript (.js, .mjs, .cjs) | JavaScript files with distinctive J+S logo |
-| 🔷 | TypeScript (.ts, .mts, .cts) | TypeScript files with blue TS emblem |
-| 🐍 | Python (.py) | Python snake logo in blue |
-| ☕ | Java (.java) | Coffee cup Java logo |
-| ⚙️ | C/C++ (.c, .cpp, .cc) | Gear icon for C/C++ files |
-| 🔷 | C# (.cs) | C# sharp symbol |
-| 🔵 | Go (.go) | Go gopher mascot |
-| 🦀 | Rust (.rs) | Rust crab logo |
-| 🐘 | PHP (.php) | Elephant PHP logo |
-| 💎 | Ruby (.rb) | Ruby gemstone |
-| 🏎️ | Swift (.swift) | Swift racing car |
-| ⚡ | React (.jsx, .tsx) | React atomic symbol |
-| 🌿 | Vue (.vue) | Vue leaf logo |
-| 🎨 | HTML (.html) | HTML document icon |
-| 🎨 | CSS (.css, .scss) | Paintbrush for stylesheets |
-| 📄 | JSON (.json) | Document with braces |
-| 🐳 | Docker (Dockerfile) | Docker whale logo |
-| 📦 | Node.js (package.json) | Node.js hexagon |
-| 📝 | Markdown (.md, .mdx) | Document with markdown |
-| 🖼️ | Images (.png, .jpg, .svg) | Picture frame |
-| 🎵 | Audio (.mp3, .wav) | Music note |
-| 🎬 | Video (.mp4, .webm) | Film strip |
-| 📚 | Git (.gitignore) | Git branch icon |
-| 🔧 | Config files | Gear for configuration |
-| ⚡ | Zig (.zig) | Zig programming language |
-| 🎯 | Kotlin (.kt) | Kotlin logo |
-| 🎯 | Dart (.dart) | Dart programming language |
-| 🌙 | Lua (.lua) | Lua moon logo |
-| ✨ | Gleam (.gleam) | Gleam programming language |
-| 📋 | Header (.h, .hpp) | C/C++ header files |
-| 🔧 | HCL (.hcl) | HashiCorp Configuration Language |
-| 🌍 | Terraform (.tf) | Terraform infrastructure as code |
-| 🔵 | PowerShell (.ps1) | PowerShell script files |
-| 🐚 | Shell (.sh, .bash) | Shell script files |
-| 🐶 | Pug (.pug) | Pug template engine |
-| 🎨 | Stylus (.styl) | Stylus CSS preprocessor |
-| 📖 | Storybook (.stories.js) | Storybook component library |
-| ⚡ | Vite (vite.config.js) | Vite build tool |
-| 📦 | NPM (.npmrc) | NPM package manager |
-| 🔧 | ESLint (.eslintrc) | ESLint configuration |
-| 📦 | Archives (.zip, .tar, .gz) | Compressed archive files |
-| 📄 | Text (.txt, .rtf) | Plain text files |
-| 📄 | TOML (.toml) | TOML configuration files |
-| 📄 | YAML (.yaml, .yml) | YAML configuration files |
-| ⚙️ | WebAssembly (.wasm) | WebAssembly binary files |
-| 🎨 | SVG (.svg) | Scalable Vector Graphics |
-| 🎬 | Video (.mp4, .webm) | Video files |
-| 🎵 | Audio (.mp3, .wav) | Audio files |
-| ⚙️ | Assembly (.asm, .s) | Assembly language files |
-| ⚙️ | Binary (.bin, .exe) | Binary executable files |
-| 📄 | License (LICENSE) | License files |
-| ⚡ | Scala (.scala) | Scala programming language |
-| 🎮 | Roblox (.rbxm, .rbxmx) | Roblox game files |
-| 🌙 | Luau (.luau) | Luau scripting language |
-
-#### 📂 **Folder Icons (25+ types)**
-
-| Icon | Folder Type | Description |
-|------|-------------|-------------|
-| 📁 | Default folder | Standard folder icon |
-| 📂 | Source (src, lib) | Green folder with code symbol |
-| 🏗️ | Build/Dist (build, out) | Construction helmet for build folders |
-| ⚙️ | Config (.vscode, .github) | Gear icon for configuration folders |
-| 🧪 | Test (__tests__, specs) | Test tube for test directories |
-| 📚 | Docs (documentation) | Book for documentation |
-| 🧩 | Components | Puzzle piece for components |
-| 📱 | App (apps, ui) | Mobile app icon |
-| 🎨 | Assets (public) | Palette for asset folders |
-| 🗄️ | Database (data, db) | Database cylinder |
-| 🖥️ | Server (api, apis) | Server rack for backend folders |
-| 💻 | Client | Client-side application folder |
-| 🔌 | Utils (helpers, tools) | Plug for utility folders |
-| 🎨 | CSS (styles, stylesheets) | Paintbrush for CSS folders |
-| 📄 | HTML (pages, views) | Document for HTML folders |
-| 📦 | Node modules (vendor) | Package box for node_modules |
-| 📖 | Storybook (stories) | Book for Storybook folders |
-| 📦 | Package (packages, pkg) | Package icon for package folders |
-| 🔧 | Provider (services, controllers) | Provider icon for service folders |
-| 📋 | Schema (schemas) | Schema icon for schema folders |
-| 💾 | Store (stores, state) | Store icon for state management |
-| 🪝 | Hook (hooks, composables) | Hook icon for React hooks |
-| ⚡ | Function (functions, handlers) | Function icon for function folders |
-| 📡 | Event (events, remote) | Event icon for event folders |
-| 🔤 | Font (fonts, typography) | Font icon for font folders |
-| 🖼️ | Image (images, img, photos) | Image icon for image folders |
-| 🎬 | Video (videos) | Video icon for video folders |
-| 🎵 | Audio (sounds, music) | Audio icon for audio folders |
-| 📄 | File (files, temp, logs) | File icon for file folders |
-| 🌐 | Globe (global, i18n) | Globe for internationalization |
-| 🔗 | Shared (common) | Link icon for shared folders |
-| 📝 | Context | Context icon for context folders |
-| 🎯 | Command (cmdr, middleware) | Target for command folders |
-| ❌ | Error (problems, issues) | Error icon for error folders |
-| 📊 | Model (models) | Model icon for data models |
-| 🏷️ | Type (types, interfaces) | Label for type definitions |
-| 🌙 | Lune | Moon for Lune folders |
 
 ## 📦 Installation
 
@@ -237,16 +130,35 @@ Looking for the best VSCode themes? Our ultimate collection includes premium dar
    - `Switch to Eclipse Light Theme`
    - `Switch to Space Dark Theme`
    - `Switch to Space Light Theme`
+   - `Switch to Deep Space Dark Theme`
+   - `Switch to Deep Space Light Theme`
+   - `Switch to Pink Kitty Theme`
+   - `Switch to Japanese Wave Theme`
+   - `Switch to Cosmic Console Theme`
+   - `Switch to Midnight Glow Theme`
+   - `Switch to Calm Dark Theme`
+   - `Switch to Calm Light Theme`
+   - `Switch to Pink Pixel Candy Nebula Theme`
+   - `Switch to Sugar Rush Dark Theme`
+   - `Switch to Pixel Lab Dark Theme`
+   - `Switch to Nimbus Mint Light Theme`
+   - `Switch to CloudMint Night Theme`
+   - `Switch to Amber Light Theme`
+   - `Switch to Azure Dark HC Theme`
+   - `Switch to DarkRosebyte Theme`
+   - `Switch to Aurum Dusk Theme`
+   - `Switch to Emerald Matrix Theme`
+   - `Switch to EverNex Theme`
+   - `Switch to Lavender Glow Theme`
+   - `Switch to Midnight Abyss Theme`
+   - `Switch to Ocean Abyss Theme`
+   - `Switch to Sky Breeze Theme`
+   - `Switch to Pastel Cyberwave Theme`
 
 ### Manual Selection
 1. Go to **File** → **Preferences** → **Color Theme** (or **Settings** → **Color Theme**)
 2. Select your preferred theme from the dropdown list
 3. The theme will be applied immediately
-
-### Icon Theme Selection
-1. Go to **File** → **Preferences** → **File Icon Theme** (or **Settings** → **File Icon Theme**)
-2. Select "Ultimate Icon Theme" from the dropdown list
-3. Professional file and folder icons will be applied immediately
 
 ### Keyboard Shortcuts
 You can assign custom keyboard shortcuts to theme switching commands:
@@ -338,7 +250,135 @@ You can assign custom keyboard shortcuts to theme switching commands:
 - **Keywords**: Red (#f44336)
 - **Best for**: Dragon Ball Z fans, semantic highlighting, eye-safe Saiyan power
 
-#### 🌌 Nebula Pro Dark Theme
+#### 🐱 Pink Kitty Theme (NEW)
+- **Background**: Soft pink-purple (#202330)
+- **Text**: Lavender white (#FFF0F5)
+- **Comments**: Sage green (#6D7A72)
+- **Strings**: Golden yellow (#FAE8B6)
+- **Keywords**: Hot pink (#FF4791)
+- **Best for**: Cute and adorable coding, pastel pink aesthetics, fun development experience
+
+#### 🌊 Japanese Wave Theme (NEW)
+- **Background**: Deep ocean blue (#1F1F28)
+- **Text**: Warm cream (#DCD7BA)
+- **Comments**: Muted gray (#727169)
+- **Strings**: Fresh green (#98BB6C)
+- **Keywords**: Purple (#957FB8)
+- **Best for**: Japanese-inspired aesthetics, elegant dark theme, traditional color palette
+
+#### 🌌 Cosmic Console Theme (NEW)
+- **Background**: Mixed light/dark with purple accents (#f6f0ff activity bar, #353551 panels)
+- **Text**: Light colors on dark backgrounds
+- **Comments**: Nebula-inspired muted tones
+- **Strings**: Bright yellow (#ffd866)
+- **Keywords**: Coral pink (#ff6188)
+- **Best for**: Nebula-inspired console aesthetic, mixed light/dark UI, cosmic coding experience
+
+#### 🌙 Midnight Glow Theme (NEW)
+- **Background**: Deep midnight blue (#27273A) with glowing accents
+- **Text**: Soft white (#fcf6ff) with lavender highlights
+- **Comments**: Purple-gray (#8059A2)
+- **Strings**: Electric blue (#50DFFE)
+- **Keywords**: Deep blush (#E752A1)
+- **Best for**: Elegant dark theme with glowing syntax, midnight coding sessions, sophisticated aesthetics
+
+#### 🌿 Calm Dark Theme (NEW)
+- **Background**: Serene dark blue-gray (#191f22)
+- **Text**: Warm cream (#e6e2d9)
+- **Comments**: Soft green (#7f9916) with italics
+- **Strings**: Light beige (#dbd3ce)
+- **Keywords**: Warm cream (#dedbd3)
+- **Best for**: Serene coding environment, soothing colors, focused development sessions
+
+#### ☀️ Calm Light Theme (NEW)
+- **Background**: Warm parchment (#f9f5e7)
+- **Text**: Rich brown (#2F291F)
+- **Comments**: Orange-brown (#ca7113) with italics
+- **Strings**: Deep brown (#b44a15)
+- **Keywords**: Dark brown (#574535)
+- **Best for**: Bright and calming light theme, comfortable for long coding sessions, paper-like reading experience
+
+#### 🍭 Pink Pixel Candy Nebula Theme (NEW)
+- **Background**: Deep pink nebula (#0b0213)
+- **Text**: Soft pink-white (#ffecf7)
+- **Comments**: Lavender-gray (#6a608a) with italics
+- **Strings**: Mint green (#7effc3)
+- **Keywords**: Hot pink (#ff8be4)
+- **Best for**: Sweet and vibrant nebula theme, candy-like colors, cosmic pink aesthetic for creative coding
+
+#### 🍬 Sugar Rush Dark Theme (NEW)
+- **Background**: Dark charcoal (#0a0d10)
+- **Text**: Soft white (#fdf8ff)
+- **Comments**: Gray-blue (#666c79) with italics
+- **Strings**: Mint green (#1fff9f)
+- **Keywords**: Hot pink (#ff66f0)
+- **Best for**: Electric and sugary dark theme, vibrant neon colors, high-energy coding experience
+
+#### 🔬 Pixel Lab Dark Theme (NEW)
+- **Background**: Deep slate (#0f141a)
+- **Text**: Bright white (#eaf6ff)
+- **Comments**: Blue-gray (#6f8aa4) with italics
+- **Strings**: Light blue (#aee8ff)
+- **Keywords**: Cyan (#7ad6ff)
+- **Best for**: Clean and professional dark theme, laboratory-like precision, focused development environment
+
+#### ☁️ Nimbus Mint Light Theme (NEW)
+- **Background**: Soft sky blue (#f5f8fa)
+- **Text**: Dark gray (#2d3748)
+- **Comments**: Gray (#718096) with italics
+- **Strings**: Green (#16a349)
+- **Keywords**: Teal (#00a3a3)
+- **Best for**: Clean and modern light theme, mint accents, comfortable and professional coding experience
+
+#### 🌙 CloudMint Night Theme (NEW)
+- **Background**: Deep slate (#212836)
+- **Text**: Light gray (#e9ecef)
+- **Comments**: Blue-gray (#8695a8) with italics
+- **Strings**: Green (#5cff87)
+- **Keywords**: Mint (#64ffda)
+- **Best for**: Modern dark theme with mint accents, clean aesthetics, focused and productive coding environment
+
+#### 🌅 Amber Light Theme (NEW)
+- **Background**: Warm cream (#fffcfa)
+- **Text**: Dark brown (#2a1f1f)
+- **Comments**: Muted brown (#a39a8a) with italics
+- **Strings**: Burgundy (#8c3a1e)
+- **Keywords**: Golden brown (#8a5f0f) with bold
+- **Best for**: Warm and inviting light theme with amber tones, comfortable and cozy coding experience
+
+#### 🔵 Azure HC Theme (NEW)
+- **Background**: Deep navy (#00080d)
+- **Text**: Light blue (#e8f1ff)
+- **Comments**: Blue-gray (#5588aa) with italics
+- **Strings**: Sky blue (#0099ff)
+- **Keywords**: Bright blue (#00aaff) with bold
+- **Best for**: High contrast dark theme with azure accents, enhanced visibility for accessibility
+
+#### 🌹 DarkRosebyte Theme (NEW)
+- **Background**: Deep burgundy (#1a0a12)
+- **Text**: Light pink (#f4d4dd)
+- **Comments**: Dusty rose (#6b4a5a) with italics
+- **Strings**: Coral pink (#ff709e)
+- **Keywords**: Hot pink (#ff1e7a) with bold
+- **Best for**: Elegant dark theme with rose and crimson accents, sophisticated and romantic coding atmosphere
+
+#### 🌅 Aurum Dusk Theme (NEW)
+- **Background**: Deep brown (#1a1614)
+- **Text**: Cream (#f2e8dc)
+- **Comments**: Brown-gray (#7b6a60) with italics
+- **Strings**: Peach (#dc9d7c)
+- **Keywords**: Golden brown (#c99d5a) with bold
+- **Best for**: Warm golden dark theme with sunset-inspired colors, cozy and elegant coding experience
+
+#### 💚 Emerald Matrix Theme (NEW)
+- **Background**: Deep teal (#001a1a)
+- **Text**: Bright green (#00f0a0)
+- **Comments**: Gray-blue (#546E7A) with italics
+- **Strings**: Green (#C3E88D)
+- **Keywords**: Purple (#C792EA)
+- **Best for**: Matrix-inspired dark theme with emerald green accents, immersive and futuristic coding environment
+
+####  Nebula Pro Dark Theme
 - **Background**: Deep space blue (#0a0d1a)
 - **Text**: Light blue (#c8d3f5)
 - **Comments**: Purple-blue (#636da6)
@@ -492,6 +532,22 @@ You can assign custom keyboard shortcuts to theme switching commands:
 - **Keywords**: Pink (#c43058ff)
 - **Best for**: Bright environments, space lovers, cosmic illumination
 
+#### 🚀 Deep Space Dark Theme (NEW)
+- **Background**: Ultimate cosmic black (#0a0019)
+- **Text**: Pure white (#ffffff)
+- **Comments**: Purple-gray (#5a4b81)
+- **Strings**: Light purple (#ddd5fb)
+- **Keywords**: Purple (#af92ff)
+- **Best for**: Deep space enthusiasts, ultimate dark theme, cosmic coding experience
+
+#### 🌟 Deep Space Light Theme (NEW)
+- **Background**: Bright cosmic white (#ffffff)
+- **Text**: Deep space black (#000000)
+- **Comments**: Purple-gray (#cdbbff)
+- **Strings**: Light purple (#532edb)
+- **Keywords**: Purple (#622afd)
+- **Best for**: Bright environments, cosmic illumination, light space aesthetics
+
 ##  Development
 
 ### Prerequisites
@@ -565,11 +621,6 @@ vscode-multi-themes/
 │   ├── eclipse-light-theme.json
 │   ├── space-dark-theme.json
 │   └── space-light-theme.json
-├── icons/                    # Icon theme files
-│   ├── ultimate-icon-theme.json  # Icon theme definition
-│   ├── files/                # File icons (70+ SVG icons)
-│   ├── folders/              # Folder icons (25+ SVG icons)
-│   └── folders-alt/          # Alternative folder icons for light themes
 ├── out/                     # Compiled JavaScript
 ├── package.json             # Extension manifest
 ├── tsconfig.json           # TypeScript configuration
@@ -644,9 +695,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](../LICENS
 
 - **📦 Downloads**: 1,000+ (Marketplace)
 - **⭐ Stars**: 50+ (GitHub)
-- **🎨 Themes**: 28 professional themes (19 popular + 9 accessibility-focused)
-- **🎯 Icons**: 1 ultimate icon theme with 70+ file icons and 25+ folder icons
-- ** Languages**: English
+- **🎨 Themes**: 54 professional themes (45 popular + 9 accessibility-focused)
+- **🎯 Icon Themes**: 3 distinct icon packs (Ultimate SVG, Minimal, Retro Pixel)
+- **🌍 Languages**: English
 - **🔧 Compatibility**: VS Code 1.75.0+
 
 ## 🔍 **Popular VSCode Theme Searches**
@@ -672,7 +723,7 @@ Users frequently search for these VSCode themes and features:
 - Professional VSCode themes
 - Premium VSCode themes
 
-## 🚀 Roadmap
+##  Roadmap
 
 ### Upcoming Features
 - [ ] **More Themes**: Additional color schemes based on user requests
@@ -682,9 +733,27 @@ Users frequently search for these VSCode themes and features:
 - [ ] **Theme Presets**: Curated theme combinations for different use cases
 
 ### Recent Updates
-- ✅ **v0.0.23**: Added Ultimate Icon Theme with 70+ professional file icons and 25+ context-aware folder icons for enhanced visual experience
-- ✅ **v0.0.22**: Added 4 new themes (Eclipse Dark, Eclipse Light, Space Dark, Space Light) for enhanced development experience
-- ✅ **v0.0.21**: Added 4 new themes (Eclipse Dark, Eclipse Light, Space Dark, Space Light) for enhanced development experience
+- ✅ **v0.0.33**: Added Pastel Cyberwave Theme - Soft cyberpunk dark theme with pastel neon accents for gentle futuristic coding
+- ✅ **v0.0.33**: Added Sky Breeze Theme - Refreshing sky blue light theme with calming blue accents for comfortable coding
+- ✅ **v0.0.33**: Added Ocean Abyss Theme - Deep ocean high contrast light theme with blue accents for accessible coding
+- ✅ **v0.0.33**: Added Midnight Abyss Theme - Deep ocean dark theme with blue accents for immersive coding
+- ✅ **v0.0.33**: Added Lavender Glow Theme - Elegant lavender light theme with purple accents for comfortable coding
+- ✅ **v0.0.33**: Added EverNex Theme - Fresh green dark theme with vibrant accents for modern coding
+- ✅ **v0.0.33**: Added Emerald Matrix Theme - Matrix-inspired dark theme with emerald green accents for immersive coding
+- ✅ **v0.0.33**: Added Aurum Dusk Theme - Warm golden dark theme with sunset-inspired colors for cozy coding
+- ✅ **v0.0.33**: Added DarkRosebyte Theme - Elegant dark theme with rose and crimson accents for sophisticated coding
+- ✅ **v0.0.33**: Added Azure Dark HC Theme - High contrast dark theme with azure accents for enhanced visibility
+- ✅ **v0.0.33**: Added Amber Light Theme - Warm and inviting light theme with amber tones for comfortable coding
+- ✅ **v0.0.33**: Added CloudMint Night Theme - Modern dark theme with mint accents and clean aesthetics for focused coding
+- ✅ **v0.0.33**: Added Nimbus Mint Light Theme - Clean and modern light theme with mint accents for comfortable coding
+- ✅ **v0.0.32**: Added Pixel Lab Dark Theme - Clean and professional dark theme for laboratory-like coding precision
+- ✅ **v0.0.32**: Added Sugar Rush Dark Theme - Electric and sugary dark theme with vibrant neon colors for high-energy coding
+- ✅ **v0.0.32**: Added Pink Pixel Candy Nebula Theme - Sweet and vibrant nebula-inspired dark theme with candy-like colors
+- ✅ **v0.0.29**: Added Pink Kitty Theme - cute and adorable dark theme with pink and purple aesthetics
+- ✅ **v0.0.28**: Added Deep Space Light theme - the ultimate cosmic light theme with bright space aesthetics and cosmic illumination
+- ✅ **v0.0.27**: Added Deep Space Dark theme - the ultimate cosmic dark theme with deep space aesthetics and enhanced focus
+- ✅ **v0.0.25**: Added 3 Icon Themes (Ultimate SVG, Minimal, Retro Pixel) with 239+ total icons for enhanced file/folder visualization
+- ✅ **v0.0.20**: Added 4 new themes (Eclipse Dark, Eclipse Light, Space Dark, Space Light) for enhanced development experience
 - ✅ **v0.0.19**: Major update with 12 new themes (One Dark Pro, Goku Code, Nebula Pro, Rose Paradise, Omnitrix Code, Neon Dream Code, Ayu Mirage, Catppuccin Mocha, Eye Comfort Pro, Moonlight Soft, Night Owl Comfort)
 - ✅ **v0.0.18**: Enhanced Goku Code theme with semantic highlighting and improved Dragon Ball Z aesthetics
 - ✅ **v0.0.17**: Added Neon Dream Code theme with cyberpunk neon aesthetics
@@ -719,4 +788,4 @@ Users frequently search for these VSCode themes and features:
 
 ---
 
-**Made with ❤️ by [RAj](https://github.com/codewithevilxd/vscode-multi-themes)**
+**Made with ❤️ by [RAj](https://github.com/codewithevilxd)**

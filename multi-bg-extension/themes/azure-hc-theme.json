@@ -1,0 +1,79 @@
+{
+  "name": "Azure Dark HC",
+  "type": "hc-black",
+  "colors": {
+    "editor.background": "#00080d",
+    "tab.activeBackground": "#00080d",
+    "tab.inactiveBackground": "#00080d",
+    "tab.activeForeground": "#e8f1ff",
+    "tab.inactiveForeground": "#009cff",
+    "editor.foreground": "#e8f1ff",
+    "editor.selectionBackground": "#004466",
+    "editor.lineHighlightBackground": "#00222d",
+    "editorCursor.foreground": "#009cff",
+    "editorLineNumber.foreground": "#336680",
+    "editorLineNumber.activeForeground": "#009cff",
+    "activityBar.background": "#000508",
+    "activityBar.foreground": "#009cff",
+    "activityBarBadge.background": "#009cff",
+    "activityBarBadge.foreground": "#000508",
+    "sideBar.background": "#00080d",
+    "sideBar.foreground": "#a0bedd",
+    "sideBarTitle.foreground": "#009cff",
+    "statusBar.background": "#000508",
+    "statusBar.foreground": "#009cff",
+    "titleBar.activeBackground": "#000508",
+    "titleBar.activeForeground": "#009cff"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": { "fontStyle": "italic", "foreground": "#5588aa" }
+    },
+    {
+      "name": "Keyword",
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": { "foreground": "#00aaff", "fontStyle": "bold" }
+    },
+    {
+      "name": "String",
+      "scope": ["string", "constant.other.symbol", "constant.other.key"],
+      "settings": { "foreground": "#0099ff" }
+    },
+    {
+      "name": "Function",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "support.function"
+      ],
+      "settings": { "foreground": "#44ccff", "fontStyle": "bold" }
+    },
+    {
+      "name": "Variable",
+      "scope": ["variable", "string constant.other.placeholder"],
+      "settings": { "foreground": "#e8f1ff" }
+    },
+    {
+      "name": "Number",
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": { "foreground": "#77b3ff" }
+    },
+    {
+      "name": "Type",
+      "scope": ["entity.name.type", "support.class", "support.type"],
+      "settings": { "foreground": "#009cff", "fontStyle": "bold" }
+    },
+    {
+      "name": "Operator",
+      "scope": ["keyword.operator", "punctuation"],
+      "settings": { "foreground": "#55bbff" }
+    },
+    {
+      "name": "Invalid",
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": { "foreground": "#ff5599" }
+    }
+  ]
+}

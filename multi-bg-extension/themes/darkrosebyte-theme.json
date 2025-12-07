@@ -1,0 +1,79 @@
+{
+  "name": "DarkRosebyte",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1a0a12",
+    "tab.activeBackground": "#1a0a12",
+    "tab.inactiveBackground": "#1a0a12",
+    "tab.activeForeground": "#f4d4dd",
+    "tab.inactiveForeground": "#ff3da6",
+    "editor.foreground": "#f4d4dd",
+    "editor.selectionBackground": "#451a32",
+    "editor.lineHighlightBackground": "#1f0f1a",
+    "editorCursor.foreground": "#ff3da6",
+    "editorLineNumber.foreground": "#592d45",
+    "editorLineNumber.activeForeground": "#ff3da6",
+    "activityBar.background": "#0f050c",
+    "activityBar.foreground": "#ff3da6",
+    "activityBarBadge.background": "#ff1e7a",
+    "activityBarBadge.foreground": "#0f050c",
+    "sideBar.background": "#1a0a12",
+    "sideBar.foreground": "#dda8b8",
+    "sideBarTitle.foreground": "#ff3da6",
+    "statusBar.background": "#0f050c",
+    "statusBar.foreground": "#ff3da6",
+    "titleBar.activeBackground": "#0f050c",
+    "titleBar.activeForeground": "#ff3da6"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": { "fontStyle": "italic", "foreground": "#6b4a5a" }
+    },
+    {
+      "name": "Keyword",
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": { "foreground": "#ff1e7a", "fontStyle": "bold" }
+    },
+    {
+      "name": "String",
+      "scope": ["string", "constant.other.symbol", "constant.other.key"],
+      "settings": { "foreground": "#ff709e" }
+    },
+    {
+      "name": "Function",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "support.function"
+      ],
+      "settings": { "foreground": "#ff3da6", "fontStyle": "bold" }
+    },
+    {
+      "name": "Variable",
+      "scope": ["variable", "string constant.other.placeholder"],
+      "settings": { "foreground": "#f4d4dd" }
+    },
+    {
+      "name": "Number",
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": { "foreground": "#dc5d8c" }
+    },
+    {
+      "name": "Type",
+      "scope": ["entity.name.type", "support.class", "support.type"],
+      "settings": { "foreground": "#ff55aa", "fontStyle": "bold" }
+    },
+    {
+      "name": "Operator",
+      "scope": ["keyword.operator", "punctuation"],
+      "settings": { "foreground": "#ee2e96" }
+    },
+    {
+      "name": "Invalid",
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": { "foreground": "#ff5f7a" }
+    }
+  ]
+}
