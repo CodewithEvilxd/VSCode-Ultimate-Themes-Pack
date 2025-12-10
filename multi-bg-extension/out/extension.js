@@ -214,6 +214,14 @@ function activate(context) {
         vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Neon Overdrive', vscode.ConfigurationTarget.Global);
         vscode.window.showInformationMessage('⚡ Switched to Neon Overdrive Theme (NEW)! High-energy cyberpunk dark theme with vibrant neon accents for intense coding sessions.');
     });
+    let switchToNuttyDark = vscode.commands.registerCommand('multiBg.switchToNuttyDark', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Nutty Dark', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🥜 Switched to Nutty Dark Theme! Nutty and delicious dark theme for coding.');
+    });
+    let switchToNuttyLight = vscode.commands.registerCommand('multiBg.switchToNuttyLight', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Nutty Light', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🥜 Switched to Nutty Light Theme! Nutty and delicious light theme for coding.');
+    });
     let switchToUltimateIconTheme = vscode.commands.registerCommand('multiBg.switchToUltimateIconTheme', () => {
         vscode.workspace.getConfiguration('workbench').update('iconTheme', 'ultimate-icon-theme', vscode.ConfigurationTarget.Global);
     });
