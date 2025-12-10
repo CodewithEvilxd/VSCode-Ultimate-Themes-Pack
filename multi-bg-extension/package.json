@@ -1,8 +1,8 @@
 {
   "name": "vscode-multi-themes",
-  "displayName": "Ultimate VSCode Themes Pack - 33+ Professional Dark & Light Themes with 3 Icon Packs",
-  "description": "Ultimate collection of 33+ professional VSCode themes: dark themes like Nebula Storm, Stellar Operator, Cosmic Eclipse, Ocean Depths, Hacker, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code, Nebula, Neon Dream; light themes like Pink, Rose Paradise, Gentle Sepia; accessibility themes for eye comfort. Includes 3 Icon Themes: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons). Premium syntax highlighting for all programming languages.",
-  "version": "0.0.35",
+  "displayName": "Ultimate VSCode Themes Pack - 35+ Professional Dark & Light Themes with 3 Icon Packs",
+  "description": "Ultimate collection of 35+ professional VSCode themes: dark themes like Nebula Storm, Stellar Operator, Cosmic Eclipse, Ocean Depths, Hacker, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code, Nebula, Neon Dream, Dark Green Jungle, Black and White TV; light themes like Pink, Rose Paradise, Gentle Sepia; accessibility themes for eye comfort. Includes 3 Icon Themes: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons). Premium syntax highlighting for all programming languages.",
+  "version": "0.0.36",
   "publisher": "SecureDev01",
   "keywords": [
     "vscode themes",
@@ -86,7 +86,11 @@
     "folder icons",
     "ultimate",
     "premium",
-    "professional"
+    "professional",
+    "black and white tv",
+    "monochrome theme",
+    "vintage theme",
+    "retro theme"
   ],
   "icon": "image.png",
   "repository": {
@@ -349,6 +353,14 @@
         "title": "Switch to Nutty Dark Theme (NEW)"
       },
       {
+        "command": "multiBg.switchToDarkGreenJungle",
+        "title": "Switch to Dark Green Jungle Theme (NEW)"
+      },
+      {
+        "command": "multiBg.switchToBlackAndWhiteTV",
+        "title": "Switch to Black and White TV Theme (NEW)"
+      },
+      {
         "command": "multiBg.switchToUltimateIconTheme",
         "title": "Switch to Ultimate Icon Theme"
       },
@@ -548,6 +560,12 @@
         },
         {
           "command": "multiBg.switchToNuttyLight"
+        },
+        {
+          "command": "multiBg.switchToDarkGreenJungle"
+        },
+        {
+          "command": "multiBg.switchToBlackAndWhiteTV"
         },
         {
           "command": "multiBg.switchToUltimateIconTheme"
@@ -907,6 +925,16 @@
         "label": "Nutty Light",
         "uiTheme": "vs",
         "path": "./themes/nutty-light-theme.json"
+      },
+      {
+        "label": "Dark Green Jungle",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-green-jungle-theme.json"
+      },
+      {
+        "label": "Black and White TV",
+        "uiTheme": "vs-dark",
+        "path": "./themes/black-and-white-tv-theme.json"
       }
     ]
   },
