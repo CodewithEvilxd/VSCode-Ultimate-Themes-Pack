@@ -293,6 +293,26 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.window.showInformationMessage('📺 Switched to Black and White TV Theme (NEW)! Vintage monochrome dark theme for classic coding.');
     });
 
+    let switchToCanvasSoftLight = vscode.commands.registerCommand('multiBg.switchToCanvasSoftLight', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Canvas Soft Light', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🖼️ Switched to Canvas Soft Light Theme! Soft and elegant light theme for comfortable coding.');
+    });
+
+    let switchToCanvasIntelli = vscode.commands.registerCommand('multiBg.switchToCanvasIntelli', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Canvas Intelli', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🧠 Switched to Canvas Intelli Theme! Intelligent light theme for advanced coding.');
+    });
+
+    let switchToCodeCanvasLight = vscode.commands.registerCommand('multiBg.switchToCodeCanvasLight', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'CodeCanvas Light', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🎨 Switched to CodeCanvas Light Theme! Elegant light theme for creative coding.');
+    });
+
+    let switchToCodeCanvasIntelliLight = vscode.commands.registerCommand('multiBg.switchToCodeCanvasIntelliLight', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'CodeCanvas Intelli Light', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🧠 Switched to CodeCanvas Intelli Light Theme! Intelligent light theme for advanced coding.');
+    });
+
     let switchToUltimateIconTheme = vscode.commands.registerCommand('multiBg.switchToUltimateIconTheme', () => {
         vscode.workspace.getConfiguration('workbench').update('iconTheme', 'ultimate-icon-theme', vscode.ConfigurationTarget.Global);
     });
@@ -305,7 +325,7 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.workspace.getConfiguration('workbench').update('iconTheme', 'retro-pixel-icon-theme', vscode.ConfigurationTarget.Global);
     });
 
-    context.subscriptions.push(switchToHacker, switchToPink, switchToBlue, switchToDark, switchToNord, switchToTokyo, switchToDracula, switchToSolarized, switchToGruvbox, switchToGentleSepia, switchToLowBlueNight, switchToSoftContrast, switchToDuskyRose, switchToHighReadability, switchToOneDarkPro, switchToDragonBallGokuEyeSafe, switchToAyuMirage, switchToCatppuccinMocha, switchToEyeComfort, switchToMoonlight, switchToNightOwl, switchToNebulaPro, switchToRoseParadise, switchToOmnitrixCode, switchToNeonDreamCode, switchToEclipseDark, switchToEclipseLight, switchToSpaceDark, switchToSpaceLight, switchToCosmicDark, switchToElectricDreams, switchToWinterIsComing, switchToCyberpunkNeon, switchToOceanBreeze, switchToNeonCyberpunk, switchToDeepSpaceDark, switchToDeepSpaceLight, switchToPinkKitty, switchToJapaneseWave, switchToCosmicConsole, switchToMidnightGlow, switchToCalmDark, switchToCalmLight, switchToPinkPixelCandyNebula, switchToSugarRushDark, switchToPixelLabDark, switchToNimbusMintLight, switchToCloudMintNight, switchToAmberLight, switchToAzureHC, switchToDarkRosebyte, switchToAurumDusk, switchToEmeraldMatrix, switchToEverNex, switchToLavenderGlow, switchToMidnightAbyss, switchToOceanAbyss, switchToSkyBreeze, switchToPastelCyberwave, switchToNeonOverdrive, switchToNuttyDark, switchToNuttyLight, switchToDarkGreenJungle, switchToBlackAndWhiteTV, switchToUltimateIconTheme, switchToMinimalIconTheme, switchToRetroPixelIconTheme);
+    context.subscriptions.push(switchToHacker, switchToPink, switchToBlue, switchToDark, switchToNord, switchToTokyo, switchToDracula, switchToSolarized, switchToGruvbox, switchToGentleSepia, switchToLowBlueNight, switchToSoftContrast, switchToDuskyRose, switchToHighReadability, switchToOneDarkPro, switchToDragonBallGokuEyeSafe, switchToAyuMirage, switchToCatppuccinMocha, switchToEyeComfort, switchToMoonlight, switchToNightOwl, switchToNebulaPro, switchToRoseParadise, switchToOmnitrixCode, switchToNeonDreamCode, switchToEclipseDark, switchToEclipseLight, switchToSpaceDark, switchToSpaceLight, switchToCosmicDark, switchToElectricDreams, switchToWinterIsComing, switchToCyberpunkNeon, switchToOceanBreeze, switchToNeonCyberpunk, switchToDeepSpaceDark, switchToDeepSpaceLight, switchToPinkKitty, switchToJapaneseWave, switchToCosmicConsole, switchToMidnightGlow, switchToCalmDark, switchToCalmLight, switchToPinkPixelCandyNebula, switchToSugarRushDark, switchToPixelLabDark, switchToNimbusMintLight, switchToCloudMintNight, switchToAmberLight, switchToAzureHC, switchToDarkRosebyte, switchToAurumDusk, switchToEmeraldMatrix, switchToEverNex, switchToLavenderGlow, switchToMidnightAbyss, switchToOceanAbyss, switchToSkyBreeze, switchToPastelCyberwave, switchToNeonOverdrive, switchToNuttyDark, switchToNuttyLight, switchToDarkGreenJungle, switchToBlackAndWhiteTV, switchToCanvasSoftLight, switchToCanvasIntelli, switchToCodeCanvasLight, switchToCodeCanvasIntelliLight, switchToUltimateIconTheme, switchToMinimalIconTheme, switchToRetroPixelIconTheme);
 }
 
 export function deactivate() {}
