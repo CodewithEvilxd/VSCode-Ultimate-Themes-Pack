@@ -1,8 +1,8 @@
 {
   "name": "vscode-multi-themes",
   "displayName": "Ultimate VSCode Themes Pack - 35+ Professional Dark & Light Themes with 3 Icon Packs",
-  "description": "Ultimate collection of 39+ professional VSCode themes: dark themes like Nebula Storm, Stellar Operator, Cosmic Eclipse, Ocean Depths, Hacker, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code, Nebula, Neon Dream, Dark Green Jungle, Black and White TV; light themes like Pink, Rose Paradise, Gentle Sepia, Canvas Soft Light, Canvas Intelli, CodeCanvas Light, CodeCanvas Intelli Light; accessibility themes for eye comfort. Includes 3 Icon Themes: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons). Premium syntax highlighting for all programming languages.",
-  "version": "0.0.37",
+  "description": "Ultimate collection of 49+ professional VSCode themes: dark themes like Nebula Storm, Stellar Operator, Cosmic Eclipse, Ocean Depths, Hacker, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code, Nebula, Neon Dream, Dark Green Jungle, Black and White TV, Maple Dark, Neon Genesis Dark, Neon Orchid Protocol, Spiritwood Night, Candycore Noir, Coffee Space Cats, Cocoa Ember, Cyan Depths, Elemental Spectrum; light themes like Pink, Rose Paradise, Gentle Sepia, Canvas Soft Light, Canvas Intelli, CodeCanvas Light, CodeCanvas Intelli Light, Maple Light; accessibility themes for eye comfort. Includes 11 Icon Themes: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons), Vitesse Dark, Vitesse Light, Pixel Craft Blue, Pixel Craft Purple, Pixel Craft Yellow, Mono Craft, Block Craft, Pixel Art. Premium syntax highlighting for all programming languages.",
+  "version": "0.0.38",
   "publisher": "SecureDev01",
   "keywords": [
   	"vscode themes",
@@ -96,7 +96,9 @@
   	"canvas soft light",
   	"canvas intelli",
   	"codecanvas light",
-  	"codecanvas intelli light"
+  	"codecanvas intelli light",
+  	"maple",
+  	"vitesse"
   ],
   "icon": "image.png",
   "repository": {
@@ -393,6 +395,46 @@
       {
         "command": "multiBg.switchToCodeCanvasIntelliLight",
         "title": "Switch to CodeCanvas Intelli Light Theme"
+      },
+      {
+        "command": "multiBg.switchToVitesseDarkIconTheme",
+        "title": "Switch to Vitesse Dark Icon Theme"
+      },
+      {
+        "command": "multiBg.switchToVitesseLightIconTheme",
+        "title": "Switch to Vitesse Light Icon Theme"
+      },
+      {
+        "command": "multiBg.switchToPixelCraftBlueIconTheme",
+        "title": "Switch to Pixel Craft Blue Icon Theme"
+      },
+      {
+        "command": "multiBg.switchToPixelCraftPurpleIconTheme",
+        "title": "Switch to Pixel Craft Purple Icon Theme"
+      },
+      {
+        "command": "multiBg.switchToPixelCraftYellowIconTheme",
+        "title": "Switch to Pixel Craft Yellow Icon Theme"
+      },
+      {
+        "command": "multiBg.switchToMonoCraftIconTheme",
+        "title": "Switch to Mono Craft Icon Theme"
+      },
+      {
+        "command": "multiBg.switchToBlockCraftIconTheme",
+        "title": "Switch to Block Craft Icon Theme"
+      },
+      {
+        "command": "multiBg.switchToPixelArtIconTheme",
+        "title": "Switch to Pixel Art Icon Theme"
+      },
+      {
+        "command": "multiBg.switchToMapleDark",
+        "title": "Switch to Maple Dark Theme"
+      },
+      {
+        "command": "multiBg.switchToMapleLight",
+        "title": "Switch to Maple Light Theme"
       }
     ],
     "menus": {
@@ -609,6 +651,60 @@
         },
         {
           "command": "multiBg.switchToCodeCanvasIntelliLight"
+        },
+        {
+          "command": "multiBg.switchToVitesseDarkIconTheme"
+        },
+        {
+          "command": "multiBg.switchToVitesseLightIconTheme"
+        },
+        {
+          "command": "multiBg.switchToPixelCraftBlueIconTheme"
+        },
+        {
+          "command": "multiBg.switchToPixelCraftPurpleIconTheme"
+        },
+        {
+          "command": "multiBg.switchToPixelCraftYellowIconTheme"
+        },
+        {
+          "command": "multiBg.switchToMonoCraftIconTheme"
+        },
+        {
+          "command": "multiBg.switchToBlockCraftIconTheme"
+        },
+        {
+          "command": "multiBg.switchToPixelArtIconTheme"
+        },
+        {
+          "command": "multiBg.switchToMapleDark"
+        },
+        {
+          "command": "multiBg.switchToMapleLight"
+        },
+        {
+          "command": "multiBg.switchToNeonGenesisDark"
+        },
+        {
+          "command": "multiBg.switchToNeonOrchidProtocol"
+        },
+        {
+          "command": "multiBg.switchToSpiritwoodNight"
+        },
+        {
+          "command": "multiBg.switchToCandycoreNoir"
+        },
+        {
+          "command": "multiBg.switchToCoffeeSpaceCats"
+        },
+        {
+          "command": "multiBg.switchToCocoaEmber"
+        },
+        {
+          "command": "multiBg.switchToCyanDepths"
+        },
+        {
+          "command": "multiBg.switchToElementalSpectrum"
         }
       ]
     },
@@ -627,6 +723,46 @@
         "id": "retro-pixel-icon-theme",
         "label": "Retro Pixel Icon Theme",
         "path": "./icons/pixel-icon-theme.json"
+      },
+      {
+        "id": "vitesse-dark",
+        "label": "Vitesse Dark",
+        "path": "./icons/vitesse-dark/theme.json"
+      },
+      {
+        "id": "vitesse-light",
+        "label": "Vitesse Light",
+        "path": "./icons/vitesse-light/theme.json"
+      },
+      {
+        "id": "pixel-craft-blue",
+        "label": "Pixel Craft Blue",
+        "path": "./icons/pixel-craft-blue-icon-theme.json"
+      },
+      {
+        "id": "pixel-craft-purple",
+        "label": "Pixel Craft Purple",
+        "path": "./icons/pixel-craft-purple-icon-theme.json"
+      },
+      {
+        "id": "pixel-craft-yellow",
+        "label": "Pixel Craft Yellow",
+        "path": "./icons/pixel-craft-yellow-icon-theme.json"
+      },
+      {
+        "id": "mono-craft",
+        "label": "Mono Craft",
+        "path": "./icons/mono-craft-icon-theme.json"
+      },
+      {
+        "id": "block-craft",
+        "label": "Block Craft",
+        "path": "./icons/block-craft-icon-theme.json"
+      },
+      {
+        "id": "pixel-art",
+        "label": "Pixel Art",
+        "path": "./icons/pixel-art-icon-theme.json"
       }
     ],
     "themes": [
@@ -989,6 +1125,56 @@
         "label": "CodeCanvas Intelli Light",
         "uiTheme": "vs",
         "path": "./themes/codecanvas-intelli-light-theme.json"
+      },
+      {
+        "label": "Maple Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/maple-dark-color-theme.json"
+      },
+      {
+        "label": "Maple Light",
+        "uiTheme": "vs",
+        "path": "./themes/maple-light-color-theme.json"
+      },
+      {
+        "label": "Neon Genesis Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-genesis-dark-theme.json"
+      },
+      {
+        "label": "Neon Orchid Protocol",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-orchid-protocol-theme.json"
+      },
+      {
+        "label": "Spiritwood Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/spiritwood-night-theme.json"
+      },
+      {
+        "label": "Candycore Noir",
+        "uiTheme": "vs-dark",
+        "path": "./themes/candycore-noir-theme.json"
+      },
+      {
+        "label": "Coffee Space Cats",
+        "uiTheme": "vs-dark",
+        "path": "./themes/coffee-space-cats-theme.json"
+      },
+      {
+        "label": "Cocoa Ember",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cocoa-ember-theme.json"
+      },
+      {
+        "label": "Cyan Depths",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyan-depths-theme.json"
+      },
+      {
+        "label": "Elemental Spectrum",
+        "uiTheme": "vs-dark",
+        "path": "./themes/elemental-spectrum-theme.json"
       }
     ]
   },

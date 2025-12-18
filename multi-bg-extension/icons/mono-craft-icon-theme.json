@@ -1,0 +1,176 @@
+{
+  "iconDefinitions": {
+    "_javascript": {
+      "iconPath": "./mono-craft/01.png"
+    },
+    "_typescript": {
+      "iconPath": "./mono-craft/21.png"
+    },
+    "_markdown": {
+      "iconPath": "./mono-craft/03.png"
+    },
+    "_html": {
+      "iconPath": "./mono-craft/02.png"
+    },
+    "_css": {
+      "iconPath": "./mono-craft/12.png"
+    },
+    "_file": {
+      "iconPath": "./mono-craft/01.png"
+    },
+    "_javascript_test": {
+      "iconPath": "./mono-craft/10.png"
+    },
+    "_json": {
+      "iconPath": "./mono-craft/18.png"
+    },
+    "_lock": {
+      "iconPath": "./mono-craft/08.png"
+    },
+    "_eslint": {
+      "iconPath": "./mono-craft/20.png"
+    },
+    "_prettier": {
+      "iconPath": "./mono-craft/13.png"
+    },
+    "_git": {
+      "iconPath": "./mono-craft/14.png"
+    },
+    "_log": {
+      "iconPath": "./mono-craft/15.png"
+    },
+    "_image": {
+      "iconPath": "./mono-craft/16.png"
+    },
+    "_babel": {
+      "iconPath": "./mono-craft/17.png"
+    },
+    "_license": {
+      "iconPath": "./mono-craft/19.png"
+    },
+    "_package": {
+      "iconPath": "./mono-craft/22.png"
+    },
+    "_graphql": {
+      "iconPath": "./mono-craft/04.png"
+    },
+    "_jest": {
+      "iconPath": "./mono-craft/09.png"
+    },
+    "_apollo": {
+      "iconPath": "./mono-craft/24.png"
+    },
+    "_bazel": {
+      "iconPath": "./mono-craft/11.png"
+    },
+    "_music": {
+      "iconPath": "./mono-craft/06.png"
+    },
+    "_solidity": {
+      "iconPath": "./mono-craft/23.png"
+    },
+    "_yml": {
+      "iconPath": "./mono-craft/10.png"
+    },
+    "_env": {
+      "iconPath": "./mono-craft/05.png"
+    },
+    "_config": {
+      "iconPath": "./mono-craft/07.png"
+    }
+  },
+  "file": "_file",
+  "fileExtensions": {
+    "js": "_javascript",
+    "jsx": "_javascript",
+    "ts": "_typescript",
+    "tsx": "_typescript",
+    "jpeg": "_image",
+    "jpg": "_image",
+    "gif": "_image",
+    "png": "_image",
+    "bmp": "_image",
+    "ico": "_image",
+    "svg": "_image",
+    "mp3": "_music",
+    "ogg": "_music",
+    "wav": "_music",
+    "node.js": "_javascript_test",
+    "browser.js": "_javascript_test",
+    "md": "_markdown",
+    "graphql": "_graphql",
+    "proto": "_proto",
+    "thrift": "_thrift",
+    "git": "_git",
+    "snap": "_javascript_test",
+    "log": "_log",
+    "sol": "_solidity",
+    "yml": "_yml",
+    "config.js": "_config"
+  },
+  "fileNames": {
+    "license": "_license",
+    "licence": "_license",
+    "license.md": "_license",
+    "licence.md": "_license",
+    "license.txt": "_license",
+    "copyright": "_license",
+    "copyright.md": "_license",
+    "package.json": "_package",
+    "package-lock.json": "_lock",
+    "npm-debug.log": "_log",
+    "vscodeignore.json": "_visualstudiocode",
+    "extensions.json": "_visualstudiocode",
+    "launch.json": "_visualstudiocode",
+    "settings.json": "_visualstudiocode",
+    "jsconfig.json": "_json",
+    "tsconfig.json": "_json",
+    "yarn.lock": "_lock",
+    "yarn-error.log": "_log",
+    ".babelrc": "_babel",
+    ".babel.config.js": "_babel",
+    ".eslintrc.js": "_eslint",
+    ".eslintrc.yml": "_eslint",
+    ".eslintrc.yaml": "_eslint",
+    ".eslintrc.json": "_eslint",
+    ".eslintignore": "_eslint",
+    "prettierrc.js": "_prettier",
+    "prettierrc.json": "_prettier",
+    "prettierrc.yml": "_prettier",
+    "prettierrc.yaml": "_prettier",
+    "prettier.config.js": "_prettier",
+    "prettier.config.ts": "_prettier",
+    "prettier.config.coffee": "_prettier",
+    ".prettierignore": "_prettier",
+    ".prettierrc": "_prettier",
+    "tslint.js": "_tslint",
+    "tslint.ts": "_tslint",
+    "tslint.json": "_tslint",
+    "contributing": "_markdown",
+    "history": "_markdown",
+    "history.md": "_markdown",
+    "changelog": "_log",
+    "changelog.md": "_log",
+    "changelog.json": "_log",
+    "metadata": "_markdown",
+    ".flowconfig": "_flow",
+    ".fusionrc.config": "_fusion",
+    "bazelisk": "_bazel",
+    "BUILD.bazel": "_bazel",
+    "jest.config.js": "_jest",
+    "jest.integration.config.js": "_jest",
+    "apollo.config.js": "_apollo",
+    ".gitignore": "_git",
+    ".graphqlconfig": "_graphql",
+    ".env.production": "_env",
+    ".env.development": "_env"
+  },
+  "languageIds": {
+    "git": "_git",
+    "javascript": "_javascript",
+    "typescript": "_typescript",
+    "css": "_css",
+    "html": "_html",
+    "json": "_json"
+  }
+}

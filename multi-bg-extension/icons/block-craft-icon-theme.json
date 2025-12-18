@@ -1,0 +1,460 @@
+{
+  "iconDefinitions": {
+    "basic_folder": {
+      "iconPath": "./block-craft/basic_folder.png"
+    },
+    "aim_assist": {
+      "iconPath": "./block-craft/BP/aim_assist.png"
+    },
+    "animation_controllers": {
+      "iconPath": "./block-craft/BP/animation_controllers.png"
+    },    "animations": {
+      "iconPath": "./block-craft/BP/animations.png"
+    },
+    "biomes": {
+      "iconPath": "./block-craft/BP/biomes.png"
+    },
+    "blocks": {
+      "iconPath": "./block-craft/BP/blocks.png"
+    },
+    "cameras": {
+      "iconPath": "./block-craft/BP/cameras.png"
+    },
+    "dialogue": {
+      "iconPath": "./block-craft/BP/dialogue.png"
+    },
+    "entities": {
+      "iconPath": "./block-craft/BP/entities.png"
+    },
+    "feature_rules": {
+      "iconPath": "./block-craft/BP/feature_rules.png"
+    },
+    "features": {
+      "iconPath": "./block-craft/BP/features.png"
+    },
+    "functions": {
+      "iconPath": "./block-craft/BP/functions.png"
+    },
+    "item_catalog": {
+      "iconPath": "./block-craft/BP/item_catalog.png"
+    },
+    "items": {
+      "iconPath": "./block-craft/BP/items.png"
+    },
+    "loot_tables": {
+      "iconPath": "./block-craft/BP/loot_tables.png"
+    },
+    "presets": {
+      "iconPath": "./block-craft/BP/presets.png"
+    },
+    "recipes": {
+      "iconPath": "./block-craft/BP/recipes.png"
+    },
+    "scripts": {
+      "iconPath": "./block-craft/BP/scripts.png"
+    },
+    "texts": {
+      "iconPath": "./block-craft/BP/texts.png"
+    },
+    "trading": {
+      "iconPath": "./block-craft/BP/trading.png"
+    },
+    "worldgen": {
+      "iconPath": "./block-craft/BP/worldgen.png"
+    },
+    "spawn_rules": {
+      "iconPath": "./block-craft/BP/entities.png"
+    },
+    "structures": {
+      "iconPath": "./block-craft/BP/worldgen.png"
+    },
+    "economy_trades": {
+      "iconPath": "./block-craft/BP/trading.png"
+    },
+    "jigsaw_structures": {
+      "iconPath": "./block-craft/BP/worldgen.png"
+    },
+    "processors": {
+      "iconPath": "./block-craft/BP/worldgen.png"
+    },
+    "structure_sets": {
+      "iconPath": "./block-craft/BP/worldgen.png"
+    },
+    "template_pools": {
+      "iconPath": "./block-craft/BP/worldgen.png"
+    },
+    "rp_animation_controllers": {
+      "iconPath": "./block-craft/RP/animation_controllers.png"
+    },
+    "rp_animations": {
+      "iconPath": "./block-craft/RP/animations.png"
+    },
+    "attachables": {
+      "iconPath": "./block-craft/RP/attachables.png"
+    },
+    "entity": {
+      "iconPath": "./block-craft/RP/entity.png"
+    },
+    "fogs": {
+      "iconPath": "./block-craft/RP/fogs.png"
+    },
+    "font": {
+      "iconPath": "./block-craft/RP/fonts.png"
+    },
+    "fonts": {
+      "iconPath": "./block-craft/RP/fonts.png"
+    },
+    "rp_items": {
+      "iconPath": "./block-craft/RP/items.png"
+    },
+    "materials": {
+      "iconPath": "./block-craft/RP/materials.png"
+    },
+    "models": {
+      "iconPath": "./block-craft/RP/models.png"
+    },
+    "particles": {
+      "iconPath": "./block-craft/RP/particles.png"
+    },
+    "render_controllers": {
+      "iconPath": "./block-craft/RP/particles.png"
+    },
+    "sounds": {
+      "iconPath": "./block-craft/RP/sounds.png"
+    },
+    "rp_texts": {
+      "iconPath": "./block-craft/RP/texts.png"
+    },
+    "textures": {
+      "iconPath": "./block-craft/RP/textures.png"
+    },
+    "environment": {
+      "iconPath": "./block-craft/RP/textures.png"
+    },
+    "overworld_cubemap": {
+      "iconPath": "./block-craft/RP/textures.png"
+    },
+    "particle": {
+      "iconPath": "./block-craft/RP/particles.png"
+    },
+    "ui": {
+      "iconPath": "./block-craft/RP/textures.png"
+    },    "languages": {
+      "iconPath": "./block-craft/RP/texts.png"
+    },
+    "_file": {
+      "iconPath": "$(file)"
+    },
+    "_json": {
+      "iconPath": "$(json)"
+    },
+    "_js": {
+      "iconPath": "$(javascript)"
+    },
+    "_typescript": {
+      "iconPath": "$(typescript)"
+    },
+    "_image": {
+      "iconPath": "$(image)"
+    },
+    "_markdown": {
+      "iconPath": "$(markdown)"
+    },
+    "_txt": {
+      "iconPath": "$(text)"
+    },
+    "_xml": {
+      "iconPath": "$(xml)"
+    },
+    "_html": {
+      "iconPath": "$(html)"
+    },
+    "_css": {
+      "iconPath": "$(css)"
+    },
+    "_sass": {
+      "iconPath": "$(sass)"
+    },
+    "_less": {
+      "iconPath": "$(less)"
+    },
+    "_python": {
+      "iconPath": "$(python)"
+    },
+    "_java": {
+      "iconPath": "$(java)"
+    },
+    "_cpp": {
+      "iconPath": "$(cpp)"
+    },
+    "_c": {
+      "iconPath": "$(c)"
+    },
+    "_csharp": {
+      "iconPath": "$(csharp)"
+    },
+    "_php": {
+      "iconPath": "$(php)"
+    },
+    "_ruby": {
+      "iconPath": "$(ruby)"
+    },
+    "_go": {
+      "iconPath": "$(go)"
+    },
+    "_rust": {
+      "iconPath": "$(rust)"
+    },
+    "_swift": {
+      "iconPath": "$(swift)"
+    },
+    "_kotlin": {
+      "iconPath": "$(kotlin)"
+    },
+    "_dart": {
+      "iconPath": "$(dart)"
+    },
+    "_vue": {
+      "iconPath": "$(vue)"
+    },
+    "_react": {
+      "iconPath": "$(react)"
+    },
+    "_react_ts": {
+      "iconPath": "$(react_ts)"
+    },
+    "_yaml": {
+      "iconPath": "$(yaml)"
+    },
+    "_toml": {
+      "iconPath": "$(toml)"
+    },
+    "_settings": {
+      "iconPath": "$(settings)"
+    },
+    "_log": {
+      "iconPath": "$(log)"
+    },
+    "_git": {
+      "iconPath": "$(git)"
+    },
+    "_docker": {
+      "iconPath": "$(docker)"
+    },
+    "_nodejs": {
+      "iconPath": "$(nodejs)"
+    },
+    "_tsconfig": {
+      "iconPath": "$(tsconfig)"
+    },
+    "_webpack": {
+      "iconPath": "$(webpack)"
+    },
+    "_gulp": {
+      "iconPath": "$(gulp)"
+    },
+    "_grunt": {
+      "iconPath": "$(grunt)"
+    },
+    "_readme": {
+      "iconPath": "$(readme)"
+    },
+    "_changelog": {
+      "iconPath": "$(changelog)"
+    },
+    "_license": {
+      "iconPath": "$(license)"
+    },
+    "_manifest": {
+      "iconPath": "$(json)"
+    },
+    "_pack_icon": {
+      "iconPath": "$(image)"
+    },
+    "_bp": {
+      "iconPath": "./block-craft/BP/BP.png"
+    },
+    "_rp": {
+      "iconPath": "./block-craft/RP/RP.png"
+    },  },  
+  "folderNames": {
+    "aim_assist": "aim_assist",
+    "animation_controllers": "animation_controllers",
+    "animations": "animations",
+    "biomes": "biomes",
+    "blocks": "blocks",
+    "cameras": "cameras",
+    "dialogue": "dialogue",
+    "entities": "entities",
+    "feature_rules": "feature_rules",
+    "features": "features",
+    "functions": "functions",
+    "item_catalog": "item_catalog",
+    "items": "items",
+    "loot_tables": "loot_tables",
+    "presets": "presets",
+    "recipes": "recipes",
+    "scripts": "scripts",
+    "texts": "texts",
+    "trading": "trading",
+    "worldgen": "worldgen",
+    "spawn_rules": "spawn_rules",
+    "structures": "structures",
+    "economy_trades": "economy_trades",
+    "jigsaw_structures": "jigsaw_structures",
+    "processors": "processors",
+    "structure_sets": "structure_sets",
+    "template_pools": "template_pools",
+    "attachables": "attachables",
+    "entity": "entity",
+    "fogs": "fogs",
+    "font": "font",
+    "fonts": "fonts",
+    "materials": "materials",
+    "models": "models",
+    "particles": "particles",
+    "render_controllers": "render_controllers",
+    "sounds": "sounds",
+    "textures": "textures",
+    "environment": "environment",
+    "overworld_cubemap": "overworld_cubemap",
+    "particle": "particle",
+    "ui": "ui",
+    "languages": "languages"
+  },
+  "folderNamesExpanded": {
+    "aim_assist": "aim_assist",
+    "animation_controllers": "animation_controllers",
+    "animations": "animations",
+    "biomes": "biomes",
+    "blocks": "blocks",
+    "cameras": "cameras",
+    "dialogue": "dialogue",
+    "entities": "entities",
+    "feature_rules": "feature_rules",
+    "features": "features",
+    "functions": "functions",
+    "item_catalog": "item_catalog",
+    "items": "items",
+    "loot_tables": "loot_tables",
+    "presets": "presets",
+    "recipes": "recipes",
+    "scripts": "scripts",
+    "texts": "texts",
+    "trading": "trading",
+    "worldgen": "worldgen",
+    "spawn_rules": "spawn_rules",
+    "structures": "structures",
+    "economy_trades": "economy_trades",
+    "jigsaw_structures": "jigsaw_structures",
+    "processors": "processors",
+    "structure_sets": "structure_sets",
+    "template_pools": "template_pools",
+    "attachables": "attachables",
+    "entity": "entity",
+    "fogs": "fogs",
+    "font": "font",
+    "fonts": "fonts",
+    "materials": "materials",
+    "models": "models",
+    "particles": "particles",
+    "render_controllers": "render_controllers",
+    "sounds": "sounds",
+    "textures": "textures",
+    "environment": "environment",
+    "overworld_cubemap": "overworld_cubemap",
+    "particle": "particle",
+    "ui": "ui",
+    "languages": "languages"  },
+  "folder": "basic_folder",
+  "folderExpanded": "basic_folder",
+  "file": "_file",
+  "fileExtensions": {
+    "json": "_json",
+    "js": "_js",
+    "ts": "_typescript",
+    "png": "_image",
+    "jpg": "_image",
+    "jpeg": "_image",
+    "gif": "_image",
+    "svg": "_image",
+    "md": "_markdown",
+    "txt": "_txt",
+    "xml": "_xml",
+    "html": "_html",
+    "css": "_css",
+    "scss": "_sass",
+    "sass": "_sass",
+    "less": "_less",
+    "py": "_python",
+    "java": "_java",
+    "cpp": "_cpp",
+    "c": "_c",
+    "cs": "_csharp",
+    "php": "_php",
+    "rb": "_ruby",
+    "go": "_go",
+    "rs": "_rust",
+    "swift": "_swift",
+    "kt": "_kotlin",
+    "dart": "_dart",
+    "vue": "_vue",
+    "jsx": "_react",
+    "tsx": "_react_ts",
+    "yml": "_yaml",
+    "yaml": "_yaml",
+    "toml": "_toml",
+    "ini": "_settings",
+    "cfg": "_settings",
+    "conf": "_settings",
+    "log": "_log",
+    "gitignore": "_git",
+    "gitattributes": "_git",
+    "dockerfile": "_docker",
+    "mcfunction": "_mcfunction",
+    "mcmeta": "_mcmeta",
+    "lang": "_lang"
+  },
+  "fileNames": {
+    "package.json": "_nodejs",
+    "tsconfig.json": "_tsconfig",
+    "webpack.config.js": "_webpack",
+    "gulpfile.js": "_gulp",
+    "gruntfile.js": "_grunt",
+    ".gitignore": "_git",
+    ".gitattributes": "_git",
+    "README.md": "_readme",
+    "CHANGELOG.md": "_changelog",
+    "LICENSE": "_license",
+    "manifest.json": "_manifest",
+    "pack_icon.png": "_pack_icon",
+    "behavior_packs": "_bp",
+    "resource_packs": "_rp"
+  },
+  "languageIds": {
+    "json": "_json",
+    "javascript": "_js",
+    "typescript": "_typescript",
+    "markdown": "_markdown",
+    "python": "_python",
+    "java": "_java",
+    "cpp": "_cpp",
+    "c": "_c",
+    "csharp": "_csharp",
+    "php": "_php",
+    "ruby": "_ruby",
+    "go": "_go",
+    "rust": "_rust",
+    "swift": "_swift",
+    "kotlin": "_kotlin",
+    "dart": "_dart",
+    "vue": "_vue",
+    "javascriptreact": "_react",
+    "typescriptreact": "_react_ts",
+    "yaml": "_yaml",
+    "toml": "_toml",
+    "ini": "_settings",
+    "log": "_log",
+    "dockerfile": "_docker"
+  }
+}
