@@ -286,6 +286,26 @@ function activate(context) {
         vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Elemental Spectrum', vscode.ConfigurationTarget.Global);
         vscode.window.showInformationMessage('🔥 Switched to Elemental Spectrum Theme! Pokemon-inspired color theme with elemental type colors.');
     });
+    let switchToNothingOSDark = vscode.commands.registerCommand('multiBg.switchToNothingOSDark', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Nothing OS Dark', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('Switched to Nothing OS Dark Theme!');
+    });
+    let switchToNothingOSGlyphNew = vscode.commands.registerCommand('multiBg.switchToNothingOSGlyphNew', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Nothing OS Dark (Glyph)', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('Switched to Nothing OS Dark (Glyph) Theme!');
+    });
+    let switchToNothingOSGray = vscode.commands.registerCommand('multiBg.switchToNothingOSGray', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Nothing OS Gray', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('Switched to Nothing OS Gray Theme!');
+    });
+    let switchToNothingOSLight = vscode.commands.registerCommand('multiBg.switchToNothingOSLight', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Nothing OS Light', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('Switched to Nothing OS Light Theme!');
+    });
+    let switchToNothingOSSpecial = vscode.commands.registerCommand('multiBg.switchToNothingOSSpecial', () => {
+        vscode.workspace.getConfiguration('workbench').update('colorTheme', 'Nothing OS Special', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('Switched to Nothing OS Special Theme!');
+    });
     let switchToVitesseDarkIconTheme = vscode.commands.registerCommand('multiBg.switchToVitesseDarkIconTheme', () => {
         vscode.workspace.getConfiguration('workbench').update('iconTheme', 'vitesse-dark', vscode.ConfigurationTarget.Global);
         vscode.window.showInformationMessage('🚀 Switched to Vitesse Dark Icon Theme! Modern and clean dark icon set.');
@@ -327,7 +347,7 @@ function activate(context) {
     let switchToRetroPixelIconTheme = vscode.commands.registerCommand('multiBg.switchToRetroPixelIconTheme', () => {
         vscode.workspace.getConfiguration('workbench').update('iconTheme', 'retro-pixel-icon-theme', vscode.ConfigurationTarget.Global);
     });
-    context.subscriptions.push(switchToHacker, switchToPink, switchToBlue, switchToDark, switchToNord, switchToTokyo, switchToDracula, switchToSolarized, switchToGruvbox, switchToGentleSepia, switchToLowBlueNight, switchToSoftContrast, switchToDuskyRose, switchToHighReadability, switchToOneDarkPro, switchToDragonBallGokuEyeSafe, switchToAyuMirage, switchToCatppuccinMocha, switchToEyeComfort, switchToMoonlight, switchToNightOwl, switchToNebulaPro, switchToRoseParadise, switchToOmnitrixCode, switchToNeonDreamCode, switchToEclipseDark, switchToEclipseLight, switchToSpaceDark, switchToSpaceLight, switchToCosmicDark, switchToElectricDreams, switchToWinterIsComing, switchToCyberpunkNeon, switchToOceanBreeze, switchToNeonCyberpunk, switchToDeepSpaceDark, switchToDeepSpaceLight, switchToPinkKitty, switchToJapaneseWave, switchToCosmicConsole, switchToMidnightGlow, switchToCalmDark, switchToCalmLight, switchToPinkPixelCandyNebula, switchToSugarRushDark, switchToPixelLabDark, switchToNimbusMintLight, switchToCloudMintNight, switchToAmberLight, switchToAzureHC, switchToDarkRosebyte, switchToAurumDusk, switchToEmeraldMatrix, switchToEverNex, switchToLavenderGlow, switchToMidnightAbyss, switchToOceanAbyss, switchToSkyBreeze, switchToPastelCyberwave, switchToNeonOverdrive, switchToNuttyDark, switchToNuttyLight, switchToDarkGreenJungle, switchToBlackAndWhiteTV, switchToCanvasSoftLight, switchToCanvasIntelli, switchToCodeCanvasLight, switchToCodeCanvasIntelliLight, switchToMapleDark, switchToMapleLight, switchToNeonGenesisDark, switchToNeonOrchidProtocol, switchToSpiritwoodNight, switchToCandycoreNoir, switchToCoffeeSpaceCats, switchToCocoaEmber, switchToCyanDepths, switchToElementalSpectrum, switchToVitesseDarkIconTheme, switchToVitesseLightIconTheme, switchToPixelCraftBlueIconTheme, switchToPixelCraftPurpleIconTheme, switchToPixelCraftYellowIconTheme, switchToMonoCraftIconTheme, switchToBlockCraftIconTheme, switchToPixelArtIconTheme, switchToUltimateIconTheme, switchToMinimalIconTheme, switchToRetroPixelIconTheme);
+    context.subscriptions.push(switchToHacker, switchToPink, switchToBlue, switchToDark, switchToNord, switchToTokyo, switchToDracula, switchToSolarized, switchToGruvbox, switchToGentleSepia, switchToLowBlueNight, switchToSoftContrast, switchToDuskyRose, switchToHighReadability, switchToOneDarkPro, switchToDragonBallGokuEyeSafe, switchToAyuMirage, switchToCatppuccinMocha, switchToEyeComfort, switchToMoonlight, switchToNightOwl, switchToNebulaPro, switchToRoseParadise, switchToOmnitrixCode, switchToNeonDreamCode, switchToEclipseDark, switchToEclipseLight, switchToSpaceDark, switchToSpaceLight, switchToCosmicDark, switchToElectricDreams, switchToWinterIsComing, switchToCyberpunkNeon, switchToOceanBreeze, switchToNeonCyberpunk, switchToDeepSpaceDark, switchToDeepSpaceLight, switchToPinkKitty, switchToJapaneseWave, switchToCosmicConsole, switchToMidnightGlow, switchToCalmDark, switchToCalmLight, switchToPinkPixelCandyNebula, switchToSugarRushDark, switchToPixelLabDark, switchToNimbusMintLight, switchToCloudMintNight, switchToAmberLight, switchToAzureHC, switchToDarkRosebyte, switchToAurumDusk, switchToEmeraldMatrix, switchToEverNex, switchToLavenderGlow, switchToMidnightAbyss, switchToOceanAbyss, switchToSkyBreeze, switchToPastelCyberwave, switchToNeonOverdrive, switchToNuttyDark, switchToNuttyLight, switchToDarkGreenJungle, switchToBlackAndWhiteTV, switchToCanvasSoftLight, switchToCanvasIntelli, switchToCodeCanvasLight, switchToCodeCanvasIntelliLight, switchToMapleDark, switchToMapleLight, switchToNeonGenesisDark, switchToNeonOrchidProtocol, switchToSpiritwoodNight, switchToCandycoreNoir, switchToCoffeeSpaceCats, switchToCocoaEmber, switchToCyanDepths, switchToElementalSpectrum, switchToNothingOSGlyphNew, switchToNothingOSGray, switchToNothingOSLight, switchToNothingOSSpecial, switchToVitesseDarkIconTheme, switchToVitesseLightIconTheme, switchToPixelCraftBlueIconTheme, switchToPixelCraftPurpleIconTheme, switchToPixelCraftYellowIconTheme, switchToMonoCraftIconTheme, switchToBlockCraftIconTheme, switchToPixelArtIconTheme, switchToUltimateIconTheme, switchToMinimalIconTheme, switchToRetroPixelIconTheme);
 }
 function deactivate() { }
 //# sourceMappingURL=extension.js.map

@@ -2,7 +2,7 @@
   "name": "vscode-multi-themes",
   "displayName": "Ultimate VSCode Themes Pack - 35+ Professional Dark & Light Themes with 3 Icon Packs",
   "description": "Ultimate collection of 49+ professional VSCode themes: dark themes like Nebula Storm, Stellar Operator, Cosmic Eclipse, Ocean Depths, Hacker, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code, Nebula, Neon Dream, Dark Green Jungle, Black and White TV, Maple Dark, Neon Genesis Dark, Neon Orchid Protocol, Spiritwood Night, Candycore Noir, Coffee Space Cats, Cocoa Ember, Cyan Depths, Elemental Spectrum; light themes like Pink, Rose Paradise, Gentle Sepia, Canvas Soft Light, Canvas Intelli, CodeCanvas Light, CodeCanvas Intelli Light, Maple Light; accessibility themes for eye comfort. Includes 11 Icon Themes: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons), Vitesse Dark, Vitesse Light, Pixel Craft Blue, Pixel Craft Purple, Pixel Craft Yellow, Mono Craft, Block Craft, Pixel Art. Premium syntax highlighting for all programming languages.",
-  "version": "0.0.38",
+  "version": "0.0.39",
   "publisher": "SecureDev01",
   "keywords": [
   	"vscode themes",
@@ -435,6 +435,22 @@
       {
         "command": "multiBg.switchToMapleLight",
         "title": "Switch to Maple Light Theme"
+      },
+      {
+        "command": "multiBg.switchToNothingOSGlyphNew",
+        "title": "Switch to Nothing OS Dark (Glyph) Theme"
+      },
+      {
+        "command": "multiBg.switchToNothingOSGray",
+        "title": "Switch to Nothing OS Gray Theme"
+      },
+      {
+        "command": "multiBg.switchToNothingOSLight",
+        "title": "Switch to Nothing OS Light Theme"
+      },
+      {
+        "command": "multiBg.switchToNothingOSSpecial",
+        "title": "Switch to Nothing OS Special Theme"
       }
     ],
     "menus": {
@@ -705,6 +721,18 @@
         },
         {
           "command": "multiBg.switchToElementalSpectrum"
+        },
+        {
+          "command": "multiBg.switchToNothingOSGlyphNew"
+        },
+        {
+          "command": "multiBg.switchToNothingOSGray"
+        },
+        {
+          "command": "multiBg.switchToNothingOSLight"
+        },
+        {
+          "command": "multiBg.switchToNothingOSSpecial"
         }
       ]
     },
@@ -1175,6 +1203,31 @@
         "label": "Elemental Spectrum",
         "uiTheme": "vs-dark",
         "path": "./themes/elemental-spectrum-theme.json"
+      },
+      {
+        "label": "Nothing OS Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nothing-os-dark-theme.json"
+      },
+      {
+        "label": "Nothing OS Dark (Glyph)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nothing-os-glyph-new-theme.json"
+      },
+      {
+        "label": "Nothing OS Gray",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nothing-os-gray-theme.json"
+      },
+      {
+        "label": "Nothing OS Light",
+        "uiTheme": "vs",
+        "path": "./themes/nothing-os-light-theme.json"
+      },
+      {
+        "label": "Nothing OS Special",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nothing-os-special-theme.json"
       }
     ]
   },
