@@ -1,8 +1,8 @@
 {
   "name": "vscode-multi-themes",
   "displayName": "Ultimate VSCode Themes & Icons Pack - 50+ Professional Themes with 11 Icon Sets",
-  "description": "Ultimate collection of 50+ professional VSCode themes: dark themes like Nebula Storm, Stellar Operator, Cosmic Eclipse, Ocean Depths, Hacker, Bad Hacker, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code, Nebula, Neon Dream, Dark Green Jungle, Black and White TV, Maple Dark, Neon Genesis Dark, Neon Orchid Protocol, Spiritwood Night, Candycore Noir, Coffee Space Cats, Cocoa Ember, Cyan Depths, Elemental Spectrum, Solstice Hibernal, Miku Code, Miku Code Fusion; light themes like Pink, Rose Paradise, Gentle Sepia, Canvas Soft Light, Canvas Intelli, CodeCanvas Light, CodeCanvas Intelli Light, Maple Light, Solstice Estival, Miku Code Fusion Light, Miku Code Light; accessibility themes for eye comfort. Includes 11 Icon Themes: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons), Vitesse Dark, Vitesse Light, Pixel Craft Blue, Pixel Craft Purple, Pixel Craft Yellow, Mono Craft, Block Craft, Pixel Art. Premium syntax highlighting for all programming languages.",
-  "version": "0.0.42",
+  "description": "Ultimate collection of 50+ professional VSCode themes: dark themes like Nebula Storm, Stellar Operator, Cosmic Eclipse, Ocean Depths, Hacker, Bad Hacker, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code, Nebula, Neon Dream, Dark Green Jungle, Black and White TV, Maple Dark, Neon Genesis Dark, Neon Orchid Protocol, Spiritwood Night, Candycore Noir, Coffee Space Cats, Cocoa Ember, Cyan Depths, Elemental Spectrum, Solstice Hibernal, Miku Code, Miku Code Fusion, Sherwood Forest Summer, Kelp Forest, Kelp Forest Bold, Kelp Forest Italic, Cyberpink-137© Theme; light themes like Pink, Rose Paradise, Gentle Sepia, Canvas Soft Light, Canvas Intelli, CodeCanvas Light, CodeCanvas Intelli Light, Maple Light, Solstice Estival, Miku Code Fusion Light, Miku Code Light; accessibility themes for eye comfort. Includes 11 Icon Themes: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons), Vitesse Dark, Vitesse Light, Pixel Craft Blue, Pixel Craft Purple, Pixel Craft Yellow, Mono Craft, Block Craft, Pixel Art. Premium syntax highlighting for all programming languages.",
+  "version": "0.0.47",
   "publisher": "SecureDev01",
   "keywords": [
   	"vscode themes",
@@ -487,6 +487,26 @@
       {
         "command": "multiBg.switchToMikuCodeLight",
         "title": "Switch to Miku Code Light Anime Theme"
+      },
+      {
+        "command": "multiBg.switchToSherwoodForestSummer",
+        "title": "Switch to Sherwood Forest (Summer) Theme"
+      },
+      {
+        "command": "multiBg.switchToKelpForestBold",
+        "title": "Switch to Kelp Forest Bold Theme"
+      },
+      {
+        "command": "multiBg.switchToKelpForestItalic",
+        "title": "Switch to Kelp Forest Italic Theme"
+      },
+      {
+        "command": "multiBg.switchToKelpForest",
+        "title": "Switch to Kelp Forest Theme"
+      },
+      {
+        "command": "multiBg.switchToCyberpink137",
+        "title": "Switch to Cyberpink-137© Theme"
       }
     ],
     "menus": {
@@ -790,6 +810,21 @@
         },
         {
           "command": "multiBg.switchToMikuCodeLight"
+        },
+        {
+          "command": "multiBg.switchToSherwoodForestSummer"
+        },
+        {
+          "command": "multiBg.switchToKelpForestBold"
+        },
+        {
+          "command": "multiBg.switchToKelpForestItalic"
+        },
+        {
+          "command": "multiBg.switchToKelpForest"
+        },
+        {
+          "command": "multiBg.switchToCyberpink137"
         }
       ]
     },
@@ -1320,6 +1355,31 @@
         "label": "Miku Code Light",
         "uiTheme": "vs",
         "path": "./themes/miku-code-light-color-theme.json"
+      },
+      {
+        "label": "Sherwood Forest (Summer)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sherwood-forest-summer-theme.json"
+      },
+      {
+        "label": "Kelp Forest Bold",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kelp-forest-bold-theme.json"
+      },
+      {
+        "label": "Kelp Forest Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kelp-forest-italic-theme.json"
+      },
+      {
+        "label": "Kelp Forest",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kelp-forest-theme.json"
+      },
+      {
+        "label": "Cyberpink-137© Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyberpink-137-theme.json"
       }
     ]
   },
