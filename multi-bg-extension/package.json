@@ -1,8 +1,8 @@
 {
   "name": "vscode-multi-themes",
-  "displayName": "Ultimate VSCode Themes Pack - 35+ Professional Dark & Light Themes with 3 Icon Packs",
-  "description": "Ultimate collection of 49+ professional VSCode themes: dark themes like Nebula Storm, Stellar Operator, Cosmic Eclipse, Ocean Depths, Hacker, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code, Nebula, Neon Dream, Dark Green Jungle, Black and White TV, Maple Dark, Neon Genesis Dark, Neon Orchid Protocol, Spiritwood Night, Candycore Noir, Coffee Space Cats, Cocoa Ember, Cyan Depths, Elemental Spectrum; light themes like Pink, Rose Paradise, Gentle Sepia, Canvas Soft Light, Canvas Intelli, CodeCanvas Light, CodeCanvas Intelli Light, Maple Light; accessibility themes for eye comfort. Includes 11 Icon Themes: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons), Vitesse Dark, Vitesse Light, Pixel Craft Blue, Pixel Craft Purple, Pixel Craft Yellow, Mono Craft, Block Craft, Pixel Art. Premium syntax highlighting for all programming languages.",
-  "version": "0.0.39",
+  "displayName": "Ultimate VSCode Themes & Icons Pack - 50+ Professional Themes with 11 Icon Sets",
+  "description": "Ultimate collection of 50+ professional VSCode themes: dark themes like Nebula Storm, Stellar Operator, Cosmic Eclipse, Ocean Depths, Hacker, Bad Hacker, Nord, Tokyo Night, Dracula, Solarized, Gruvbox, One Dark Pro, Goku Code, Nebula, Neon Dream, Dark Green Jungle, Black and White TV, Maple Dark, Neon Genesis Dark, Neon Orchid Protocol, Spiritwood Night, Candycore Noir, Coffee Space Cats, Cocoa Ember, Cyan Depths, Elemental Spectrum, Solstice Hibernal, Miku Code, Miku Code Fusion; light themes like Pink, Rose Paradise, Gentle Sepia, Canvas Soft Light, Canvas Intelli, CodeCanvas Light, CodeCanvas Intelli Light, Maple Light, Solstice Estival, Miku Code Fusion Light, Miku Code Light; accessibility themes for eye comfort. Includes 11 Icon Themes: Ultimate (143+ SVG icons), Minimal (clean icons), Retro Pixel (96 PNG pixel art icons), Vitesse Dark, Vitesse Light, Pixel Craft Blue, Pixel Craft Purple, Pixel Craft Yellow, Mono Craft, Block Craft, Pixel Art. Premium syntax highlighting for all programming languages.",
+  "version": "0.0.42",
   "publisher": "SecureDev01",
   "keywords": [
   	"vscode themes",
@@ -98,7 +98,12 @@
   	"codecanvas light",
   	"codecanvas intelli light",
   	"maple",
-  	"vitesse"
+  	"vitesse",
+  	"miku code",
+  	"anime themes",
+  	"vocaloid themes",
+  	"miku code fusion",
+  	"miku code light"
   ],
   "icon": "image.png",
   "repository": {
@@ -109,7 +114,10 @@
     "vscode": "^1.75.0"
   },
   "categories": [
-    "Themes"
+    "Themes",
+    "Extension Packs",
+    "Programming Languages",
+    "Other"
   ],
   "activationEvents": [
     "onStartupFinished"
@@ -451,6 +459,34 @@
       {
         "command": "multiBg.switchToNothingOSSpecial",
         "title": "Switch to Nothing OS Special Theme"
+      },
+      {
+        "command": "multiBg.switchToBadHacker",
+        "title": "Switch to Bad Hacker Theme"
+      },
+      {
+        "command": "multiBg.switchToSolsticeHibernal",
+        "title": "Switch to Solstice Hibernal Theme"
+      },
+      {
+        "command": "multiBg.switchToSolsticeEstival",
+        "title": "Switch to Solstice Estival Theme"
+      },
+      {
+        "command": "multiBg.switchToMikuCode",
+        "title": "Switch to Miku Code Anime Theme"
+      },
+      {
+        "command": "multiBg.switchToMikuCodeFusion",
+        "title": "Switch to Miku Code Fusion Anime Theme"
+      },
+      {
+        "command": "multiBg.switchToMikuCodeFusionLight",
+        "title": "Switch to Miku Code Fusion Light Anime Theme"
+      },
+      {
+        "command": "multiBg.switchToMikuCodeLight",
+        "title": "Switch to Miku Code Light Anime Theme"
       }
     ],
     "menus": {
@@ -733,6 +769,27 @@
         },
         {
           "command": "multiBg.switchToNothingOSSpecial"
+        },
+        {
+          "command": "multiBg.switchToBadHacker"
+        },
+        {
+          "command": "multiBg.switchToSolsticeHibernal"
+        },
+        {
+          "command": "multiBg.switchToSolsticeEstival"
+        },
+        {
+          "command": "multiBg.switchToMikuCode"
+        },
+        {
+          "command": "multiBg.switchToMikuCodeFusion"
+        },
+        {
+          "command": "multiBg.switchToMikuCodeFusionLight"
+        },
+        {
+          "command": "multiBg.switchToMikuCodeLight"
         }
       ]
     },
@@ -1228,6 +1285,41 @@
         "label": "Nothing OS Special",
         "uiTheme": "vs-dark",
         "path": "./themes/nothing-os-special-theme.json"
+      },
+      {
+        "label": "Bad Hacker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bad-hacker-theme.json"
+      },
+      {
+        "label": "Solstice Hibernal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/solstice-hibernal-theme.json"
+      },
+      {
+        "label": "Solstice Estival",
+        "uiTheme": "vs",
+        "path": "./themes/solstice-estival-theme.json"
+      },
+      {
+        "label": "Miku Code",
+        "uiTheme": "vs-dark",
+        "path": "./themes/miku-code-theme.json"
+      },
+      {
+        "label": "Miku Code Fusion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/miku-code-fusion-color-theme.json"
+      },
+      {
+        "label": "Miku Code Fusion Light",
+        "uiTheme": "vs",
+        "path": "./themes/miku-code-fusion-light-color-theme.json"
+      },
+      {
+        "label": "Miku Code Light",
+        "uiTheme": "vs",
+        "path": "./themes/miku-code-light-color-theme.json"
       }
     ]
   },
