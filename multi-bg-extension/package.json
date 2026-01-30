@@ -248,6 +248,10 @@
         "title": "Switch to Cosmic Dark Theme"
       },
       {
+        "command": "multiBg.switchToCopperDark",
+        "title": "Switch to Copper Dark Theme"
+      },
+      {
         "command": "multiBg.switchToElectricDreams",
         "title": "Switch to Aurora Borealis Theme"
       },
@@ -619,6 +623,9 @@
         },
         {
           "command": "multiBg.switchToCosmicDark"
+        },
+        {
+          "command": "multiBg.switchToCopperDark"
         },
         {
           "command": "multiBg.switchToElectricDreams"
@@ -1086,6 +1093,11 @@
         "label": "Cosmic Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/cosmic-dark-theme.json"
+      },
+      {
+        "label": "Copper Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/copper-dark-theme.json"
       },
       {
         "label": "Aurora Borealis",
