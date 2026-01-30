@@ -522,6 +522,10 @@
       {
         "command": "multiBg.switchToNexusDark",
         "title": "Switch to Nexus Dark Theme"
+      },
+      {
+        "command": "multiBg.switchToEspressoDark",
+        "title": "Switch to Espresso Dark Theme"
       }
     ],
     "menus": {
@@ -849,6 +853,9 @@
         },
         {
           "command": "multiBg.switchToNexusDark"
+        },
+        {
+          "command": "multiBg.switchToEspressoDark"
         }
       ]
     },
@@ -1419,6 +1426,11 @@
         "label": "Nexus Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/nexus-dark-theme.json"
+      },
+      {
+        "label": "Espresso Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/espresso-dark-theme.json"
       }
     ]
   },
